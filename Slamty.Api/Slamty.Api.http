@@ -1,0 +1,6 @@
+@Slamty.Api_HostAddress = http://localhost:5025
+
+GET {{Slamty.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
