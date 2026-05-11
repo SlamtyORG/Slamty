@@ -1,4 +1,4 @@
-﻿namespace Slamty.Core.Entities
+﻿namespace Slamty.Domain.Entities
 {
     public class DashboardUser : BaseEntity
     {

@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity;
 
-namespace Slamty.Core.Entities
+namespace Slamty.Domain.Entities
 {
     public class AppUser : IdentityUser
     {

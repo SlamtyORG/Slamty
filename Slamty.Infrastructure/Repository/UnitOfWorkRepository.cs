@@ -1,9 +1,9 @@
-﻿using Slamty.Core.Entities;
-using Slamty.Core.Interfaces.Infrastracture;
-using Slamty.Infrastracture.Persistence.Data;
+﻿using Slamty.Domain.Entities;
+using Slamty.Domain.Interfaces.Repositores;
+using Slamty.Infrastructure.Data;
 using System.Collections;
 
-namespace Slamty.Infrastracture.Persistence.Repository
+namespace Slamty.Infrastructure.Repository
 {
     public class UnitOfWork : IUnitOfWork
     {

@@ -1,6 +1,6 @@
 ﻿using MediatR;
 using Microsoft.AspNetCore.Mvc;
-using Slamty.Core.ResponseTypes;
+using Slamty.Domain.ResponseTypes;
 using System.Net;
 
 namespace Slamty.API.Controllers

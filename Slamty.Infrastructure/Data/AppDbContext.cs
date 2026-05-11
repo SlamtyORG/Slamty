@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 
-namespace Slamty.Infrastracture.Persistence.Data
+namespace Slamty.Infrastructure.Data
 {
     public class AppDbContext : DbContext
     {

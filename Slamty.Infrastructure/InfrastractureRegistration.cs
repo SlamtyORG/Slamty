@@ -1,10 +1,12 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Slamty.Core.Interfaces.Infrastracture;
-using Slamty.Infrastracture.Persistence.AppIdentity;
-using Slamty.Infrastracture.Persistence.Data;
-using Slamty.Infrastracture.Persistence.Repository;
+using Slamty.Domain.Interfaces.Repositores;
+using Slamty.Domain.Interfaces.Servicese;
+using Slamty.Infrastructure.Data;
+using Slamty.Infrastructure.Identity;
+using Slamty.Infrastructure.Repository;
+using Slamty.Infrastructure.Servicese;
 
 namespace Slamty.Infrastracture
 {
@@ -18,6 +20,7 @@ namespace Slamty.Infrastracture
                 options.UseSqlServer(configuration.GetConnectionString("IdentityConnection")));
             services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
             services.AddScoped(typeof(IUnitOfWork), typeof(UnitOfWork));
+            services.AddScoped(typeof(ITokenService), typeof(TokenService));
         }
     }
 }

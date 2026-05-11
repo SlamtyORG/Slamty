@@ -1,7 +1,7 @@
-﻿using Slamty.Core.Entities;
+﻿using Slamty.Domain.Entities;
 using System.Linq.Expressions;
 
-namespace Talabat.Core.Specifications
+namespace Slamty.Domain.Specifications
 {
     public class BaseSpecification<T> : ISpecification<T> where T : BaseEntity
     {

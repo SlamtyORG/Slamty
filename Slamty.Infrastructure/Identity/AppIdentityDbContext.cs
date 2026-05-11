@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-using Slamty.Core.Entities;
+using Slamty.Domain.Entities;
 
-namespace Slamty.Infrastracture.Persistence.AppIdentity
+namespace Slamty.Infrastructure.Identity
 {
     public class AppIdentityDbContext : IdentityDbContext<AppUser>
     {

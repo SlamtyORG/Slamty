@@ -1,14 +1,14 @@
-﻿using Microsoft.AspNetCore.Identity;
-using Microsoft.Extensions.Configuration;
+﻿using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
-using Slamty.Core.Interfaces.Application;
+using Slamty.Domain.Entities;
+using Slamty.Domain.Interfaces.Servicese;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
 
-namespace Slamty.Application.Servicese
+namespace Slamty.Infrastructure.Servicese
 {
-    public class TokenService<TUser> : ITokenService<TUser> where TUser : IdentityUser
+    public class TokenService : ITokenService
     {
         private readonly IConfiguration _configuration;
 
@@ -17,7 +17,7 @@ namespace Slamty.Application.Servicese
             _configuration = configuration;
         }
 
-        public async Task<string> CreateTokenAsync(TUser user, List<string> roles)
+        public async Task<string> CreateTokenAsync(AppUser user, List<string> roles)
         {
             var jti = Guid.NewGuid().ToString();
 

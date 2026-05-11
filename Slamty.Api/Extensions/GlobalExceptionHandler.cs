@@ -1,6 +1,6 @@
 ﻿using FluentValidation;
 using Microsoft.AspNetCore.Diagnostics;
-using Slamty.Core.ResponseTypes;
+using Slamty.Domain.ResponseTypes;
 using System.Net;
 using System.Text.Json;
 

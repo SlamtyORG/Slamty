@@ -1,8 +1,13 @@
+using Scalar.AspNetCore;
+using Slamty.Application;
+using Slamty.Infrastracture;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
 builder.Services.AddControllers();
+builder.Services.AddInfrastractureRegister(builder.Configuration);
+builder.Services.AddApplicationRegister();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
@@ -14,6 +19,8 @@ if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
+    app.MapSwagger("/openapi/{documentName}.json");
+    app.MapScalarApiReference();
 }
 
 app.UseHttpsRedirection();

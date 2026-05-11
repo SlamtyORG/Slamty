@@ -1,8 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Slamty.Core.Entities;
-using Talabat.Core.Specifications;
+using Slamty.Domain.Entities;
+using Slamty.Domain.Specifications;
 
-namespace Slamty.Infrastracture.Persistence.Specifications
+namespace Slamty.Infrastructure.Specifications
 {
     public static class SpecificationEvaluator<T> where T : BaseEntity
     {
