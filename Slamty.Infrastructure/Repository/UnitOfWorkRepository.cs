@@ -1,15 +1,15 @@
 ﻿using Slamty.Domain.Entities;
 using Slamty.Domain.Interfaces.Repositores;
-using Slamty.Infrastructure.Data;
+using Slamty.Infrastructure.Data.Identity;
 using System.Collections;
 
 namespace Slamty.Infrastructure.Repository
 {
     public class UnitOfWork : IUnitOfWork
     {
-        private readonly AppDbContext _context;
+        private readonly AppIdentityDbContext _context;
         private readonly Hashtable _repositories;
-        public UnitOfWork(AppDbContext context)
+        public UnitOfWork(AppIdentityDbContext context)
         {
             _context = context;
             _repositories = new Hashtable();

@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Slamty.Domain.Entities;
 
-namespace Slamty.Infrastructure.Identity
+namespace Slamty.Infrastructure.Data.Identity
 {
     public class AppIdentityDbContext : IdentityDbContext<AppUser>
     {

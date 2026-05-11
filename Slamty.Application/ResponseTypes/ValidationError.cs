@@ -1,4 +1,4 @@
-﻿namespace Slamty.Domain.ResponseTypes
+﻿namespace Slamty.Application.ResponseTypes
 {
     public class ValidationError
     {

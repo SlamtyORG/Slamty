@@ -1,6 +1,6 @@
 ﻿using System.Net;
 
-namespace Slamty.Domain.ResponseTypes
+namespace Slamty.Application.ResponseTypes
 {
     public class ApiValidationExceptionResponse : ApiResponse
     {

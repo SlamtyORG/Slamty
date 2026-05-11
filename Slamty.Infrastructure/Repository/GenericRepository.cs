@@ -1,15 +1,15 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Slamty.Domain.Entities;
 using Slamty.Domain.Interfaces.Repositores;
-using Slamty.Infrastructure.Data;
+using Slamty.Infrastructure.Data.Identity;
 
 namespace Slamty.Infrastructure.Repository
 {
     public class GenericRepository<T> : IGenericRepository<T> where T : BaseEntity
     {
-        private readonly AppDbContext _context;
+        private readonly AppIdentityDbContext _context;
 
-        public GenericRepository(AppDbContext context)
+        public GenericRepository(AppIdentityDbContext context)
         {
             _context = context;
         }

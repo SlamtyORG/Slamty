@@ -1,7 +1,7 @@
 ﻿using FluentValidation;
 using MediatR;
 
-namespace Slamty.API.PipelineBehaviour
+namespace Slamty.Application.PipelineBehaviour
 {
     public class RequestPipline<TRequest, TResponse> : IPipelineBehavior<TRequest, TResponse>
         where TRequest : IRequest<TResponse>

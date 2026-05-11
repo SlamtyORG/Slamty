@@ -7,7 +7,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Slamty.Domain\Slamty.Domain.csproj" />
+    <ProjectReference Include="..\Slamty.Application\Slamty.Application.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+	  <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.26" />
   </ItemGroup>
 
 </Project>
