@@ -1,7 +1,7 @@
 ﻿using MediatR;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Logging;
-using Slamty.Application.Auth.DTOs;
+using Slamty.Application.Auth.Dtos;
 using Slamty.Application.Interfaces.Repositores;
 using Slamty.Application.Interfaces.Servicese;
 using Slamty.Application.ResponseTypes;

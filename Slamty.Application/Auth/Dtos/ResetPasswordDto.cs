@@ -2,7 +2,7 @@
 
 namespace Slamty.Application.Auth.Dtos
 {
-    public class ResetPasswordDto
+    public sealed record ResetPasswordDto
     {
         [EmailAddress(ErrorMessage = "Invalide email address syntax")]
         public string UserEmail { get; set; }

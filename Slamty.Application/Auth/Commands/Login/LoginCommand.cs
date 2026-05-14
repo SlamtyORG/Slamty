@@ -1,5 +1,5 @@
 ﻿using MediatR;
-using Slamty.Application.Auth.DTOs;
+using Slamty.Application.Auth.Dtos;
 using Slamty.Application.ResponseTypes;
 
 namespace Slamty.Application.Auth.Command.Login
