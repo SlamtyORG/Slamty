@@ -3,7 +3,6 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Slamty.Application.Interfaces.Repositores;
 using Slamty.Application.Interfaces.Servicese;
-using Slamty.Infrastracture.Persistence.Repository;
 using Slamty.Infrastructure.Data.Identity;
 using Slamty.Infrastructure.Repository;
 using Slamty.Infrastructure.Servicese;

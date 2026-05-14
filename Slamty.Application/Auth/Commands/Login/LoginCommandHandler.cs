@@ -51,6 +51,7 @@ namespace Slamty.Application.Auth.Command.Login
             var userRoles = await _userManager.GetRolesAsync(user);
             var accessToken = await _tokenService.CreateTokenAsync(user, userRoles.ToList());
             var refreshToken = await _tokenService.GenerateRefreshToken();
+
             user.RefreshToken = refreshToken;
             user.RefreshTokenExpiresAt = DateTime.UtcNow.AddDays(7);
             await _userManager.UpdateAsync(user);
