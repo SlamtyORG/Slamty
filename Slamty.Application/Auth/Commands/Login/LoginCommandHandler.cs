@@ -2,10 +2,10 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Logging;
 using Slamty.Application.Auth.DTOs;
+using Slamty.Application.Interfaces.Repositores;
+using Slamty.Application.Interfaces.Servicese;
 using Slamty.Application.ResponseTypes;
 using Slamty.Domain.Entities;
-using Slamty.Domain.Interfaces.Repositores;
-using Slamty.Domain.Interfaces.Servicese;
 
 namespace Slamty.Application.Auth.Command.Login
 {
