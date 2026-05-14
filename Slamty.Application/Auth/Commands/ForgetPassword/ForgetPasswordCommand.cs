@@ -3,6 +3,6 @@ using Slamty.Application.ResponseTypes;
 
 namespace Slamty.Application.Auth.Commands.ResetPassword
 {
-    public record ForgetPasswordCommand(string email) : IRequest<ResponseResult<bool>>;
+    public record ForgetPasswordCommand(string email) : IRequest<ApiResponse<bool>>;
 
 }

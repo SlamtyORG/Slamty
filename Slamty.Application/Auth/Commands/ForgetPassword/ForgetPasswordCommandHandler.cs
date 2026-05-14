@@ -8,7 +8,7 @@ using Slamty.Domain.Entities;
 
 namespace Slamty.Application.Auth.Commands.ResetPassword
 {
-    public class ForgetPasswordCommandHandler : IRequestHandler<ForgetPasswordCommand, ResponseResult<bool>>
+    public class ForgetPasswordCommandHandler : IRequestHandler<ForgetPasswordCommand, ApiResponse<bool>>
     {
         private readonly IEmailSenderService _emailSender;
         private readonly UserManager<AppUser> _userManager;
@@ -20,11 +20,12 @@ namespace Slamty.Application.Auth.Commands.ResetPassword
             _configuration = configuration;
         }
 
-        public async Task<ResponseResult<bool>> Handle(ForgetPasswordCommand request, CancellationToken cancellationToken)
+        public async Task<ApiResponse<bool>> Handle(ForgetPasswordCommand request, CancellationToken cancellationToken)
         {
             var user = await _userManager.FindByEmailAsync(request.email);
             if (user == null)
-                return ResponseResult<bool>.Failure("User not found.");
+                return new ApiResponse<bool>(data: false, statusCode: System.Net.HttpStatusCode.NotFound,
+                    message: "User not found.");
             var generatedToken = await _userManager.GeneratePasswordResetTokenAsync(user);
 
             return await _emailSender.SendEmailService(

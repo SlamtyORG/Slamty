@@ -1,5 +1,6 @@
 ﻿using Slamty.Application.Interfaces.Repositores;
 using Slamty.Domain.Entities;
+using Slamty.Infrastracture.Persistence.Repository;
 using Slamty.Infrastructure.Data.Identity;
 using System.Collections;
 

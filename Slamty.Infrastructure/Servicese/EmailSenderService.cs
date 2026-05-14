@@ -2,11 +2,12 @@
 using Microsoft.Extensions.Configuration;
 using MimeKit;
 using Slamty.Application.Auth.Dtos;
+using Slamty.Application.Interfaces.Servicese;
 using Slamty.Application.ResponseTypes;
 
 namespace Slamty.Infrastructure.Servicese
 {
-    public class EmailSenderService
+    public class EmailSenderService : IEmailSenderService
     {
         private readonly IConfiguration _config;
 
@@ -15,7 +16,7 @@ namespace Slamty.Infrastructure.Servicese
             _config = config;
         }
 
-        public async Task<ResponseResult<bool>> SendEmailService(string fromEmail, string toEmail, EmailSenderDto contactDto, string plainType = "plain")
+        public async Task<ApiResponse<bool>> SendEmailService(string fromEmail, string toEmail, EmailSenderDto contactDto, string plainType = "plain")
         {
             string adminEmail = _config["SmtpSettings:AdminEmail"]!;
 
@@ -55,10 +56,14 @@ namespace Slamty.Infrastructure.Servicese
                 }
                 catch
                 {
-                    return ResponseResult<bool>.Failure("Error happend when sending message");
+                    return new ApiResponse<bool>(data: false,
+                        statusCode: System.Net.HttpStatusCode.InternalServerError,
+                        message: "Error happend when sending message");
                 }
             }
-            return ResponseResult<bool>.Success(true);
+            return new ApiResponse<bool>(data: true,
+                statusCode: System.Net.HttpStatusCode.OK,
+                message: "Message sent successfuly");
         }
     }
 }
