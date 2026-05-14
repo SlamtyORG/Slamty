@@ -4,6 +4,7 @@ using Slamty.Domain.Entities;
 using Slamty.Domain.Interfaces.Servicese;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
+using System.Security.Cryptography;
 using System.Text;
 
 namespace Slamty.Infrastructure.Servicese
@@ -42,6 +43,13 @@ namespace Slamty.Infrastructure.Servicese
                 signingCredentials: new SigningCredentials(AuthKey, SecurityAlgorithms.HmacSha256Signature)
                 );
             return new JwtSecurityTokenHandler().WriteToken(token);
+        }
+
+        public async Task<string> GenerateRefreshToken()
+        {
+            var randomBytes = RandomNumberGenerator.GetBytes(64);
+            var Token = Convert.ToBase64String(randomBytes);
+            return Token;
         }
     }
 }
