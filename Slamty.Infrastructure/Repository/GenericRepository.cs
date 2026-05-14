@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Slamty.Application.Interfaces.Repositores;
 using Slamty.Domain.Entities;
-using Slamty.Domain.Interfaces.Repositores;
 using Slamty.Infrastructure.Data.Identity;
 
 namespace Slamty.Infrastructure.Repository

@@ -1,7 +1,7 @@
 ﻿using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
+using Slamty.Application.Interfaces.Servicese;
 using Slamty.Domain.Entities;
-using Slamty.Domain.Interfaces.Servicese;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;

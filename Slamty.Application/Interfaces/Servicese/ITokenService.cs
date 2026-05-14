@@ -1,6 +1,6 @@
 ﻿using Slamty.Domain.Entities;
 
-namespace Slamty.Domain.Interfaces.Servicese
+namespace Slamty.Application.Interfaces.Servicese
 {
     public interface ITokenService
     {

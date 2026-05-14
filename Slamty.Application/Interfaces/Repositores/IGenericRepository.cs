@@ -1,6 +1,6 @@
 ﻿using Slamty.Domain.Entities;
 
-namespace Slamty.Domain.Interfaces.Repositores
+namespace Slamty.Application.Interfaces.Repositores
 {
     public interface IGenericRepository<T> where T : BaseEntity
     {
