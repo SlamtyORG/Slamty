@@ -6,6 +6,7 @@ namespace Slamty.Application
     {
         public static void AddApplicationRegister(this IServiceCollection services)
         {
+
         }
     }
 }

@@ -3,9 +3,10 @@ using Slamty.Application.Interfaces.Repositores;
 using Slamty.Domain.Entities;
 using Slamty.Domain.Specifications;
 using Slamty.Infrastructure.Data.Identity;
+using Slamty.Infrastructure.Specifications;
 using System.Linq.Expressions;
 
-namespace Slamty.Infrastracture.Persistence.Repository
+namespace Slamty.Infrastructure.Repository
 {
     public class GenericRepository<T> : IGenericRepository<T> where T : BaseEntity
     {
@@ -22,10 +23,9 @@ namespace Slamty.Infrastracture.Persistence.Repository
         public async Task DeleteAsync(Guid id)
         => _context.Set<T>().Remove(await GetByIdAsync(id));
 
-        public Task<T> FindByCriatria(Expression<Func<T, bool>> criatria)
-        {
-            throw new NotImplementedException();
-        }
+        public async Task<T> FindByCriatria(Expression<Func<T, bool>> criatria)
+        => await _context.Set<T>().FirstOrDefaultAsync(criatria);
+
 
         public async Task<List<T>> GetAllAsync()
         => await _context.Set<T>().AsNoTracking().ToListAsync();
@@ -33,9 +33,10 @@ namespace Slamty.Infrastracture.Persistence.Repository
         public async Task<T> GetByIdAsync(Guid id)
         => await _context.Set<T>().FindAsync(id);
 
-        public Task<List<T>> GetBySpecAsync(ISpecification<T> specification)
+        public async Task<List<T>> GetBySpecAsync(ISpecification<T> specification)
         {
-            throw new NotImplementedException();
+            var query = SpecificationEvaluator<T>.GenerateQuery(_context.Set<T>().AsQueryable(), specification);
+            return await query.ToListAsync();
         }
 
         public void Update(T entity)
