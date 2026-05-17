@@ -28,7 +28,7 @@ namespace Slamty.Application.Auth.Commands.SendOTP
             if (user == null)
                 return new ApiResponse<bool>(System.Net.HttpStatusCode.NotFound, false, "User not found.");
 
-            var otp = await _userManager.GenerateEmailConfirmationTokenAsync(user);
+            var otp = await _userManager.GenerateTwoFactorTokenAsync(user, TokenOptions.DefaultEmailProvider);
 
             return await _emailSenderService.SendEmailService(
                 _config["SmtpSettings:AdminEmail"]!,
