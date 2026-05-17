@@ -37,3 +37,16 @@
 2026-05-14 16:19:26 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 196.7691ms
 2026-05-14 16:19:27 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/swagger/v1/swagger.json""" - null null
 2026-05-14 16:19:27 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 53.2852ms
+2026-05-14 17:15:10 [Information] Now listening on: "https://localhost:7243"
+2026-05-14 17:15:10 [Information] Now listening on: "http://localhost:5025"
+2026-05-14 17:15:10 [Information] Application started. Press Ctrl+C to shut down.
+2026-05-14 17:15:10 [Information] Hosting environment: "Development"
+2026-05-14 17:15:10 [Information] Content root path: "D:\.NetDeveloper\API Projects\Slamty System API\Slamty.Api"
+2026-05-14 17:15:11 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/swagger/index.html""" - null null
+2026-05-14 17:15:11 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 506.1648ms
+2026-05-14 17:15:11 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2026-05-14 17:15:11 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/_framework/aspnetcore-browser-refresh.js""" - 200 16505 "application/javascript; charset=utf-8" 23.4739ms
+2026-05-14 17:15:11 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/_vs/browserLink""" - null null
+2026-05-14 17:15:11 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 97.7724ms
+2026-05-14 17:15:12 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/swagger/v1/swagger.json""" - null null
+2026-05-14 17:15:12 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 50.5387ms

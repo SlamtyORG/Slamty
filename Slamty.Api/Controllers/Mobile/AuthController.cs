@@ -2,35 +2,50 @@
 using Slamty.Application.Auth.Command.Login;
 using Slamty.Application.Auth.Commands.Registration;
 using Slamty.Application.Auth.Commands.ResetPassword;
-using Slamty.Application.Auth.Dtos;
+using Slamty.Application.Auth.Commands.SendOTP;
+using Slamty.Application.Auth.Commands.VerifyOTP;
 
 namespace Slamty.Api.Controllers.Mobile
 {
     public class AuthController : BaseMobileApiController
     {
         [HttpGet("Login")]
-        public async Task<ActionResult> Login(LoginCommand request)
+        public async Task<IActionResult> Login(LoginCommand request)
         {
             var response = await Mediator.Send(request);
             return Ok(response);
         }
 
         [HttpPost("ForgetPassword")]
-        public async Task<ActionResult> ForgetPassword(string userEmail)
+        public async Task<IActionResult> ForgetPassword(ForgetPasswordCommand request)
         {
-            var response = await Mediator.Send(new ForgetPasswordCommand(userEmail));
+            var response = await Mediator.Send(request);
             return Ok(response);
         }
 
         [HttpPost("ResetPassword")]
-        public async Task<ActionResult> ResetPassword([FromBody] ResetPasswordDto resetPasswordDto)
+        public async Task<IActionResult> ResetPassword(ResetPasswordCommand request)
         {
-            var response = await Mediator.Send(new ResetPasswordCommand(resetPasswordDto));
+            var response = await Mediator.Send(request);
             return Ok(response);
         }
 
         [HttpPost("Register")]
-        public async Task<ActionResult> Register(RegistrationCommand request)
+        public async Task<IActionResult> Register(RegistrationCommand request)
+        {
+            var response = await Mediator.Send(request);
+            return Ok(response);
+        }
+
+        [HttpPost("SendOTP")]
+        public async Task<IActionResult> SendOTP(SendOTPCommand request)
+        {
+            var response = await Mediator.Send(request);
+            return Ok(response);
+        }
+
+        [HttpPost("VerifyOTP")]
+        public async Task<IActionResult> VerifyOTP(VerifyOTPCommand request)
         {
             var response = await Mediator.Send(request);
             return Ok(response);
