@@ -1,8 +1,11 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Slamty.Application.Interfaces.Repositores;
 using Slamty.Application.Interfaces.Servicese;
+using Slamty.Domain.Entities;
+using Slamty.Infrastracture.Data.Identity.Providers;
 using Slamty.Infrastructure.Data.Identity;
 using Slamty.Infrastructure.Repository;
 using Slamty.Infrastructure.Servicese;
@@ -16,6 +19,12 @@ namespace Slamty.Infrastracture
         {
             services.AddDbContext<AppIdentityDbContext>(options =>
                 options.UseSqlServer(configuration.GetConnectionString("IdentityConnection")));
+            services.AddIdentity<AppUser, IdentityRole>(options =>
+            {
+                options.Tokens.EmailConfirmationTokenProvider = "numeric-provider";
+            })
+            .AddEntityFrameworkStores<AppIdentityDbContext>()
+            .AddTokenProvider<NumericEmailTokenProvider<AppUser>>("numeric-provider");
             services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
             services.AddScoped(typeof(IUnitOfWork), typeof(UnitOfWork));
             services.AddScoped(typeof(ITokenService), typeof(TokenService));
