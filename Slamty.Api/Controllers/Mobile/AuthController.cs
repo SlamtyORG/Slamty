@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Slamty.Application.Features.Auth.Commands.ForgetPassword;
 using Slamty.Application.Features.Auth.Commands.Login;
+using Slamty.Application.Features.Auth.Commands.Logout;
 using Slamty.Application.Features.Auth.Commands.Registration;
 using Slamty.Application.Features.Auth.Commands.ResetPassword;
 using Slamty.Application.Features.Auth.Commands.SendOTP;
@@ -47,6 +48,13 @@ namespace Slamty.Api.Controllers.Mobile
 
         [HttpPost("VerifyOTP")]
         public async Task<IActionResult> VerifyOTP(VerifyOTPCommand request)
+        {
+            var response = await Mediator.Send(request);
+            return Ok(response);
+        }
+
+        [HttpPost("Logout")]
+        public async Task<IActionResult> Logout(LogoutCommand request)
         {
             var response = await Mediator.Send(request);
             return Ok(response);

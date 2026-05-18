@@ -31,7 +31,7 @@ namespace Slamty.Application.Features.Auth.Commands.Registration
             {
                 Id = Guid.NewGuid().ToString(),
                 FullName = request.FullName,
-                PhoneNumber = request.PhoneNumber
+                PhoneNumber = request.PhoneNumber,
             };
 
             var accessTtoken = await _tokenService.CreateTokenAsync(user, ["User"]);
