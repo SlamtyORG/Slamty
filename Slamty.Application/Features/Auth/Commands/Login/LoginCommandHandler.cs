@@ -49,7 +49,7 @@ namespace Slamty.Application.Features.Auth.Commands.Login
                 );
             }
             var userRoles = await _userManager.GetRolesAsync(user);
-            var accessToken = await _tokenService.CreateTokenAsync(user, userRoles.ToList());
+            var accessToken = await _tokenService.CreateTokenAsync(user);
             var refreshToken = await _tokenService.GenerateRefreshToken();
 
             user.RefreshToken = refreshToken;
