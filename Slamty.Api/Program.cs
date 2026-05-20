@@ -1,6 +1,7 @@
 using Scalar.AspNetCore;
 using Serilog;
 using Serilog.Events;
+using Slamty.Api.Extensions;
 using Slamty.Application;
 using Slamty.Infrastracture;
 var builder = WebApplication.CreateBuilder(args);
@@ -22,6 +23,7 @@ builder.Services.AddSerilog();
 builder.Services.AddControllers();
 builder.Services.AddInfrastractureRegister(builder.Configuration);
 builder.Services.AddApplicationRegister();
+builder.Services.AddJWTConfigration(builder.Configuration);
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();

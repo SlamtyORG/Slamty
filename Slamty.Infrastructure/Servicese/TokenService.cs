@@ -1,4 +1,5 @@
-﻿using Microsoft.Extensions.Configuration;
+﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
 using Slamty.Application.Interfaces.Servicese;
 using Slamty.Domain.Entities;
@@ -12,13 +13,15 @@ namespace Slamty.Infrastructure.Servicese
     public class TokenService : ITokenService
     {
         private readonly IConfiguration _configuration;
+        private readonly UserManager<AppUser> _userManager;
 
-        public TokenService(IConfiguration configuration)
+        public TokenService(IConfiguration configuration, UserManager<AppUser> userManager)
         {
             _configuration = configuration;
+            _userManager = userManager;
         }
 
-        public async Task<string> CreateTokenAsync(AppUser user, List<string> roles)
+        public async Task<string> CreateTokenAsync(AppUser user)
         {
             var jti = Guid.NewGuid().ToString();
 
@@ -29,6 +32,8 @@ namespace Slamty.Infrastructure.Servicese
                 new(ClaimTypes.Email, user.Email ?? ""),
                 new(JwtRegisteredClaimNames.Jti, jti),
             };
+
+            var roles = await _userManager.GetRolesAsync(user);
 
             foreach (var role in roles)
                 AuthClaims.Add(new Claim(ClaimTypes.Role, role));
@@ -45,11 +50,16 @@ namespace Slamty.Infrastructure.Servicese
             return new JwtSecurityTokenHandler().WriteToken(token);
         }
 
-        public async Task<string> GenerateRefreshToken()
+        public async Task<RefreshToken> GenerateRefreshToken()
         {
             var randomBytes = RandomNumberGenerator.GetBytes(64);
             var Token = Convert.ToBase64String(randomBytes);
-            return Token;
+            return new RefreshToken
+            {
+                Token = Token,
+                CreatedOn = DateTime.UtcNow,
+                ExpiresOn = DateTime.UtcNow.AddDays(7)
+            };
         }
     }
 }

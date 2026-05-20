@@ -4,8 +4,8 @@ namespace Slamty.Application.Interfaces.Servicese
 {
     public interface ITokenService
     {
-        public Task<string> CreateTokenAsync(AppUser user, List<string> roles);
-        public Task<string> GenerateRefreshToken();
+        public Task<string> CreateTokenAsync(AppUser user);
+        public Task<RefreshToken> GenerateRefreshToken();
 
     }
 }
