@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using Slamty.Application.Features.UserProfile.Commands.UpdateProfile;
+using Slamty.Application.Features.UserProfile.Commands.UpdateProfileImage;
 using Slamty.Application.Features.UserProfile.Queries.GetProfile;
 
 namespace Slamty.Api.Controllers.Mobile
@@ -20,6 +21,12 @@ namespace Slamty.Api.Controllers.Mobile
             return HandleResult(response);
         }
 
+        [HttpPut("UpdateProfileImage")]
+        public async Task<IActionResult> UpdateProfileImage(UpdateProfileImageCommand command)
+        {
+            var response = await Mediator.Send(command);
+            return HandleResult(response);
+        }
 
     }
 }
