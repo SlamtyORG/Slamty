@@ -1,7 +1,7 @@
 using MediatR;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Logging;
-using Slamty.Application.Features.Auth.Dtos;
+using Slamty.Application.Features.UserProfile.Dtos;
 using Slamty.Application.Interfaces.Repositores;
 using Slamty.Application.ResponseTypes;
 using Slamty.Domain.Entities;
@@ -54,6 +54,7 @@ namespace Slamty.Application.Features.UserProfile.Queries.GetProfile
                 ProfileId = userProfile.Id,
                 FullName = user.FullName,
                 PhoneNumber = user.PhoneNumber ?? string.Empty,
+                Email = user.Email ?? string.Empty,
                 NationalId = userProfile.NationalId,
                 BloodType = userProfile.BloodType.ToString(),
                 IsDeaf = userProfile.IsDeaf,

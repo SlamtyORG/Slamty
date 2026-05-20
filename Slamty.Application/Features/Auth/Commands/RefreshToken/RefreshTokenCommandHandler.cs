@@ -32,17 +32,33 @@ namespace Slamty.Application.Features.Auth.Commands.RefreshToken
         {
             var authResponse = new AuthResponseDto();
 
-            var user = _userManager.Users.FirstOrDefault(u => u.RefreshToken == request.RefreshToken);
-            if (user == null || user.RefreshTokenExpiresAt <= DateTime.UtcNow)
+            var user = _userManager.Users.FirstOrDefault(u => u.RefreshTokens.Any(t => t.Token == request.RefreshToken));
+
+            if (user is null)
             {
+                _logger.LogWarning("Refresh token not found: {RefreshToken}", request.RefreshToken);
                 return new ApiResponse<AuthResponseDto>
-                (HttpStatusCode.Unauthorized, null, "Invalid or expired refresh token.");
+                (HttpStatusCode.Unauthorized, null, "Invalid token.");
             }
+
+            var refreshToken = user.RefreshTokens.FirstOrDefault(t => t.Token == request.RefreshToken);
+
+            if (refreshToken is null || !refreshToken.IsActive)
+            {
+                _logger.LogWarning("Refresh token is inactive : {RefreshToken}", request.RefreshToken);
+                return new ApiResponse<AuthResponseDto>
+                (HttpStatusCode.Unauthorized, null, "InActive token.");
+            }
+
+            refreshToken.RevokedOn = DateTime.UtcNow;
+
+            var NewRefreshToken = await _tokenService.GenerateRefreshToken();
 
             var userProfile = await _unitOfWork.Repository<MobileUser>().FindByCriatria(u => u.UserId == user.Id);
 
             authResponse.AccessToken = await _tokenService.CreateTokenAsync(user);
-            authResponse.RefreshToken = await _tokenService.GenerateRefreshToken();
+            authResponse.RefreshToken = NewRefreshToken.Token;
+            authResponse.RefreshTokenExpiration = NewRefreshToken.ExpiresOn;
             authResponse.UserId = user.Id;
             authResponse.FullName = user.FullName;
             authResponse.ProfileId = userProfile.Id.ToString();

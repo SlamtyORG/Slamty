@@ -25,7 +25,10 @@ namespace Slamty.Application.Features.Auth.Commands.Login
 
         public async Task<ApiResponse<AuthResponseDto>> Handle(LoginCommand request, CancellationToken cancellationToken)
         {
+            var authResponse = new AuthResponseDto();
+
             var userProfile = await _unitOfWork.Repository<MobileUser>().FindByCriatria(u => u.NationalId == request.NationalId);
+
             if (userProfile == null)
             {
                 _logger.LogWarning("Login attempt failed for National ID: {NationalId}. User not found.", request.NationalId);
@@ -36,6 +39,9 @@ namespace Slamty.Application.Features.Auth.Commands.Login
                     message: "Invalid National ID or Password"
                 );
             }
+
+            authResponse.ProfileId = userProfile.Id.ToString();
+
             var user = await _userManager.FindByIdAsync(userProfile.UserId);
 
             if (user == null || !await _userManager.CheckPasswordAsync(user, request.Password))
@@ -48,22 +54,38 @@ namespace Slamty.Application.Features.Auth.Commands.Login
                     message: "Invalid National ID or Password"
                 );
             }
+
+            authResponse.UserId = user.Id;
+
+            authResponse.FullName = user.FullName;
+
+            if (user.RefreshTokens.Any(t => t.IsActive))
+            {
+                _logger.LogInformation("User with National ID: {NationalId} already has an active refresh token.", request.NationalId);
+                var activeToken = user.RefreshTokens.FirstOrDefault(t => t.IsActive);
+                if (activeToken != null)
+                {
+                    authResponse.RefreshToken = activeToken.Token;
+                    authResponse.RefreshTokenExpiration = activeToken.ExpiresOn;
+                }
+            }
+            else
+            {
+                _logger.LogInformation("User with National ID: {NationalId} has no active refresh tokens. Proceeding to generate new tokens.", request.NationalId);
+                var refreshToken = await _tokenService.GenerateRefreshToken();
+
+                user.RefreshTokens.Add(refreshToken);
+                await _userManager.UpdateAsync(user);
+
+                authResponse.RefreshToken = refreshToken.Token;
+                authResponse.RefreshTokenExpiration = refreshToken.ExpiresOn;
+
+            }
+
             var userRoles = await _userManager.GetRolesAsync(user);
             var accessToken = await _tokenService.CreateTokenAsync(user);
-            var refreshToken = await _tokenService.GenerateRefreshToken();
 
-            user.RefreshToken = refreshToken;
-            user.RefreshTokenExpiresAt = DateTime.UtcNow.AddDays(7);
-            await _userManager.UpdateAsync(user);
-
-            var authResponse = new AuthResponseDto
-            {
-                AccessToken = accessToken,
-                RefreshToken = refreshToken,
-                UserId = user.Id,
-                ProfileId = userProfile.Id.ToString(),
-                FullName = user.FullName
-            };
+            authResponse.AccessToken = accessToken;
 
             return new ApiResponse<AuthResponseDto>
             (

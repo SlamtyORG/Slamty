@@ -20,7 +20,7 @@ namespace Slamty.Application.Features.Auth.Commands.VerifyOTP
             if (user == null)
                 return new ApiResponse<bool>(System.Net.HttpStatusCode.NotFound, false, "User not found.");
 
-            bool otpChecker = await _userManager.VerifyTwoFactorTokenAsync(user, TokenOptions.DefaultEmailProvider, request.OTPVerificationDto.OTP);
+            bool otpChecker = await _userManager.VerifyUserTokenAsync(user, "numeric-provider", "email-confirmation", request.OTPVerificationDto.OTP);
 
             if (!otpChecker)
                 return new ApiResponse<bool>(System.Net.HttpStatusCode.Unauthorized, false, "OTP is wrong.");

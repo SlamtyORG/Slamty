@@ -25,6 +25,10 @@ namespace Slamty.Application.Features.Auth.Commands.Registration
                 .NotEmpty()
                 .GreaterThan(0);
 
+            RuleFor(x => x.Email)
+                .NotEmpty()
+                .EmailAddress();
+
             RuleFor(x => x.BloodType)
                 .NotEmpty()
                 .MaximumLength(10);

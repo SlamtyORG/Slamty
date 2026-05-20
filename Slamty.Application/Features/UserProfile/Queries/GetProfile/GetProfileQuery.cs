@@ -1,5 +1,5 @@
 using MediatR;
-using Slamty.Application.Features.Auth.Dtos;
+using Slamty.Application.Features.UserProfile.Dtos;
 using Slamty.Application.ResponseTypes;
 
 namespace Slamty.Application.Features.UserProfile.Queries.GetProfile

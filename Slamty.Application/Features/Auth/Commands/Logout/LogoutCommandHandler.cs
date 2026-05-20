@@ -27,8 +27,14 @@ namespace Slamty.Application.Features.Auth.Commands.Logout
                 _logger.LogWarning("Logout failed: User with ID {UserId} not found.", request.Id);
                 return new ApiResponse<string>(HttpStatusCode.NotFound, null, "User not found.");
             }
-            user.RefreshToken = null;
-            user.RefreshTokenExpiresAt = null;
+
+            if (user.RefreshTokens.Any(t => t.IsActive))
+            {
+                _logger.LogInformation("Revoking active refresh tokens for user ID {UserId}.", request.Id);
+                var activeTokens = user.RefreshTokens.FirstOrDefault(t => t.IsActive);
+                activeTokens.RevokedOn = DateTime.UtcNow;
+            }
+
             await _userManager.UpdateAsync(user);
             return new ApiResponse<string>(HttpStatusCode.OK, "Logout successful.", "Logout successful.");
         }

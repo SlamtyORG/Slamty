@@ -1,10 +1,11 @@
-namespace Slamty.Application.Features.Auth.Dtos
+namespace Slamty.Application.Features.UserProfile.Dtos
 {
     public sealed record ProfileResponseDto
     {
         public string ProfileId { get; set; }
         public string FullName { get; set; }
         public string PhoneNumber { get; set; }
+        public string Email { get; set; }
         public int NationalId { get; set; }
         public string BloodType { get; set; }
         public bool IsDeaf { get; set; }

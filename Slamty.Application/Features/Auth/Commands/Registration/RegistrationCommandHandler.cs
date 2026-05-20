@@ -32,12 +32,11 @@ namespace Slamty.Application.Features.Auth.Commands.Registration
                 Id = Guid.NewGuid().ToString(),
                 FullName = request.FullName,
                 PhoneNumber = request.PhoneNumber,
+                Email = request.Email
             };
 
-            var accessTtoken = await _tokenService.CreateTokenAsync(user, ["User"]);
-            user.RefreshToken = await _tokenService.GenerateRefreshToken();
-            user.RefreshTokenExpiresAt = DateTime.UtcNow.AddDays(7);
-
+            var refreshToken = await _tokenService.GenerateRefreshToken();
+            user.RefreshTokens.Add(refreshToken);
             var CreateUserResult = await _userManager.CreateAsync(user, request.Password);
             if (!CreateUserResult.Succeeded)
             {
@@ -74,13 +73,17 @@ namespace Slamty.Application.Features.Auth.Commands.Registration
             }
 
             _logger.LogInformation("User profile created successfully for user ID {UserId} with profile ID {ProfileId}", user.Id, userProfile.Id);
+
+            var accessTtoken = await _tokenService.CreateTokenAsync(user);
+
             var apiResponse = new ApiResponse<AuthResponseDto>
             (
                 statusCode: System.Net.HttpStatusCode.Created,
                 data: new AuthResponseDto
                 {
                     AccessToken = accessTtoken,
-                    RefreshToken = user.RefreshToken,
+                    RefreshToken = refreshToken.Token,
+                    RefreshTokenExpiration = refreshToken.ExpiresOn,
                     UserId = user.Id,
                     ProfileId = userProfile.Id.ToString(),
                     FullName = user.FullName

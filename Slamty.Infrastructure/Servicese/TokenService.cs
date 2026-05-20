@@ -50,11 +50,16 @@ namespace Slamty.Infrastructure.Servicese
             return new JwtSecurityTokenHandler().WriteToken(token);
         }
 
-        public async Task<string> GenerateRefreshToken()
+        public async Task<RefreshToken> GenerateRefreshToken()
         {
             var randomBytes = RandomNumberGenerator.GetBytes(64);
             var Token = Convert.ToBase64String(randomBytes);
-            return Token;
+            return new RefreshToken
+            {
+                Token = Token,
+                CreatedOn = DateTime.UtcNow,
+                ExpiresOn = DateTime.UtcNow.AddDays(7)
+            };
         }
     }
 }
