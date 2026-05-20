@@ -16,4 +16,8 @@
     <ProjectReference Include="..\Slamty.Domain\Slamty.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Features\UserProfile\Commands\UpdateProfileImage\" />
+  </ItemGroup>
+
 </Project>
