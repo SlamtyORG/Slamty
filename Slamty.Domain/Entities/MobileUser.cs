@@ -10,5 +10,9 @@ namespace Slamty.Domain.Entities
         public bool IsDeaf { get; set; }
         public string UserId { get; set; }
         public AppUser User { get; set; }
+        public List<Report> Reports { get; set; }
+        public List<Device> Devices { get; set; }
+        public List<Location> Locations { get; set; }
+        public Rating Rating { get; set; }
     }
 }
