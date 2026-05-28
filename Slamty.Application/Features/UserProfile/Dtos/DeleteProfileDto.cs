@@ -1,12 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.ComponentModel.DataAnnotations;
 
 namespace Slamty.Application.Features.UserProfile.Dtos
 {
-    internal class PasswordConfirmationDto
+    public sealed record DeleteProfileDto
     {
+        [EmailAddress(ErrorMessage = "Invalid email address format.")]
+        public string Email { get; set; }
+
+        [DataType(DataType.Password)]
+        public string Password { get; set; }
     }
 }

@@ -14,10 +14,14 @@ namespace Slamty.Application.Features.UserProfile.Commands.DeleteProfile
         }
         public async Task<ApiResponse<bool>> Handle(DeleteProfileCommand request, CancellationToken cancellationToken)
         {
-            var user = await _userManager.FindByEmailAsync(request.UserEmail);
+            var user = await _userManager.FindByEmailAsync(request.DeleteProfileDto.Email);
 
             if (user == null)
                 return new ApiResponse<bool>(System.Net.HttpStatusCode.NotFound, false, "User not found.");
+
+            var isPasswordValid = await _userManager.CheckPasswordAsync(user, request.DeleteProfileDto.Password);
+            if (!isPasswordValid)
+                return new ApiResponse<bool>(System.Net.HttpStatusCode.Unauthorized, false, "Invalid password.");
 
             await _userManager.DeleteAsync(user);
 
