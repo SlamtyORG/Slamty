@@ -47,7 +47,8 @@ namespace Slamty.Application.Features.Home.Queries.GetHome
                 Attachments = r.Attachments ?? new List<string>(),
                 Type = r.Type.ToString(),
                 Date = r.Date,
-                IsNow = r.IsNow
+                IsNow = r.IsNow,
+                Status = r.Status.ToString()
             }).ToList();
 
             _logger.LogInformation("Home data retrieved successfully for User ID {UserId}. Returned {Count} reports.", request.UserId, reportDtos.Count);

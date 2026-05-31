@@ -1,4 +1,4 @@
-﻿using Slamty.Domain.Enums;
+using Slamty.Domain.Enums;
 
 namespace Slamty.Domain.Entities
 {
@@ -11,5 +11,6 @@ namespace Slamty.Domain.Entities
         public ReportTypes Type { get; set; }
         public DateTime Date { get; set; }
         public bool IsNow { get; set; }
+        public ReportStatus Status { get; set; }
     }
 }

@@ -12,5 +12,6 @@ namespace Slamty.Application.Features.Home.Dtos
         public string Type { get; set; }
         public DateTime Date { get; set; }
         public bool IsNow { get; set; }
+        public string Status { get; set; }
     }
 }
