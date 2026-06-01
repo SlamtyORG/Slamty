@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using Slamty.Application.Features.UserProfile.Commands.DeleteProfile;
 using Slamty.Application.Features.UserProfile.Commands.UpdateProfile;
 using Slamty.Application.Features.UserProfile.Commands.UpdateProfileImage;
 using Slamty.Application.Features.UserProfile.Queries.GetProfile;
@@ -23,6 +24,13 @@ namespace Slamty.Api.Controllers.Mobile
 
         [HttpPut("UpdateProfileImage")]
         public async Task<IActionResult> UpdateProfileImage(UpdateProfileImageCommand command)
+        {
+            var response = await Mediator.Send(command);
+            return HandleResult(response);
+        }
+
+        [HttpDelete("DeleteProfile")]
+        public async Task<IActionResult> DeleteProfile(DeleteProfileCommand command)
         {
             var response = await Mediator.Send(command);
             return HandleResult(response);

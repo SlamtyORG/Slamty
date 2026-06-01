@@ -1,0 +1,17 @@
+2026-05-22 22:58:37 [Information] User profile is available. Using '"C:\Users\AHMED\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-05-22 22:58:40 [Information] Now listening on: "https://localhost:7243"
+2026-05-22 22:58:40 [Information] Now listening on: "http://localhost:5025"
+2026-05-22 22:58:40 [Information] Application started. Press Ctrl+C to shut down.
+2026-05-22 22:58:40 [Information] Hosting environment: "Development"
+2026-05-22 22:58:40 [Information] Content root path: "D:\.NetDeveloper\API Projects\Slamty System API\Slamty.Api"
+2026-05-22 22:58:41 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/swagger/index.html""" - null null
+2026-05-22 22:58:45 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 3181.3595ms
+2026-05-22 22:58:45 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2026-05-22 22:58:45 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/_framework/aspnetcore-browser-refresh.js""" - 200 16505 "application/javascript; charset=utf-8" 48.5451ms
+2026-05-22 22:58:45 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/_vs/browserLink""" - null null
+2026-05-22 22:58:45 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 105.8863ms
+2026-05-22 22:58:46 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/swagger/v1/swagger.json""" - null null
+2026-05-22 22:58:46 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 29.4987ms
+2026-05-22 22:58:46 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/swagger/favicon-32x32.png""" - null null
+2026-05-22 22:58:48 [Information] Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+2026-05-22 22:58:48 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/swagger/favicon-32x32.png""" - 200 628 "image/png" 1718.7819ms
