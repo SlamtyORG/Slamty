@@ -6,5 +6,6 @@ namespace Slamty.Domain.Entities
     {
         public string FullName { get; set; }
         public List<RefreshToken>? RefreshTokens { get; set; }
+        public List<Notification> Notifications { get; set; }
     }
 }

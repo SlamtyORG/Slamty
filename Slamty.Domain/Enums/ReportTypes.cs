@@ -6,6 +6,7 @@
         Traffic,
         Assault,
         Theft,
-        Lost
+        Lost,
+        SOS
     }
 }
