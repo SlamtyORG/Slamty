@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Slamty.Application.Features.UserProfile.Commands.DeleteProfile;
 using Slamty.Application.Features.UserProfile.Commands.UpdateProfile;
@@ -36,5 +37,12 @@ namespace Slamty.Api.Controllers.Mobile
             return HandleResult(response);
         }
 
+        [Authorize]
+        [HttpDelete("Password")]
+        public async Task<IActionResult> UpdatePassword(DeleteProfileCommand command)
+        {
+            var response = await Mediator.Send(command);
+            return HandleResult(response);
+        }
     }
 }

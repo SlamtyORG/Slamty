@@ -1,7 +1,4 @@
-﻿using FluentValidation;
-using MediatR;
-
-namespace Slamty.Application.PipelineBehaviour
+﻿namespace Slamty.Application.PipelineBehaviour
 {
     public class RequestPipline<TRequest, TResponse> : IPipelineBehavior<TRequest, TResponse>
         where TRequest : IRequest<TResponse>
@@ -21,7 +18,7 @@ namespace Slamty.Application.PipelineBehaviour
                                       .Where(o => o is not null);
 
             if (failures.Any())
-                throw new ValidationException(failures);
+                throw new FluentValidation.ValidationException(failures);
 
             return next();
 

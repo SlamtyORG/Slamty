@@ -1,0 +1,10 @@
+﻿global using FluentValidation;
+global using MediatR;
+global using Microsoft.AspNetCore.Identity;
+global using Microsoft.Extensions.Logging;
+global using Slamty.Application.Features.UserProfile.Commands.UpdateProfile;
+global using Slamty.Application.Interfaces.Repositores;
+global using Slamty.Application.ResponseTypes;
+global using Slamty.Domain.Entities;
+global using System.ComponentModel.DataAnnotations;
+global using System.Net;

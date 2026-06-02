@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "Slamty.Application\\Slamty.Application.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "Slamty.Api\\Slamty.Api.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]
