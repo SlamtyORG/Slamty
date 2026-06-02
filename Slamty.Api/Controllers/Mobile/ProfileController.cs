@@ -1,6 +1,8 @@
 using Microsoft.AspNetCore.Mvc;
+using Slamty.Application.Features.UserProfile.Commands.AddNotify;
 using Slamty.Application.Features.UserProfile.Commands.ChangePassword;
 using Slamty.Application.Features.UserProfile.Commands.DeleteProfile;
+using Slamty.Application.Features.UserProfile.Commands.RemoveNotify;
 using Slamty.Application.Features.UserProfile.Commands.UpdateProfile;
 using Slamty.Application.Features.UserProfile.Commands.UpdateProfileImage;
 using Slamty.Application.Features.UserProfile.Queries.GetProfile;
@@ -39,6 +41,19 @@ namespace Slamty.Api.Controllers.Mobile
 
         [HttpPut("ChangePassword")]
         public async Task<IActionResult> ChangePassword(ChangePasswordCommand command)
+        {
+            var response = await Mediator.Send(command);
+            return HandleResult(response);
+        }
+        [HttpPost("AddNotify")]
+        public async Task<IActionResult> AddNotify(AddNotifyCommand command)
+        {
+            var response = await Mediator.Send(command);
+            return HandleResult(response);
+        }
+
+        [HttpPost("RemoveNotify")]
+        public async Task<IActionResult> RemoveNotify(RemoveNotifyCommand command)
         {
             var response = await Mediator.Send(command);
             return HandleResult(response);

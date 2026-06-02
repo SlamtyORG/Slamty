@@ -41,6 +41,7 @@ namespace Slamty.Infrastructure.Servicese
                 _logger.LogInformation("Notify User {userId} by {message}", [Notify.UserId, message]);
                 _unitOfWork.Repository<Notification>().Add(new Notification
                 {
+                    Date = DateTime.Now,
                     Message = message,
                     UserId = Notify.UserId,
                     NotificationStatus = NotificationStatus.Pending
@@ -62,7 +63,8 @@ namespace Slamty.Infrastructure.Servicese
                 {
                     Message = message,
                     UserId = Notify.UserId,
-                    NotificationStatus = NotificationStatus.Pending
+                    NotificationStatus = NotificationStatus.Pending,
+                    Date = DateTime.Now
                 });
             }
             await _unitOfWork.Complete();
