@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using Slamty.Application.Features.UserProfile.Commands.ChangePassword;
 using Slamty.Application.Features.UserProfile.Commands.DeleteProfile;
 using Slamty.Application.Features.UserProfile.Commands.UpdateProfile;
 using Slamty.Application.Features.UserProfile.Commands.UpdateProfileImage;
@@ -36,5 +37,11 @@ namespace Slamty.Api.Controllers.Mobile
             return HandleResult(response);
         }
 
+        [HttpPut("ChangePassword")]
+        public async Task<IActionResult> ChangePassword(ChangePasswordCommand command)
+        {
+            var response = await Mediator.Send(command);
+            return HandleResult(response);
+        }
     }
 }
