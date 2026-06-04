@@ -1,9 +1,10 @@
-﻿using Slamty.Domain.Enums;
+﻿using Slamty.Domain.Contracts;
+using Slamty.Domain.Enums;
 using System.Text.Json.Serialization;
 
 namespace Slamty.Application.Features.Reports.Dtos
 {
-    public sealed record ReportDto
+    public sealed record ReportDto : ISoftDeletable
     {
         private DateTime _date;
         public double Lat { get; set; }
@@ -26,5 +27,8 @@ namespace Slamty.Application.Features.Reports.Dtos
                 else _date = value;
             }
         }
+
+        public bool IsDeleted { get; set; }
+        public DateTime? DeletedDate { get; set; }
     }
 }

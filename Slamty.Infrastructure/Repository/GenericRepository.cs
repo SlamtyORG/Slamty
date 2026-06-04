@@ -22,6 +22,8 @@ namespace Slamty.Infrastructure.Repository
 
         public async Task DeleteAsync(Guid id)
         => _context.Set<T>().Remove(await GetByIdAsync(id));
+        public void Delete(T entity)
+        => _context.Set<T>().Remove(entity);
 
         public async Task<T> FindByCriatria(Expression<Func<T, bool>> criatria)
         => await _context.Set<T>().FirstOrDefaultAsync(criatria);
