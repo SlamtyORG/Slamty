@@ -21,7 +21,7 @@ namespace Slamty.Infrastructure.Servicese
         public async Task Interested(NotifyType notifyType, string userId)
         {
             _logger.LogInformation("Add User with Id {userId} to Notify {notifyType}", [userId, notifyType]);
-            _unitOfWork.Repository<Notify>().Add(new Notify
+            await _unitOfWork.Repository<Notify>().AddAsync(new Notify
             {
                 NotifyType = notifyType,
                 UserId = userId
@@ -39,7 +39,7 @@ namespace Slamty.Infrastructure.Servicese
             foreach (var Notify in NotifyList)
             {
                 _logger.LogInformation("Notify User {userId} by {message}", [Notify.UserId, message]);
-                _unitOfWork.Repository<Notification>().Add(new Notification
+                await _unitOfWork.Repository<Notification>().AddAsync(new Notification
                 {
                     Date = DateTime.Now,
                     Message = message,
@@ -59,7 +59,7 @@ namespace Slamty.Infrastructure.Servicese
             foreach (var Notify in NotifyList)
             {
                 _logger.LogInformation("Notify User {userId} by {message}", [Notify.UserId, message]);
-                _unitOfWork.Repository<Notification>().Add(new Notification
+                await _unitOfWork.Repository<Notification>().AddAsync(new Notification
                 {
                     Message = message,
                     UserId = Notify.UserId,

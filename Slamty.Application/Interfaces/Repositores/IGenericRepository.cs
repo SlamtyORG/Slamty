@@ -6,7 +6,7 @@ namespace Slamty.Application.Interfaces.Repositores
 {
     public interface IGenericRepository<T> where T : BaseEntity
     {
-        public void Add(T entity);
+        public Task AddAsync(T entity);
         public void Update(T entity);
         public Task DeleteAsync(Guid id);
         public Task<T> GetByIdAsync(Guid id);
