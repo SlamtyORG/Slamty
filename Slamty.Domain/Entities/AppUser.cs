@@ -9,5 +9,6 @@ namespace Slamty.Domain.Entities
         public List<RefreshToken>? RefreshTokens { get; set; }
         public bool IsDeleted { get; set; }
         public DateTime? DeletedDate { get; set; }
+        public List<Notification> Notifications { get; set; }
     }
 }
