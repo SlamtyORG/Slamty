@@ -96,3 +96,17 @@ System.InvalidOperationException: No service for type 'MediatR.ISender' has been
    at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
    at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
 2026-06-02 03:24:37 [Information] Request finished "HTTP/2" "POST" "https"://"localhost:7243""""/api/mobile/Auth/Register""" - 500 null "text/plain; charset=utf-8" 199.0774ms
+2026-06-02 15:13:45 [Information] User profile is available. Using '"C:\Users\ENG Youssef\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-06-02 15:13:45 [Information] Now listening on: "https://localhost:7243"
+2026-06-02 15:13:45 [Information] Now listening on: "http://localhost:5025"
+2026-06-02 15:13:46 [Information] Application started. Press Ctrl+C to shut down.
+2026-06-02 15:13:46 [Information] Hosting environment: "Development"
+2026-06-02 15:13:46 [Information] Content root path: "C:\Users\ENG Youssef\source\repos\Slamty\Slamty.Api"
+2026-06-02 15:13:46 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/swagger/index.html""" - null null
+2026-06-02 15:13:46 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 238.2217ms
+2026-06-02 15:13:46 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2026-06-02 15:13:46 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/_vs/browserLink""" - null null
+2026-06-02 15:13:46 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/_framework/aspnetcore-browser-refresh.js""" - 200 13756 "application/javascript; charset=utf-8" 12.9517ms
+2026-06-02 15:13:46 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 62.8357ms
+2026-06-02 15:13:46 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/swagger/v1/swagger.json""" - null null
+2026-06-02 15:13:46 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 24.2621ms
