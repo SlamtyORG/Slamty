@@ -9,6 +9,10 @@ namespace Slamty.Application.Features.UserProfile.Commands.ChangePassword
         public string UserId { get; set; }
         public string CurrentPassword { get; set; }
         public string NewPassword { get; set; }
+
+
+    [DataType(DataType.Password)]
+    [Compare("NewPassword", ErrorMessage = "Confirm Password must be as new password")]
         public string ConfirmNewPassword { get; set; }
     }
 }

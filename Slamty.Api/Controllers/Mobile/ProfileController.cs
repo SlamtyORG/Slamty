@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Slamty.Application.Features.UserProfile.Commands.AddNotify;
 using Slamty.Application.Features.UserProfile.Commands.ChangePassword;

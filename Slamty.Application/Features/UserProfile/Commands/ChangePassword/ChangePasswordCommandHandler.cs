@@ -15,6 +15,7 @@ namespace Slamty.Application.Features.UserProfile.Commands.ChangePassword
 
         public ChangePasswordCommandHandler(UserManager<AppUser> userManager, ITokenService tokenService)
         {
+        _unitOfWork = unitOfWork;
             _userManager = userManager;
             _tokenService = tokenService;
         }
@@ -48,4 +49,5 @@ namespace Slamty.Application.Features.UserProfile.Commands.ChangePassword
             return new ApiResponse<AuthResponseDto>(HttpStatusCode.OK, authResponse, "Password changed successfully.");
         }
     }
+
 }
