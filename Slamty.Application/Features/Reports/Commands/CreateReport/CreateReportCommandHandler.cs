@@ -17,13 +17,12 @@ namespace Slamty.Application.Features.Reports.Commands.CreateReport
         {
             var report = new Report
             {
-                Lat = request.ReportDto.Lat,
-                Lng = request.ReportDto.Lng,
-                Description = request.ReportDto.Description,
-                Attachments = request.ReportDto.Attachments,
-                Type = request.ReportDto.Type,
-                ActiveNow = request.ReportDto.ActiveNow,
-                Date = request.ReportDto.Date,
+                Lat = request.Lat,
+                Lng = request.Lng,
+                Description = request.Description,
+                Attachments = request.Attachments,
+                Type = request.Type,
+                Date = request.Date,
 
             };
             await _unitOfWork.Repository<Report>()

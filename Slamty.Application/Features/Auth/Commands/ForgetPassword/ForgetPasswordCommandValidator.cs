@@ -6,10 +6,10 @@ namespace Slamty.Application.Features.Auth.Commands.ForgetPassword
     {
         public ForgetPasswordCommandValidator()
         {
-            RuleFor(f => f.email)
+            RuleFor(f => f.Email)
                 .NotEmpty()
                 .WithMessage("Email address is required.");
         }
     }
-   
+
 }

@@ -15,12 +15,12 @@ namespace Slamty.Application.Features.Auth.Commands.ResetPassword
 
         public async Task<ApiResponse<bool>> Handle(ResetPasswordCommand request, CancellationToken cancellationToken)
         {
-            var user = await _userManager.FindByEmailAsync(request.ResetPasswordDto.UserEmail);
+            var user = await _userManager.FindByEmailAsync(request.UserEmail);
             if (user == null)
                 return new ApiResponse<bool>(data: false, statusCode: System.Net.HttpStatusCode.NotFound,
                     message: "User not found.");
 
-            var tokenVeryfication = await _userManager.ResetPasswordAsync(user, request.ResetPasswordDto.ValidationToken, request.ResetPasswordDto.NewPassword);
+            var tokenVeryfication = await _userManager.ResetPasswordAsync(user, request.ValidationToken, request.NewPassword);
 
             if (!tokenVeryfication.Succeeded)
                 return new ApiResponse<bool>(data: false, statusCode: System.Net.HttpStatusCode.Unauthorized,
