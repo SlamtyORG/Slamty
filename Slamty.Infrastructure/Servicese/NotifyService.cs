@@ -74,14 +74,15 @@ namespace Slamty.Infrastructure.Servicese
         {
             _logger.LogInformation("Remove User with Id {userId} from Notify {notifyType}", [userId, notifyType]);
             var notify = await _unitOfWork.Repository<Notify>().FindByCriatria(n => (n.NotifyType == notifyType) && (n.UserId == userId));
-            await _unitOfWork.Repository<Notify>().DeleteAsync(Guid.Parse(notify.Id));
+            _unitOfWork.Repository<Notify>().Delete(notify);
             await _unitOfWork.Complete();
         }
 
         public async Task removeNotify(string notifyId)
         {
             _logger.LogInformation("Remove Notification WithId {Id}", notifyId);
-            await _unitOfWork.Repository<Notification>().DeleteAsync(Guid.Parse(notifyId));
+            var notification = await _unitOfWork.Repository<Notification>().GetByIdAsync(Guid.Parse(notifyId));
+            _unitOfWork.Repository<Notification>().Delete(notification);
             await _unitOfWork.Complete();
 
         }

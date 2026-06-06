@@ -4,8 +4,6 @@ using Slamty.Application.Features.Reports.Commands.DeleteReport;
 
 namespace Slamty.Api.Controllers.Mobile
 {
-    [Route("api/[controller]")]
-    [ApiController]
     public class ReportController : BaseMobileApiController
     {
         [HttpPost("CreateReport")]
