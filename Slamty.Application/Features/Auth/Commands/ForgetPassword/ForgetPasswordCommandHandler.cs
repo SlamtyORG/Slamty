@@ -22,7 +22,7 @@ namespace Slamty.Application.Features.Auth.Commands.ForgetPassword
 
         public async Task<ApiResponse<bool>> Handle(ForgetPasswordCommand request, CancellationToken cancellationToken)
         {
-            var user = await _userManager.FindByEmailAsync(request.email);
+            var user = await _userManager.FindByEmailAsync(request.Email);
             if (user == null)
                 return new ApiResponse<bool>(data: false, statusCode: System.Net.HttpStatusCode.NotFound,
                     message: "User not found.");

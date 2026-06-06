@@ -18,6 +18,8 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Features\Reports\Dtos\" />
+    <Folder Include="Features\Reports\Queries\" />
     <Folder Include="Features\UserProfile\Commands\UpdateProfileImage\" />
   </ItemGroup>
 

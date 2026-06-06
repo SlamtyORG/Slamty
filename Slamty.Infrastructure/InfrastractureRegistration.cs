@@ -34,6 +34,7 @@ namespace Slamty.Infrastracture
             services.AddScoped(typeof(IUnitOfWork), typeof(UnitOfWork));
             services.AddScoped(typeof(ITokenService), typeof(TokenService));
             services.AddScoped(typeof(IEmailSenderService), typeof(EmailSenderService));
+            services.AddScoped(typeof(INotifyService), typeof(NotifyService));
         }
     }
 }

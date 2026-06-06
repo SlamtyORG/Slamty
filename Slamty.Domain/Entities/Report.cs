@@ -10,7 +10,6 @@ namespace Slamty.Domain.Entities
         public List<string> Attachments { get; set; }
         public ReportTypes Type { get; set; }
         public DateTime Date { get; set; }
-        public bool IsNow { get; set; }
-        public ReportStatus Status { get; set; }
+        public ReportStatus Status { get; set; } = ReportStatus.Pending;
     }
 }

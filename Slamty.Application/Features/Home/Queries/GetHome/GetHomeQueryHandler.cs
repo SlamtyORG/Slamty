@@ -47,7 +47,6 @@ namespace Slamty.Application.Features.Home.Queries.GetHome
                 Attachments = r.Attachments ?? new List<string>(),
                 Type = r.Type.ToString(),
                 Date = r.Date,
-                IsNow = r.IsNow,
                 Status = r.Status.ToString()
             }).ToList();
 
