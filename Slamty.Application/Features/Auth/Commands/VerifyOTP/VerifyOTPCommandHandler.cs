@@ -15,12 +15,12 @@ namespace Slamty.Application.Features.Auth.Commands.VerifyOTP
 
         public async Task<ApiResponse<bool>> Handle(VerifyOTPCommand request, CancellationToken cancellationToken)
         {
-            var user = await _userManager.FindByEmailAsync(request.OTPVerificationDto.EmailAddress);
+            var user = await _userManager.FindByEmailAsync(request.EmailAddress);
 
             if (user == null)
                 return new ApiResponse<bool>(System.Net.HttpStatusCode.NotFound, false, "User not found.");
 
-            bool otpChecker = await _userManager.VerifyUserTokenAsync(user, "numeric-provider", "email-confirmation", request.OTPVerificationDto.OTP);
+            bool otpChecker = await _userManager.VerifyUserTokenAsync(user, "numeric-provider", "email-confirmation", request.OTP);
 
             if (!otpChecker)
                 return new ApiResponse<bool>(System.Net.HttpStatusCode.Unauthorized, false, "OTP is wrong.");

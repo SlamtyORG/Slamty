@@ -57,7 +57,7 @@ namespace Slamty.Application.Features.Auth.Commands.Registration
                 IsDeaf = request.IsDeaf
             };
 
-            _unitOfWork.Repository<MobileUser>().Add(userProfile);
+            await _unitOfWork.Repository<MobileUser>().AddAsync(userProfile);
 
             var CreateProfileResult = await _unitOfWork.Complete();
             if (CreateProfileResult == 0)

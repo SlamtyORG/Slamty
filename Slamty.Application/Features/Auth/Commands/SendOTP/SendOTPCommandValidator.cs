@@ -8,7 +8,9 @@ namespace Slamty.Application.Features.Auth.Commands.SendOTP
         {
             RuleFor(v => v.EmailAddress)
                 .NotEmpty()
-                .WithMessage("Email Address is required.");
+                .WithMessage("Email Address is required.")
+                .EmailAddress()
+                .WithMessage("Invalid email address format.");
         }
     }
 
