@@ -1,6 +1,6 @@
 ﻿using Slamty.Domain.Enums;
 
-namespace Slamty.Application.Features.Home.Dtos
+namespace Slamty.Application.Features.Common.Dtos
 {
     public class NotificationDto
     {

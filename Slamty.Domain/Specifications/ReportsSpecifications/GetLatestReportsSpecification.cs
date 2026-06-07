@@ -1,7 +1,6 @@
 using Slamty.Domain.Entities;
-using Slamty.Domain.Specifications;
 
-namespace Slamty.Application.Features.Home.Queries.GetHome
+namespace Slamty.Domain.Specifications.ReportsSpecifications
 {
     public class GetLatestReportsSpecification : BaseSpecification<Report>
     {

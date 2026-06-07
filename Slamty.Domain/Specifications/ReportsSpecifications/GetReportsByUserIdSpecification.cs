@@ -1,7 +1,6 @@
 using Slamty.Domain.Entities;
-using Slamty.Domain.Specifications;
 
-namespace Slamty.Application.Features.Reports.Queries.GetReports
+namespace Slamty.Domain.Specifications.ReportsSpecifications
 {
     public class GetReportsByUserIdSpecification : BaseSpecification<Report>
     {

@@ -5,6 +5,7 @@ using Slamty.Application.Features.Home.Dtos;
 using Slamty.Application.Interfaces.Repositores;
 using Slamty.Application.ResponseTypes;
 using Slamty.Domain.Entities;
+using Slamty.Domain.Specifications.ReportsSpecifications;
 
 namespace Slamty.Application.Features.Reports.Queries.GetReports
 {
@@ -69,7 +70,6 @@ namespace Slamty.Application.Features.Reports.Queries.GetReports
                 Attachments = r.Attachments ?? new List<string>(),
                 Type = r.Type.ToString(),
                 Date = r.Date,
-                IsNow = r.IsNow,
                 Status = r.Status.ToString()
             }).ToList();
 

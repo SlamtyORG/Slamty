@@ -41,7 +41,6 @@ namespace Slamty.Application.Features.Reports.Queries.GetReportById
                 Attachments = report.Attachments ?? new List<string>(),
                 Type = report.Type.ToString(),
                 Date = report.Date,
-                IsNow = report.IsNow,
                 Status = report.Status.ToString()
             };
 

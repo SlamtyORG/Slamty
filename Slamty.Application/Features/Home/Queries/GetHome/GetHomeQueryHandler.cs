@@ -5,6 +5,7 @@ using Slamty.Application.Features.Home.Dtos;
 using Slamty.Application.Interfaces.Repositores;
 using Slamty.Application.ResponseTypes;
 using Slamty.Domain.Entities;
+using Slamty.Domain.Specifications.ReportsSpecifications;
 
 namespace Slamty.Application.Features.Home.Queries.GetHome
 {

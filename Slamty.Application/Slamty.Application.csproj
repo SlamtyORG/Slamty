@@ -7,6 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Features\Reports\Dtos\**" />
+    <EmbeddedResource Remove="Features\Reports\Dtos\**" />
+    <None Remove="Features\Reports\Dtos\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="FluentValidation" Version="12.1.1" />
     <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="12.1.1" />
     <PackageReference Include="MediatR" Version="14.1.0" />
@@ -18,7 +24,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Features\Reports\Dtos\" />
     <Folder Include="Features\Reports\Queries\" />
     <Folder Include="Features\UserProfile\Commands\UpdateProfileImage\" />
   </ItemGroup>
