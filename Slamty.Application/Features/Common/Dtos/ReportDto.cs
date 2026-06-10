@@ -1,4 +1,4 @@
-namespace Slamty.Application.Features.Home.Dtos
+namespace Slamty.Application.Features.Common.Dtos
 {
     public sealed record ReportDto
     {

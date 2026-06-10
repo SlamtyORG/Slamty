@@ -1,5 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
-using Slamty.Application.Features.Home.Dtos;
+using Slamty.Application.Features.Common.Dtos;
 using Slamty.Application.Features.Reports.Commands.CreateReport;
 using Slamty.Application.Features.Reports.Commands.DeleteReport;
 using Slamty.Application.Features.Reports.Queries.GetReportById;

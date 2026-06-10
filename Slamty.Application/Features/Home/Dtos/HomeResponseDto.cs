@@ -1,3 +1,5 @@
+using Slamty.Application.Features.Common.Dtos;
+
 namespace Slamty.Application.Features.Home.Dtos
 {
     public sealed record HomeResponseDto

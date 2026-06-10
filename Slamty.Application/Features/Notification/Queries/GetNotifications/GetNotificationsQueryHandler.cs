@@ -1,12 +1,11 @@
 ﻿using MediatR;
-using Slamty.Application.Features.Common.Dtos;
+using Slamty.Application.Features.Notification.Dtos;
 using Slamty.Application.Interfaces.Repositores;
 using Slamty.Application.ResponseTypes;
-using Slamty.Domain.Entities;
 using Slamty.Domain.Specifications;
 using System.Net;
 
-namespace Slamty.Application.Features.Home.Queries.GetNotifications
+namespace Slamty.Application.Features.Notification.Queries.GetNotifications
 {
     public class GetNotificationsQueryHandler : IRequestHandler<GetNotificationsQuery, ApiResponse<List<NotificationDto>>>
     {
@@ -21,7 +20,7 @@ namespace Slamty.Application.Features.Home.Queries.GetNotifications
         {
             var notificationSpec = new GetNotificationByUserIdSpec(request.UserId);
 
-            var notifications = await _unitOfWork.Repository<Notification>().GetBySpecAsync(notificationSpec);
+            var notifications = await _unitOfWork.Repository<Domain.Entities.Notification>().GetBySpecAsync(notificationSpec);
 
             var notificationDtos = notifications.Select(n => new NotificationDto
             {

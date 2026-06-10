@@ -1,6 +1,6 @@
 ﻿using FluentValidation;
 
-namespace Slamty.Application.Features.Home.Commands
+namespace Slamty.Application.Features.Notification.Commands.DeleteNotification
 {
     public class DeleteNotificationCommandValidator : AbstractValidator<DeleteNotificationCommand>
     {

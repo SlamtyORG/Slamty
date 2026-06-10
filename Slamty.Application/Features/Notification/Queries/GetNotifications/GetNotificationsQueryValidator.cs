@@ -1,6 +1,6 @@
 ﻿using FluentValidation;
 
-namespace Slamty.Application.Features.Home.Queries.GetNotifications
+namespace Slamty.Application.Features.Notification.Queries.GetNotifications
 {
     public class GetNotificationsQueryValidator : AbstractValidator<GetNotificationsQuery>
     {
