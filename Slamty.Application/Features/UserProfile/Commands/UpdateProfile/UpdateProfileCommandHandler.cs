@@ -61,7 +61,7 @@ namespace Slamty.Application.Features.UserProfile.Commands.UpdateProfile
                 user.Email = request.Email;
             }
 
-            if ((request.NationalId != 0) && (oldProfile.NationalId != request.NationalId))
+            if (string.IsNullOrEmpty(request.NationalId) && (oldProfile.NationalId != request.NationalId))
             {
                 _logger.LogInformation("Updating NationalId for User ID {UserId} from {OldNationalId} to {NewNationalId}", user.Id, oldProfile.NationalId, request.NationalId);
                 oldProfile.NationalId = request.NationalId;

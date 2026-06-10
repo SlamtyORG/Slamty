@@ -6,7 +6,7 @@ namespace Slamty.Application.Features.Auth.Commands.Login
 {
     public record LoginCommand : IRequest<ApiResponse<AuthResponseDto>>
     {
-        public int NationalId { get; set; }
+        public string NationalId { get; set; }
         public string Password { get; set; }
     }
 }

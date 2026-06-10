@@ -6,9 +6,9 @@ namespace Slamty.Domain.Entities
     public class AppUser : IdentityUser, ISoftDeletable
     {
         public string FullName { get; set; }
-        public List<RefreshToken>? RefreshTokens { get; set; }
+        public List<RefreshToken>? RefreshTokens { get; set; } = new List<RefreshToken>();
         public bool IsDeleted { get; set; }
         public DateTime? DeletedDate { get; set; }
-        public List<Notification> Notifications { get; set; }
+        public List<Notification> Notifications { get; set; } = new List<Notification>();
     }
 }

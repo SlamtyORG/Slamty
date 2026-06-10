@@ -4,7 +4,7 @@ namespace Slamty.Application.ResponseTypes
 {
     public class ApiValidationExceptionResponse : ApiResponse<IEnumerable<ValidationError>>
     {
-        public ApiValidationExceptionResponse(HttpStatusCode statusCode, IEnumerable<ValidationError>? errors, string? message = null) : base(statusCode, errors, message)
+        public ApiValidationExceptionResponse(HttpStatusCode statusCode, IEnumerable<ValidationError>? errors, string? message = null) : base(statusCode, null, message)
         {
             Errors = errors;
         }

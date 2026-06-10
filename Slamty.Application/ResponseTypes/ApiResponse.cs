@@ -4,7 +4,7 @@ namespace Slamty.Application.ResponseTypes
 {
     public class ApiResponse<T>
     {
-        public ApiResponse(HttpStatusCode statusCode, T data, string? message = null)
+        public ApiResponse(HttpStatusCode statusCode, T? data, string? message = null)
         {
             StatusCode = statusCode;
             Message = message ?? GetDefaultMessageForStatusCode(statusCode);

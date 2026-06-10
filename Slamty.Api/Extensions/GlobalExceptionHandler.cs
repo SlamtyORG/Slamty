@@ -32,19 +32,25 @@ namespace Slamty.API.Extensions
                             exception.StackTrace
                         );
                         await context.Response.WriteAsync(JsonSerializer.Serialize(errorResponse, Options));
+                        return;
                     }
 
+
                     var validationException = exception as ValidationException;
-                    var errors = validationException?.Errors.Select(e => new ValidationError
-                    {
-                        ErrorMessage = e.ErrorMessage,
-                        PropertyName = e.PropertyName
-                    }).ToList();
+                    var errors = validationException?.Errors
+                        .GroupBy(e => (e.PropertyName, e.ErrorMessage))
+                        .Select(g => g.First())
+                        .Select(e => new ValidationError
+                        {
+                            ErrorMessage = e.ErrorMessage,
+                            PropertyName = e.PropertyName
+                        })
+                        .ToList();
                     context.Response.StatusCode = StatusCodes.Status400BadRequest;
                     var validationErrorResponse = new ApiValidationExceptionResponse((HttpStatusCode)context.Response.StatusCode, errors ?? null, "Validation Error");
 
                     await context.Response.WriteAsync(JsonSerializer.Serialize(validationErrorResponse, Options));
-
+                    return;
                 });
             });
         }

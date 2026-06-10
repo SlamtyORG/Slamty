@@ -2,8 +2,10 @@ using Scalar.AspNetCore;
 using Serilog;
 using Serilog.Events;
 using Slamty.Api.Extensions;
+using Slamty.API.Extensions;
 using Slamty.Application;
 using Slamty.Infrastracture;
+using Slamty.Infrastructure.Data.Seeding;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -32,16 +34,17 @@ builder.Services.AddSwaggerGen();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-    app.MapSwagger("/openapi/{documentName}.json");
-    app.MapScalarApiReference();
-}
+app.UseSwagger();
+app.UseSwaggerUI();
+app.MapSwagger("/openapi/{documentName}.json");
+app.MapScalarApiReference();
+
+app.HandelExceptions();
+
+await RolesSeeding.SeedRolesAsync(app.Services);
 
 app.UseHttpsRedirection();
-
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();

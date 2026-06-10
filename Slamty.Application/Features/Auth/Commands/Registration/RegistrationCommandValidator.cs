@@ -22,8 +22,7 @@ namespace Slamty.Application.Features.Auth.Commands.Registration
                 .Matches(@"(?=.*[@$!%*?&])").WithMessage("Password must contain at least one special character.");
 
             RuleFor(x => x.NationalId)
-                .NotEmpty()
-                .GreaterThan(0);
+                .NotEmpty();
 
             RuleFor(x => x.Email)
                 .NotEmpty()

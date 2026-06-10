@@ -16,11 +16,12 @@ namespace Slamty.Application.Features.Auth.Commands.Login
         private readonly IUnitOfWork _unitOfWork;
         private readonly ILogger<LoginCommandHandler> _logger;
 
-        public LoginCommandHandler(ITokenService tokenService, UserManager<AppUser> userManager, IUnitOfWork unitOfWork)
+        public LoginCommandHandler(ITokenService tokenService, UserManager<AppUser> userManager, IUnitOfWork unitOfWork, ILogger<LoginCommandHandler> logger)
         {
             _tokenService = tokenService;
             _userManager = userManager;
             _unitOfWork = unitOfWork;
+            _logger = logger;
         }
 
         public async Task<ApiResponse<AuthResponseDto>> Handle(LoginCommand request, CancellationToken cancellationToken)
@@ -82,7 +83,7 @@ namespace Slamty.Application.Features.Auth.Commands.Login
 
             }
 
-            var userRoles = await _userManager.GetRolesAsync(user);
+            //var userRoles = await _userManager.GetRolesAsync(user);
             var accessToken = await _tokenService.CreateTokenAsync(user);
 
             authResponse.AccessToken = accessToken;

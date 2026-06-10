@@ -20,7 +20,7 @@ namespace Slamty.Infrastracture
         {
             services.AddDbContext<AppIdentityDbContext>(options =>
                 options
-                .UseSqlServer(configuration.GetConnectionString("IdentityConnection"))
+                .UseSqlServer(configuration.GetConnectionString("DefaultConnection"))
                 .AddInterceptors(new SoftDeleteInterceptor())
                 );
             services.AddIdentity<AppUser, IdentityRole>(options =>

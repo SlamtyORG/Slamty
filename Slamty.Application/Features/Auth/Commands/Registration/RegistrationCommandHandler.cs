@@ -31,6 +31,7 @@ namespace Slamty.Application.Features.Auth.Commands.Registration
             {
                 Id = Guid.NewGuid().ToString(),
                 FullName = request.FullName,
+                UserName = request.FullName,
                 PhoneNumber = request.PhoneNumber,
                 Email = request.Email
             };
@@ -52,6 +53,7 @@ namespace Slamty.Application.Features.Auth.Commands.Registration
 
             var userProfile = new MobileUser
             {
+                UserId = user.Id,
                 NationalId = request.NationalId,
                 BloodType = Enum.Parse<BloodTypes>(request.BloodType),
                 IsDeaf = request.IsDeaf

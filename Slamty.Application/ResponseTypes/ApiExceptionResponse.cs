@@ -6,7 +6,7 @@ namespace Slamty.Application.ResponseTypes
     {
         public string? Details { get; set; }
 
-        public ApiExceptionResponse(HttpStatusCode statusCode, string? message = null, string? details = null) : base(statusCode, details, message)
+        public ApiExceptionResponse(HttpStatusCode statusCode, string? message = null, string? details = null) : base(statusCode, null, message)
         {
             Details = details;
         }

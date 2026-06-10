@@ -1,0 +1,1269 @@
+2026-06-07 04:54:18 [Information] User profile is available. Using '"C:\Users\Hazem Khalifa\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-06-07 04:54:20 [Information] Now listening on: "https://localhost:7243"
+2026-06-07 04:54:20 [Information] Now listening on: "http://localhost:5025"
+2026-06-07 04:54:20 [Information] Application started. Press Ctrl+C to shut down.
+2026-06-07 04:54:20 [Information] Hosting environment: "Development"
+2026-06-07 04:54:20 [Information] Content root path: "D:\C# Projects\Slamty\Slamty.Api"
+2026-06-07 04:54:21 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/swagger""" - null null
+2026-06-07 04:54:27 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/swagger""" - 301 null null 6003.6074ms
+2026-06-07 04:54:27 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/swagger/index.html""" - null null
+2026-06-07 04:54:28 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 330.0101ms
+2026-06-07 04:54:28 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/swagger/swagger-ui.css""" - null null
+2026-06-07 04:54:28 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/swagger/swagger-ui-bundle.js""" - null null
+2026-06-07 04:54:28 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/swagger/swagger-ui-standalone-preset.js""" - null null
+2026-06-07 04:54:28 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2026-06-07 04:54:28 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/_framework/aspnetcore-browser-refresh.js""" - 200 14924 "application/javascript; charset=utf-8" 44.6337ms
+2026-06-07 04:54:28 [Information] Sending file. Request path: '"/swagger-ui.css"'. Physical path: '"N/A"'
+2026-06-07 04:54:28 [Information] Sending file. Request path: '"/swagger-ui-standalone-preset.js"'. Physical path: '"N/A"'
+2026-06-07 04:54:28 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/swagger/swagger-ui.css""" - 200 152034 "text/css" 163.0888ms
+2026-06-07 04:54:28 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/_vs/browserLink""" - null null
+2026-06-07 04:54:28 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/swagger/swagger-ui-standalone-preset.js""" - 200 230280 "text/javascript" 205.7106ms
+2026-06-07 04:54:28 [Information] Sending file. Request path: '"/swagger-ui-bundle.js"'. Physical path: '"N/A"'
+2026-06-07 04:54:28 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/swagger/swagger-ui-bundle.js""" - 200 1456926 "text/javascript" 393.3233ms
+2026-06-07 04:54:28 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 385.0511ms
+2026-06-07 04:54:29 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/swagger/v1/swagger.json""" - null null
+2026-06-07 04:54:29 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/swagger/favicon-32x32.png""" - null null
+2026-06-07 04:54:29 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 125.6404ms
+2026-06-07 04:54:29 [Information] Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+2026-06-07 04:54:29 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/swagger/favicon-32x32.png""" - 200 628 "image/png" 114.821ms
+2026-06-07 05:11:05 [Information] User profile is available. Using '"C:\Users\Hazem Khalifa\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-06-07 05:11:06 [Information] Now listening on: "https://localhost:7243"
+2026-06-07 05:11:06 [Information] Now listening on: "http://localhost:5025"
+2026-06-07 05:11:07 [Information] Application started. Press Ctrl+C to shut down.
+2026-06-07 05:11:07 [Information] Hosting environment: "Development"
+2026-06-07 05:11:07 [Information] Content root path: "D:\C# Projects\Slamty\Slamty.Api"
+2026-06-07 05:11:07 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/swagger/index.html""" - null null
+2026-06-07 05:11:08 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 1296.994ms
+2026-06-07 05:11:08 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2026-06-07 05:11:08 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/_vs/browserLink""" - null null
+2026-06-07 05:11:08 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/_framework/aspnetcore-browser-refresh.js""" - 200 14924 "application/javascript; charset=utf-8" 37.3024ms
+2026-06-07 05:11:09 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 231.5901ms
+2026-06-07 05:11:09 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/swagger/v1/swagger.json""" - null null
+2026-06-07 05:11:10 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 240.8338ms
+2026-06-07 05:14:52 [Information] User profile is available. Using '"C:\Users\Hazem Khalifa\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-06-07 05:14:53 [Information] Now listening on: "https://localhost:7243"
+2026-06-07 05:14:53 [Information] Now listening on: "http://localhost:5025"
+2026-06-07 05:14:54 [Information] Application started. Press Ctrl+C to shut down.
+2026-06-07 05:14:54 [Information] Hosting environment: "Development"
+2026-06-07 05:14:54 [Information] Content root path: "D:\C# Projects\Slamty\Slamty.Api"
+2026-06-07 05:14:54 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/swagger/index.html""" - null null
+2026-06-07 05:14:55 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 1388.7895ms
+2026-06-07 05:14:55 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2026-06-07 05:14:55 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/_vs/browserLink""" - null null
+2026-06-07 05:14:55 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/_framework/aspnetcore-browser-refresh.js""" - 200 14924 "application/javascript; charset=utf-8" 274.505ms
+2026-06-07 05:14:56 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 419.6135ms
+2026-06-07 05:14:57 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/swagger/v1/swagger.json""" - null null
+2026-06-07 05:14:57 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 171.805ms
+2026-06-07 05:15:51 [Information] Request starting "HTTP/2" "POST" "https"://"localhost:7243""""/api/mobile/Auth/Register""" - "application/json" 194
+2026-06-07 05:15:51 [Information] Executing endpoint '"Slamty.Api.Controllers.Mobile.AuthController.Register (Slamty.Api)"'
+2026-06-07 05:15:51 [Information] Route matched with "{action = \"Register\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(Slamty.Application.Features.Auth.Commands.Registration.RegistrationCommand)" on controller "Slamty.Api.Controllers.Mobile.AuthController" ("Slamty.Api").
+2026-06-07 05:15:52 [Information] Executing "BadRequestObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ValidationProblemDetails"'.
+2026-06-07 05:15:52 [Information] Executed action "Slamty.Api.Controllers.Mobile.AuthController.Register (Slamty.Api)" in 846.9936ms
+2026-06-07 05:15:52 [Information] Executed endpoint '"Slamty.Api.Controllers.Mobile.AuthController.Register (Slamty.Api)"'
+2026-06-07 05:15:52 [Information] Request finished "HTTP/2" "POST" "https"://"localhost:7243""""/api/mobile/Auth/Register""" - 400 null "application/problem+json; charset=utf-8" 1073.5241ms
+2026-06-07 05:16:22 [Information] Request starting "HTTP/2" "POST" "https"://"localhost:7243""""/api/mobile/Auth/Register""" - "application/json" 194
+2026-06-07 05:16:22 [Information] Executing endpoint '"Slamty.Api.Controllers.Mobile.AuthController.Register (Slamty.Api)"'
+2026-06-07 05:16:22 [Information] Route matched with "{action = \"Register\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(Slamty.Application.Features.Auth.Commands.Registration.RegistrationCommand)" on controller "Slamty.Api.Controllers.Mobile.AuthController" ("Slamty.Api").
+2026-06-07 05:16:22 [Information] Executing "BadRequestObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ValidationProblemDetails"'.
+2026-06-07 05:16:22 [Information] Executed action "Slamty.Api.Controllers.Mobile.AuthController.Register (Slamty.Api)" in 533.0028ms
+2026-06-07 05:16:22 [Information] Executed endpoint '"Slamty.Api.Controllers.Mobile.AuthController.Register (Slamty.Api)"'
+2026-06-07 05:16:22 [Information] Request finished "HTTP/2" "POST" "https"://"localhost:7243""""/api/mobile/Auth/Register""" - 400 null "application/problem+json; charset=utf-8" 695.147ms
+2026-06-07 05:17:53 [Information] Request starting "HTTP/2" "POST" "https"://"localhost:7243""""/api/mobile/Auth/Register""" - "application/json" 182
+2026-06-07 05:17:53 [Information] Executing endpoint '"Slamty.Api.Controllers.Mobile.AuthController.Register (Slamty.Api)"'
+2026-06-07 05:17:53 [Information] Route matched with "{action = \"Register\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(Slamty.Application.Features.Auth.Commands.Registration.RegistrationCommand)" on controller "Slamty.Api.Controllers.Mobile.AuthController" ("Slamty.Api").
+2026-06-07 05:17:54 [Warning] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2026-06-07 05:17:55 [Information] Executed action "Slamty.Api.Controllers.Mobile.AuthController.Register (Slamty.Api)" in 1232.3772ms
+2026-06-07 05:17:55 [Information] Executed endpoint '"Slamty.Api.Controllers.Mobile.AuthController.Register (Slamty.Api)"'
+2026-06-07 05:17:55 [Error] An unhandled exception has occurred while executing the request.
+FluentValidation.ValidationException: Validation failed: 
+ -- Password: Password must contain at least one number. Severity: Error
+ -- Password: Password must contain at least one number. Severity: Error
+   at Slamty.Application.PipelineBehaviour.RequestPipline`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\C# Projects\Slamty\Slamty.Application\PipelineBehaviour\RequestPipline.cs:line 24
+   at MediatR.Wrappers.RequestHandlerWrapperImpl`2.<>c__DisplayClass1_1.<Handle>b__2(CancellationToken t)
+   at MediatR.Wrappers.RequestHandlerWrapperImpl`2.Handle(IRequest`1 request, IServiceProvider serviceProvider, CancellationToken cancellationToken)
+   at MediatR.Mediator.Send[TResponse](IRequest`1 request, CancellationToken cancellationToken)
+   at Slamty.Api.Controllers.Mobile.AuthController.Register(RegistrationCommand request) in D:\C# Projects\Slamty\Slamty.Api\Controllers\Mobile\AuthController.cs:line 53
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-06-07 05:17:56 [Information] Request finished "HTTP/2" "POST" "https"://"localhost:7243""""/api/mobile/Auth/Register""" - 500 null "text/plain; charset=utf-8" 2286.1224ms
+2026-06-07 05:19:48 [Information] User profile is available. Using '"C:\Users\Hazem Khalifa\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-06-07 05:19:49 [Information] Now listening on: "https://localhost:7243"
+2026-06-07 05:19:49 [Information] Now listening on: "http://localhost:5025"
+2026-06-07 05:19:49 [Information] Application started. Press Ctrl+C to shut down.
+2026-06-07 05:19:49 [Information] Hosting environment: "Development"
+2026-06-07 05:19:49 [Information] Content root path: "D:\C# Projects\Slamty\Slamty.Api"
+2026-06-07 05:19:50 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/swagger/index.html""" - null null
+2026-06-07 05:19:52 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 1211.8321ms
+2026-06-07 05:19:52 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2026-06-07 05:19:52 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/_vs/browserLink""" - null null
+2026-06-07 05:19:52 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/_framework/aspnetcore-browser-refresh.js""" - 200 14924 "application/javascript; charset=utf-8" 63.5284ms
+2026-06-07 05:19:52 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 317.883ms
+2026-06-07 05:19:53 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/swagger/v1/swagger.json""" - null null
+2026-06-07 05:19:53 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 194.748ms
+2026-06-07 05:19:58 [Information] Request starting "HTTP/2" "POST" "https"://"localhost:7243""""/api/mobile/Auth/Register""" - "application/json" 182
+2026-06-07 05:19:58 [Information] Executing endpoint '"Slamty.Api.Controllers.Mobile.AuthController.Register (Slamty.Api)"'
+2026-06-07 05:19:59 [Information] Route matched with "{action = \"Register\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(Slamty.Application.Features.Auth.Commands.Registration.RegistrationCommand)" on controller "Slamty.Api.Controllers.Mobile.AuthController" ("Slamty.Api").
+2026-06-07 05:19:59 [Warning] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2026-06-07 05:20:00 [Information] Executed action "Slamty.Api.Controllers.Mobile.AuthController.Register (Slamty.Api)" in 1549.0197ms
+2026-06-07 05:20:00 [Information] Executed endpoint '"Slamty.Api.Controllers.Mobile.AuthController.Register (Slamty.Api)"'
+2026-06-07 05:20:01 [Error] An unhandled exception has occurred while executing the request.
+FluentValidation.ValidationException: Validation failed: 
+ -- Password: Password must contain at least one number. Severity: Error
+ -- Password: Password must contain at least one number. Severity: Error
+   at Slamty.Application.PipelineBehaviour.RequestPipline`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\C# Projects\Slamty\Slamty.Application\PipelineBehaviour\RequestPipline.cs:line 24
+   at MediatR.Wrappers.RequestHandlerWrapperImpl`2.<>c__DisplayClass1_1.<Handle>b__2(CancellationToken t)
+   at MediatR.Wrappers.RequestHandlerWrapperImpl`2.Handle(IRequest`1 request, IServiceProvider serviceProvider, CancellationToken cancellationToken)
+   at MediatR.Mediator.Send[TResponse](IRequest`1 request, CancellationToken cancellationToken)
+   at Slamty.Api.Controllers.Mobile.AuthController.Register(RegistrationCommand request) in D:\C# Projects\Slamty\Slamty.Api\Controllers\Mobile\AuthController.cs:line 53
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2026-06-07 05:20:01 [Information] Request finished "HTTP/2" "POST" "https"://"localhost:7243""""/api/mobile/Auth/Register""" - 400 null "application/json" 2674.047ms
+2026-06-07 05:20:36 [Information] Request starting "HTTP/2" "POST" "https"://"localhost:7243""""/api/mobile/Auth/Register""" - "application/json" 182
+2026-06-07 05:20:36 [Information] Executing endpoint '"Slamty.Api.Controllers.Mobile.AuthController.Register (Slamty.Api)"'
+2026-06-07 05:20:36 [Information] Route matched with "{action = \"Register\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(Slamty.Application.Features.Auth.Commands.Registration.RegistrationCommand)" on controller "Slamty.Api.Controllers.Mobile.AuthController" ("Slamty.Api").
+2026-06-07 05:20:37 [Information] Executed action "Slamty.Api.Controllers.Mobile.AuthController.Register (Slamty.Api)" in 878.3837ms
+2026-06-07 05:20:37 [Information] Executed endpoint '"Slamty.Api.Controllers.Mobile.AuthController.Register (Slamty.Api)"'
+2026-06-07 05:20:37 [Error] An unhandled exception has occurred while executing the request.
+FluentValidation.ValidationException: Validation failed: 
+ -- Password: Password must contain at least one number. Severity: Error
+ -- Password: Password must contain at least one number. Severity: Error
+   at Slamty.Application.PipelineBehaviour.RequestPipline`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\C# Projects\Slamty\Slamty.Application\PipelineBehaviour\RequestPipline.cs:line 24
+   at MediatR.Wrappers.RequestHandlerWrapperImpl`2.<>c__DisplayClass1_1.<Handle>b__2(CancellationToken t)
+   at MediatR.Wrappers.RequestHandlerWrapperImpl`2.Handle(IRequest`1 request, IServiceProvider serviceProvider, CancellationToken cancellationToken)
+   at MediatR.Mediator.Send[TResponse](IRequest`1 request, CancellationToken cancellationToken)
+   at Slamty.Api.Controllers.Mobile.AuthController.Register(RegistrationCommand request) in D:\C# Projects\Slamty\Slamty.Api\Controllers\Mobile\AuthController.cs:line 53
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2026-06-07 05:20:38 [Information] Request finished "HTTP/2" "POST" "https"://"localhost:7243""""/api/mobile/Auth/Register""" - 400 null "application/json" 1689.6515ms
+2026-06-07 05:22:09 [Information] User profile is available. Using '"C:\Users\Hazem Khalifa\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-06-07 05:22:10 [Information] Now listening on: "https://localhost:7243"
+2026-06-07 05:22:10 [Information] Now listening on: "http://localhost:5025"
+2026-06-07 05:22:11 [Information] Application started. Press Ctrl+C to shut down.
+2026-06-07 05:22:11 [Information] Hosting environment: "Development"
+2026-06-07 05:22:11 [Information] Content root path: "D:\C# Projects\Slamty\Slamty.Api"
+2026-06-07 05:22:11 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/swagger/index.html""" - null null
+2026-06-07 05:22:12 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 1047.8103ms
+2026-06-07 05:22:12 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2026-06-07 05:22:12 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/_vs/browserLink""" - null null
+2026-06-07 05:22:12 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/_framework/aspnetcore-browser-refresh.js""" - 200 14924 "application/javascript; charset=utf-8" 35.088ms
+2026-06-07 05:22:12 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 269.9676ms
+2026-06-07 05:22:13 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/swagger/v1/swagger.json""" - null null
+2026-06-07 05:22:13 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 176.9379ms
+2026-06-07 05:22:17 [Information] Request starting "HTTP/2" "POST" "https"://"localhost:7243""""/api/mobile/Auth/Register""" - "application/json" 182
+2026-06-07 05:22:17 [Information] Executing endpoint '"Slamty.Api.Controllers.Mobile.AuthController.Register (Slamty.Api)"'
+2026-06-07 05:22:17 [Information] Route matched with "{action = \"Register\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(Slamty.Application.Features.Auth.Commands.Registration.RegistrationCommand)" on controller "Slamty.Api.Controllers.Mobile.AuthController" ("Slamty.Api").
+2026-06-07 05:22:18 [Warning] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2026-06-07 05:33:16 [Information] User profile is available. Using '"C:\Users\Hazem Khalifa\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-06-07 05:33:17 [Information] Now listening on: "https://localhost:7243"
+2026-06-07 05:33:17 [Information] Now listening on: "http://localhost:5025"
+2026-06-07 05:33:17 [Information] Application started. Press Ctrl+C to shut down.
+2026-06-07 05:33:17 [Information] Hosting environment: "Development"
+2026-06-07 05:33:17 [Information] Content root path: "D:\C# Projects\Slamty\Slamty.Api"
+2026-06-07 05:33:18 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/swagger/index.html""" - null null
+2026-06-07 05:33:20 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 1218.892ms
+2026-06-07 05:33:21 [Information] Request starting "HTTP/2" "POST" "https"://"localhost:7243""""/api/mobile/Auth/Register""" - "application/json" 182
+2026-06-07 05:33:22 [Information] Executing endpoint '"Slamty.Api.Controllers.Mobile.AuthController.Register (Slamty.Api)"'
+2026-06-07 05:33:22 [Information] Route matched with "{action = \"Register\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(Slamty.Application.Features.Auth.Commands.Registration.RegistrationCommand)" on controller "Slamty.Api.Controllers.Mobile.AuthController" ("Slamty.Api").
+2026-06-07 05:33:22 [Warning] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2026-06-07 05:33:46 [Information] Executed action "Slamty.Api.Controllers.Mobile.AuthController.Register (Slamty.Api)" in 24280.4669ms
+2026-06-07 05:33:49 [Information] Executed endpoint '"Slamty.Api.Controllers.Mobile.AuthController.Register (Slamty.Api)"'
+2026-06-07 05:35:19 [Information] User profile is available. Using '"C:\Users\Hazem Khalifa\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-06-07 05:35:20 [Information] Now listening on: "https://localhost:7243"
+2026-06-07 05:35:20 [Information] Now listening on: "http://localhost:5025"
+2026-06-07 05:35:20 [Information] Application started. Press Ctrl+C to shut down.
+2026-06-07 05:35:21 [Information] Hosting environment: "Development"
+2026-06-07 05:35:21 [Information] Content root path: "D:\C# Projects\Slamty\Slamty.Api"
+2026-06-07 05:35:22 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/swagger/index.html""" - null null
+2026-06-07 05:35:23 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2026-06-07 05:35:23 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/_vs/browserLink""" - null null
+2026-06-07 05:35:23 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 1612.5657ms
+2026-06-07 05:35:23 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/_framework/aspnetcore-browser-refresh.js""" - 200 14924 "application/javascript; charset=utf-8" 73.0242ms
+2026-06-07 05:35:24 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 613.1613ms
+2026-06-07 05:35:24 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/swagger/v1/swagger.json""" - null null
+2026-06-07 05:35:24 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 361.61ms
+2026-06-07 05:35:27 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/swagger/index.html""" - null null
+2026-06-07 05:35:27 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 38.5965ms
+2026-06-07 05:35:27 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/_vs/browserLink""" - null null
+2026-06-07 05:35:27 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2026-06-07 05:35:27 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/_framework/aspnetcore-browser-refresh.js""" - 200 14924 "application/javascript; charset=utf-8" 38.9583ms
+2026-06-07 05:35:27 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 133.4949ms
+2026-06-07 05:35:27 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/swagger/v1/swagger.json""" - null null
+2026-06-07 05:35:28 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 195.5053ms
+2026-06-07 05:35:55 [Information] Request starting "HTTP/2" "POST" "https"://"localhost:7243""""/api/mobile/Auth/Register""" - "application/json" 182
+2026-06-07 05:35:55 [Information] Executing endpoint '"Slamty.Api.Controllers.Mobile.AuthController.Register (Slamty.Api)"'
+2026-06-07 05:35:55 [Information] Route matched with "{action = \"Register\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(Slamty.Application.Features.Auth.Commands.Registration.RegistrationCommand)" on controller "Slamty.Api.Controllers.Mobile.AuthController" ("Slamty.Api").
+2026-06-07 05:35:55 [Warning] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2026-06-07 05:35:56 [Error] User creation failed for "12345678910". Errors: "Passwords must have at least one digit ('0'-'9')."
+2026-06-07 05:35:56 [Information] Executing "BadRequestObjectResult", writing value of type '"Slamty.Application.ResponseTypes.ApiResponse`1[[Slamty.Application.Features.Auth.Dtos.AuthResponseDto, Slamty.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2026-06-07 05:35:56 [Information] Executed action "Slamty.Api.Controllers.Mobile.AuthController.Register (Slamty.Api)" in 946.4067ms
+2026-06-07 05:35:56 [Information] Executed endpoint '"Slamty.Api.Controllers.Mobile.AuthController.Register (Slamty.Api)"'
+2026-06-07 05:35:56 [Information] Request finished "HTTP/2" "POST" "https"://"localhost:7243""""/api/mobile/Auth/Register""" - 400 null "application/json; charset=utf-8" 1259.4436ms
+2026-06-07 05:38:59 [Information] Request starting "HTTP/2" "POST" "https"://"localhost:7243""""/api/mobile/Auth/Register""" - "application/json" 182
+2026-06-07 05:38:59 [Information] Executing endpoint '"Slamty.Api.Controllers.Mobile.AuthController.Register (Slamty.Api)"'
+2026-06-07 05:38:59 [Information] Route matched with "{action = \"Register\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(Slamty.Application.Features.Auth.Commands.Registration.RegistrationCommand)" on controller "Slamty.Api.Controllers.Mobile.AuthController" ("Slamty.Api").
+2026-06-07 05:38:59 [Error] User creation failed for "12345678910". Errors: "Passwords must have at least one digit ('0'-'9')."
+2026-06-07 05:38:59 [Information] Executing "BadRequestObjectResult", writing value of type '"Slamty.Application.ResponseTypes.ApiResponse`1[[Slamty.Application.Features.Auth.Dtos.AuthResponseDto, Slamty.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2026-06-07 05:38:59 [Information] Executed action "Slamty.Api.Controllers.Mobile.AuthController.Register (Slamty.Api)" in 62.1141ms
+2026-06-07 05:38:59 [Information] Executed endpoint '"Slamty.Api.Controllers.Mobile.AuthController.Register (Slamty.Api)"'
+2026-06-07 05:38:59 [Information] Request finished "HTTP/2" "POST" "https"://"localhost:7243""""/api/mobile/Auth/Register""" - 400 null "application/json; charset=utf-8" 105.1594ms
+2026-06-07 05:39:52 [Information] Request starting "HTTP/2" "POST" "https"://"localhost:7243""""/api/mobile/Auth/Register""" - "application/json" 182
+2026-06-07 05:39:52 [Information] Executing endpoint '"Slamty.Api.Controllers.Mobile.AuthController.Register (Slamty.Api)"'
+2026-06-07 05:39:52 [Information] Route matched with "{action = \"Register\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(Slamty.Application.Features.Auth.Commands.Registration.RegistrationCommand)" on controller "Slamty.Api.Controllers.Mobile.AuthController" ("Slamty.Api").
+2026-06-07 05:39:52 [Error] User creation failed for "12345678910". Errors: "Passwords must have at least one digit ('0'-'9')."
+2026-06-07 05:39:52 [Information] Executing "BadRequestObjectResult", writing value of type '"Slamty.Application.ResponseTypes.ApiResponse`1[[Slamty.Application.Features.Auth.Dtos.AuthResponseDto, Slamty.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2026-06-07 05:39:52 [Information] Executed action "Slamty.Api.Controllers.Mobile.AuthController.Register (Slamty.Api)" in 38.8823ms
+2026-06-07 05:39:52 [Information] Executed endpoint '"Slamty.Api.Controllers.Mobile.AuthController.Register (Slamty.Api)"'
+2026-06-07 05:39:52 [Information] Request finished "HTTP/2" "POST" "https"://"localhost:7243""""/api/mobile/Auth/Register""" - 400 null "application/json; charset=utf-8" 85.0806ms
+2026-06-07 05:41:38 [Information] Request starting "HTTP/2" "POST" "https"://"localhost:7243""""/api/mobile/Auth/Register""" - "application/json" 182
+2026-06-07 05:41:38 [Information] Executing endpoint '"Slamty.Api.Controllers.Mobile.AuthController.Register (Slamty.Api)"'
+2026-06-07 05:41:38 [Information] Route matched with "{action = \"Register\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(Slamty.Application.Features.Auth.Commands.Registration.RegistrationCommand)" on controller "Slamty.Api.Controllers.Mobile.AuthController" ("Slamty.Api").
+2026-06-07 05:41:38 [Error] User creation failed for "12345678910". Errors: "Passwords must have at least one digit ('0'-'9')."
+2026-06-07 05:41:38 [Information] Executing "BadRequestObjectResult", writing value of type '"Slamty.Application.ResponseTypes.ApiResponse`1[[Slamty.Application.Features.Auth.Dtos.AuthResponseDto, Slamty.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2026-06-07 05:41:38 [Information] Executed action "Slamty.Api.Controllers.Mobile.AuthController.Register (Slamty.Api)" in 8.9862ms
+2026-06-07 05:41:38 [Information] Executed endpoint '"Slamty.Api.Controllers.Mobile.AuthController.Register (Slamty.Api)"'
+2026-06-07 05:41:38 [Information] Request finished "HTTP/2" "POST" "https"://"localhost:7243""""/api/mobile/Auth/Register""" - 400 null "application/json; charset=utf-8" 104.1866ms
+2026-06-07 05:42:36 [Information] User profile is available. Using '"C:\Users\Hazem Khalifa\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-06-07 05:42:37 [Information] Now listening on: "https://localhost:7243"
+2026-06-07 05:42:37 [Information] Now listening on: "http://localhost:5025"
+2026-06-07 05:42:38 [Information] Application started. Press Ctrl+C to shut down.
+2026-06-07 05:42:38 [Information] Hosting environment: "Development"
+2026-06-07 05:42:38 [Information] Content root path: "D:\C# Projects\Slamty\Slamty.Api"
+2026-06-07 05:42:38 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/swagger/index.html""" - null null
+2026-06-07 05:42:39 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 1246.387ms
+2026-06-07 05:42:39 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/_vs/browserLink""" - null null
+2026-06-07 05:42:39 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2026-06-07 05:42:39 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/_framework/aspnetcore-browser-refresh.js""" - 200 14924 "application/javascript; charset=utf-8" 48.1693ms
+2026-06-07 05:42:39 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 208.9074ms
+2026-06-07 05:42:40 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/swagger/v1/swagger.json""" - null null
+2026-06-07 05:42:41 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 177.0677ms
+2026-06-07 05:42:46 [Information] Request starting "HTTP/2" "POST" "https"://"localhost:7243""""/api/mobile/Auth/Register""" - "application/json" 182
+2026-06-07 05:42:46 [Information] Executing endpoint '"Slamty.Api.Controllers.Mobile.AuthController.Register (Slamty.Api)"'
+2026-06-07 05:42:46 [Information] Route matched with "{action = \"Register\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(Slamty.Application.Features.Auth.Commands.Registration.RegistrationCommand)" on controller "Slamty.Api.Controllers.Mobile.AuthController" ("Slamty.Api").
+2026-06-07 05:42:46 [Warning] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2026-06-07 05:42:47 [Error] User creation failed for "12345678910". Errors: "Passwords must have at least one digit ('0'-'9')."
+2026-06-07 05:42:47 [Information] Executing "BadRequestObjectResult", writing value of type '"Slamty.Application.ResponseTypes.ApiResponse`1[[Slamty.Application.Features.Auth.Dtos.AuthResponseDto, Slamty.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2026-06-07 05:42:47 [Information] Executed action "Slamty.Api.Controllers.Mobile.AuthController.Register (Slamty.Api)" in 1015.2338ms
+2026-06-07 05:42:47 [Information] Executed endpoint '"Slamty.Api.Controllers.Mobile.AuthController.Register (Slamty.Api)"'
+2026-06-07 05:42:47 [Information] Request finished "HTTP/2" "POST" "https"://"localhost:7243""""/api/mobile/Auth/Register""" - 400 null "application/json; charset=utf-8" 1229.8054ms
+2026-06-07 05:42:52 [Information] Request starting "HTTP/2" "POST" "https"://"localhost:7243""""/api/mobile/Auth/Register""" - "application/json" 182
+2026-06-07 05:42:52 [Information] Executing endpoint '"Slamty.Api.Controllers.Mobile.AuthController.Register (Slamty.Api)"'
+2026-06-07 05:42:52 [Information] Route matched with "{action = \"Register\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(Slamty.Application.Features.Auth.Commands.Registration.RegistrationCommand)" on controller "Slamty.Api.Controllers.Mobile.AuthController" ("Slamty.Api").
+2026-06-07 05:42:53 [Error] User creation failed for "12345678910". Errors: "Passwords must have at least one digit ('0'-'9')."
+2026-06-07 05:42:53 [Information] Executing "BadRequestObjectResult", writing value of type '"Slamty.Application.ResponseTypes.ApiResponse`1[[Slamty.Application.Features.Auth.Dtos.AuthResponseDto, Slamty.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2026-06-07 05:42:53 [Information] Executed action "Slamty.Api.Controllers.Mobile.AuthController.Register (Slamty.Api)" in 42.1994ms
+2026-06-07 05:42:53 [Information] Executed endpoint '"Slamty.Api.Controllers.Mobile.AuthController.Register (Slamty.Api)"'
+2026-06-07 05:42:53 [Information] Request finished "HTTP/2" "POST" "https"://"localhost:7243""""/api/mobile/Auth/Register""" - 400 null "application/json; charset=utf-8" 146.1798ms
+2026-06-07 05:42:54 [Information] Request starting "HTTP/2" "POST" "https"://"localhost:7243""""/api/mobile/Auth/Register""" - "application/json" 182
+2026-06-07 05:42:54 [Information] Executing endpoint '"Slamty.Api.Controllers.Mobile.AuthController.Register (Slamty.Api)"'
+2026-06-07 05:42:54 [Information] Route matched with "{action = \"Register\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(Slamty.Application.Features.Auth.Commands.Registration.RegistrationCommand)" on controller "Slamty.Api.Controllers.Mobile.AuthController" ("Slamty.Api").
+2026-06-07 05:42:54 [Error] User creation failed for "12345678910". Errors: "Passwords must have at least one digit ('0'-'9')."
+2026-06-07 05:42:54 [Information] Executing "BadRequestObjectResult", writing value of type '"Slamty.Application.ResponseTypes.ApiResponse`1[[Slamty.Application.Features.Auth.Dtos.AuthResponseDto, Slamty.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2026-06-07 05:42:54 [Information] Executed action "Slamty.Api.Controllers.Mobile.AuthController.Register (Slamty.Api)" in 59.5696ms
+2026-06-07 05:42:54 [Information] Executed endpoint '"Slamty.Api.Controllers.Mobile.AuthController.Register (Slamty.Api)"'
+2026-06-07 05:42:54 [Information] Request finished "HTTP/2" "POST" "https"://"localhost:7243""""/api/mobile/Auth/Register""" - 400 null "application/json; charset=utf-8" 165.3705ms
+2026-06-07 05:42:55 [Information] Request starting "HTTP/2" "POST" "https"://"localhost:7243""""/api/mobile/Auth/Register""" - "application/json" 182
+2026-06-07 05:42:55 [Information] Executing endpoint '"Slamty.Api.Controllers.Mobile.AuthController.Register (Slamty.Api)"'
+2026-06-07 05:42:55 [Information] Route matched with "{action = \"Register\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(Slamty.Application.Features.Auth.Commands.Registration.RegistrationCommand)" on controller "Slamty.Api.Controllers.Mobile.AuthController" ("Slamty.Api").
+2026-06-07 05:42:55 [Error] User creation failed for "12345678910". Errors: "Passwords must have at least one digit ('0'-'9')."
+2026-06-07 05:42:55 [Information] Executing "BadRequestObjectResult", writing value of type '"Slamty.Application.ResponseTypes.ApiResponse`1[[Slamty.Application.Features.Auth.Dtos.AuthResponseDto, Slamty.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2026-06-07 05:42:55 [Information] Executed action "Slamty.Api.Controllers.Mobile.AuthController.Register (Slamty.Api)" in 14.8267ms
+2026-06-07 05:42:55 [Information] Executed endpoint '"Slamty.Api.Controllers.Mobile.AuthController.Register (Slamty.Api)"'
+2026-06-07 05:42:55 [Information] Request finished "HTTP/2" "POST" "https"://"localhost:7243""""/api/mobile/Auth/Register""" - 400 null "application/json; charset=utf-8" 39.5318ms
+2026-06-07 05:42:57 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2026-06-07 05:42:57 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/_framework/aspnetcore-browser-refresh.js""" - 200 14924 "application/javascript; charset=utf-8" 29.1079ms
+2026-06-07 05:42:58 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/swagger/v1/swagger.json""" - null null
+2026-06-07 05:42:58 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 153.0953ms
+2026-06-07 05:43:14 [Information] Request starting "HTTP/2" "POST" "https"://"localhost:7243""""/api/mobile/Auth/Register""" - "application/json" 182
+2026-06-07 05:43:14 [Information] Executing endpoint '"Slamty.Api.Controllers.Mobile.AuthController.Register (Slamty.Api)"'
+2026-06-07 05:43:14 [Information] Route matched with "{action = \"Register\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(Slamty.Application.Features.Auth.Commands.Registration.RegistrationCommand)" on controller "Slamty.Api.Controllers.Mobile.AuthController" ("Slamty.Api").
+2026-06-07 05:43:14 [Error] User creation failed for "12345678910". Errors: "Passwords must have at least one digit ('0'-'9')."
+2026-06-07 05:43:14 [Information] Executing "BadRequestObjectResult", writing value of type '"Slamty.Application.ResponseTypes.ApiResponse`1[[Slamty.Application.Features.Auth.Dtos.AuthResponseDto, Slamty.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2026-06-07 05:43:14 [Information] Executed action "Slamty.Api.Controllers.Mobile.AuthController.Register (Slamty.Api)" in 13.4219ms
+2026-06-07 05:43:14 [Information] Executed endpoint '"Slamty.Api.Controllers.Mobile.AuthController.Register (Slamty.Api)"'
+2026-06-07 05:43:14 [Information] Request finished "HTTP/2" "POST" "https"://"localhost:7243""""/api/mobile/Auth/Register""" - 400 null "application/json; charset=utf-8" 52.1127ms
+2026-06-07 05:45:12 [Information] User profile is available. Using '"C:\Users\Hazem Khalifa\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-06-07 05:45:12 [Information] Now listening on: "https://localhost:7243"
+2026-06-07 05:45:12 [Information] Now listening on: "http://localhost:5025"
+2026-06-07 05:45:13 [Information] Application started. Press Ctrl+C to shut down.
+2026-06-07 05:45:13 [Information] Hosting environment: "Development"
+2026-06-07 05:45:13 [Information] Content root path: "D:\C# Projects\Slamty\Slamty.Api"
+2026-06-07 05:45:14 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/swagger/index.html""" - null null
+2026-06-07 05:45:15 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 1154.3644ms
+2026-06-07 05:45:15 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2026-06-07 05:45:15 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/_vs/browserLink""" - null null
+2026-06-07 05:45:15 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/_framework/aspnetcore-browser-refresh.js""" - 200 14924 "application/javascript; charset=utf-8" 106.8826ms
+2026-06-07 05:45:15 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 314.071ms
+2026-06-07 05:45:17 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/swagger/v1/swagger.json""" - null null
+2026-06-07 05:45:17 [Information] Request starting "HTTP/2" "POST" "https"://"localhost:7243""""/api/mobile/Auth/Register""" - "application/json" 182
+2026-06-07 05:45:17 [Information] Executing endpoint '"Slamty.Api.Controllers.Mobile.AuthController.Register (Slamty.Api)"'
+2026-06-07 05:45:17 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 250.2968ms
+2026-06-07 05:45:17 [Information] Route matched with "{action = \"Register\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(Slamty.Application.Features.Auth.Commands.Registration.RegistrationCommand)" on controller "Slamty.Api.Controllers.Mobile.AuthController" ("Slamty.Api").
+2026-06-07 05:45:18 [Warning] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2026-06-07 05:45:19 [Information] Executed action "Slamty.Api.Controllers.Mobile.AuthController.Register (Slamty.Api)" in 1448.2907ms
+2026-06-07 05:45:19 [Information] Executed endpoint '"Slamty.Api.Controllers.Mobile.AuthController.Register (Slamty.Api)"'
+2026-06-07 05:45:19 [Error] An unhandled exception has occurred while executing the request.
+FluentValidation.ValidationException: Validation failed: 
+ -- Password: Password must contain at least one number. Severity: Error
+ -- Password: Password must contain at least one number. Severity: Error
+   at Slamty.Application.PipelineBehaviour.RequestPipline`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\C# Projects\Slamty\Slamty.Application\PipelineBehaviour\RequestPipline.cs:line 24
+   at MediatR.Wrappers.RequestHandlerWrapperImpl`2.<>c__DisplayClass1_1.<Handle>b__2(CancellationToken t)
+   at MediatR.Wrappers.RequestHandlerWrapperImpl`2.Handle(IRequest`1 request, IServiceProvider serviceProvider, CancellationToken cancellationToken)
+   at MediatR.Mediator.Send[TResponse](IRequest`1 request, CancellationToken cancellationToken)
+   at Slamty.Api.Controllers.Mobile.AuthController.Register(RegistrationCommand request) in D:\C# Projects\Slamty\Slamty.Api\Controllers\Mobile\AuthController.cs:line 53
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2026-06-07 05:45:19 [Information] Request finished "HTTP/2" "POST" "https"://"localhost:7243""""/api/mobile/Auth/Register""" - 400 null "application/json" 2372.4126ms
+2026-06-07 05:46:24 [Information] Request starting "HTTP/2" "POST" "https"://"localhost:7243""""/api/mobile/Auth/Register""" - "application/json" 182
+2026-06-07 05:46:24 [Information] Executing endpoint '"Slamty.Api.Controllers.Mobile.AuthController.Register (Slamty.Api)"'
+2026-06-07 05:46:24 [Information] Route matched with "{action = \"Register\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(Slamty.Application.Features.Auth.Commands.Registration.RegistrationCommand)" on controller "Slamty.Api.Controllers.Mobile.AuthController" ("Slamty.Api").
+2026-06-07 05:47:24 [Information] Executed action "Slamty.Api.Controllers.Mobile.AuthController.Register (Slamty.Api)" in 59669.0955ms
+2026-06-07 05:47:24 [Information] Executed endpoint '"Slamty.Api.Controllers.Mobile.AuthController.Register (Slamty.Api)"'
+2026-06-07 05:47:24 [Error] An unhandled exception has occurred while executing the request.
+FluentValidation.ValidationException: Validation failed: 
+ -- Password: Password must contain at least one number. Severity: Error
+ -- Password: Password must contain at least one number. Severity: Error
+ -- Password: Password must contain at least one number. Severity: Error
+   at Slamty.Application.PipelineBehaviour.RequestPipline`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\C# Projects\Slamty\Slamty.Application\PipelineBehaviour\RequestPipline.cs:line 24
+   at MediatR.Wrappers.RequestHandlerWrapperImpl`2.<>c__DisplayClass1_1.<Handle>b__2(CancellationToken t)
+   at MediatR.Wrappers.RequestHandlerWrapperImpl`2.Handle(IRequest`1 request, IServiceProvider serviceProvider, CancellationToken cancellationToken)
+   at MediatR.Mediator.Send[TResponse](IRequest`1 request, CancellationToken cancellationToken)
+   at Slamty.Api.Controllers.Mobile.AuthController.Register(RegistrationCommand request) in D:\C# Projects\Slamty\Slamty.Api\Controllers\Mobile\AuthController.cs:line 53
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2026-06-07 05:49:53 [Information] Request finished "HTTP/2" "POST" "https"://"localhost:7243""""/api/mobile/Auth/Register""" - 400 null "application/json" 209065.4702ms
+2026-06-07 05:50:00 [Information] Request starting "HTTP/2" "POST" "https"://"localhost:7243""""/api/mobile/Auth/Register""" - "application/json" 182
+2026-06-07 05:50:00 [Information] Executing endpoint '"Slamty.Api.Controllers.Mobile.AuthController.Register (Slamty.Api)"'
+2026-06-07 05:50:00 [Information] Route matched with "{action = \"Register\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(Slamty.Application.Features.Auth.Commands.Registration.RegistrationCommand)" on controller "Slamty.Api.Controllers.Mobile.AuthController" ("Slamty.Api").
+2026-06-07 05:50:06 [Information] Executed action "Slamty.Api.Controllers.Mobile.AuthController.Register (Slamty.Api)" in 6301.5755ms
+2026-06-07 05:50:06 [Information] Executed endpoint '"Slamty.Api.Controllers.Mobile.AuthController.Register (Slamty.Api)"'
+2026-06-07 05:50:07 [Error] An unhandled exception has occurred while executing the request.
+FluentValidation.ValidationException: Validation failed: 
+ -- Password: Password must contain at least one number. Severity: Error
+ -- Password: Password must contain at least one number. Severity: Error
+   at Slamty.Application.PipelineBehaviour.RequestPipline`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\C# Projects\Slamty\Slamty.Application\PipelineBehaviour\RequestPipline.cs:line 24
+   at MediatR.Wrappers.RequestHandlerWrapperImpl`2.<>c__DisplayClass1_1.<Handle>b__2(CancellationToken t)
+   at MediatR.Wrappers.RequestHandlerWrapperImpl`2.Handle(IRequest`1 request, IServiceProvider serviceProvider, CancellationToken cancellationToken)
+   at MediatR.Mediator.Send[TResponse](IRequest`1 request, CancellationToken cancellationToken)
+   at Slamty.Api.Controllers.Mobile.AuthController.Register(RegistrationCommand request) in D:\C# Projects\Slamty\Slamty.Api\Controllers\Mobile\AuthController.cs:line 53
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2026-06-07 05:57:40 [Information] User profile is available. Using '"C:\Users\Hazem Khalifa\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-06-07 05:57:41 [Information] Now listening on: "https://localhost:7243"
+2026-06-07 05:57:41 [Information] Now listening on: "http://localhost:5025"
+2026-06-07 05:57:42 [Information] Application started. Press Ctrl+C to shut down.
+2026-06-07 05:57:42 [Information] Hosting environment: "Development"
+2026-06-07 05:57:42 [Information] Content root path: "D:\C# Projects\Slamty\Slamty.Api"
+2026-06-07 05:57:42 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/swagger/index.html""" - null null
+2026-06-07 05:57:43 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 1398.3408ms
+2026-06-07 05:57:44 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2026-06-07 05:57:44 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/_framework/aspnetcore-browser-refresh.js""" - 200 14924 "application/javascript; charset=utf-8" 80.2079ms
+2026-06-07 05:57:47 [Information] Request starting "HTTP/2" "POST" "https"://"localhost:7243""""/api/mobile/Auth/Register""" - "application/json" 182
+2026-06-07 05:57:47 [Information] Executing endpoint '"Slamty.Api.Controllers.Mobile.AuthController.Register (Slamty.Api)"'
+2026-06-07 05:57:47 [Information] Route matched with "{action = \"Register\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(Slamty.Application.Features.Auth.Commands.Registration.RegistrationCommand)" on controller "Slamty.Api.Controllers.Mobile.AuthController" ("Slamty.Api").
+2026-06-07 05:57:47 [Warning] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2026-06-07 05:57:53 [Information] Executed action "Slamty.Api.Controllers.Mobile.AuthController.Register (Slamty.Api)" in 6113.8227ms
+2026-06-07 05:57:53 [Information] Executed endpoint '"Slamty.Api.Controllers.Mobile.AuthController.Register (Slamty.Api)"'
+2026-06-07 05:57:54 [Error] An unhandled exception has occurred while executing the request.
+FluentValidation.ValidationException: Validation failed: 
+ -- Password: Password must contain at least one number. Severity: Error
+ -- Password: Password must contain at least one number. Severity: Error
+   at Slamty.Application.PipelineBehaviour.RequestPipline`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\C# Projects\Slamty\Slamty.Application\PipelineBehaviour\RequestPipline.cs:line 24
+   at MediatR.Wrappers.RequestHandlerWrapperImpl`2.<>c__DisplayClass1_1.<Handle>b__2(CancellationToken t)
+   at MediatR.Wrappers.RequestHandlerWrapperImpl`2.Handle(IRequest`1 request, IServiceProvider serviceProvider, CancellationToken cancellationToken)
+   at MediatR.Mediator.Send[TResponse](IRequest`1 request, CancellationToken cancellationToken)
+   at Slamty.Api.Controllers.Mobile.AuthController.Register(RegistrationCommand request) in D:\C# Projects\Slamty\Slamty.Api\Controllers\Mobile\AuthController.cs:line 53
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2026-06-07 05:57:58 [Information] Request finished "HTTP/2" "POST" "https"://"localhost:7243""""/api/mobile/Auth/Register""" - 400 null "application/json" 11690.3534ms
+2026-06-07 05:58:42 [Information] Request starting "HTTP/2" "POST" "https"://"localhost:7243""""/api/mobile/Auth/Register""" - "application/json" 182
+2026-06-07 05:58:42 [Information] Executing endpoint '"Slamty.Api.Controllers.Mobile.AuthController.Register (Slamty.Api)"'
+2026-06-07 05:58:42 [Information] Route matched with "{action = \"Register\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(Slamty.Application.Features.Auth.Commands.Registration.RegistrationCommand)" on controller "Slamty.Api.Controllers.Mobile.AuthController" ("Slamty.Api").
+2026-06-07 05:58:43 [Information] Executed action "Slamty.Api.Controllers.Mobile.AuthController.Register (Slamty.Api)" in 709.9137ms
+2026-06-07 05:58:43 [Information] Executed endpoint '"Slamty.Api.Controllers.Mobile.AuthController.Register (Slamty.Api)"'
+2026-06-07 05:58:44 [Error] An unhandled exception has occurred while executing the request.
+FluentValidation.ValidationException: Validation failed: 
+ -- Password: Password must contain at least one uppercase letter. Severity: Error
+ -- Password: Password must contain at least one number. Severity: Error
+ -- Password: Password must contain at least one special character. Severity: Error
+ -- Password: Password must contain at least one uppercase letter. Severity: Error
+ -- Password: Password must contain at least one number. Severity: Error
+ -- Password: Password must contain at least one special character. Severity: Error
+   at Slamty.Application.PipelineBehaviour.RequestPipline`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\C# Projects\Slamty\Slamty.Application\PipelineBehaviour\RequestPipline.cs:line 24
+   at MediatR.Wrappers.RequestHandlerWrapperImpl`2.<>c__DisplayClass1_1.<Handle>b__2(CancellationToken t)
+   at MediatR.Wrappers.RequestHandlerWrapperImpl`2.Handle(IRequest`1 request, IServiceProvider serviceProvider, CancellationToken cancellationToken)
+   at MediatR.Mediator.Send[TResponse](IRequest`1 request, CancellationToken cancellationToken)
+   at Slamty.Api.Controllers.Mobile.AuthController.Register(RegistrationCommand request) in D:\C# Projects\Slamty\Slamty.Api\Controllers\Mobile\AuthController.cs:line 53
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2026-06-07 05:58:47 [Information] Request finished "HTTP/2" "POST" "https"://"localhost:7243""""/api/mobile/Auth/Register""" - 400 null "application/json" 4817.5094ms
+2026-06-07 05:59:32 [Information] Request starting "HTTP/2" "POST" "https"://"localhost:7243""""/api/mobile/Auth/Register""" - "application/json" 194
+2026-06-07 05:59:32 [Information] Executing endpoint '"Slamty.Api.Controllers.Mobile.AuthController.Register (Slamty.Api)"'
+2026-06-07 05:59:32 [Information] Route matched with "{action = \"Register\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(Slamty.Application.Features.Auth.Commands.Registration.RegistrationCommand)" on controller "Slamty.Api.Controllers.Mobile.AuthController" ("Slamty.Api").
+2026-06-07 05:59:32 [Information] Executing "BadRequestObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ValidationProblemDetails"'.
+2026-06-07 05:59:33 [Information] Executed action "Slamty.Api.Controllers.Mobile.AuthController.Register (Slamty.Api)" in 537.5397ms
+2026-06-07 05:59:33 [Information] Executed endpoint '"Slamty.Api.Controllers.Mobile.AuthController.Register (Slamty.Api)"'
+2026-06-07 05:59:33 [Information] Request finished "HTTP/2" "POST" "https"://"localhost:7243""""/api/mobile/Auth/Register""" - 400 null "application/problem+json; charset=utf-8" 623.82ms
+2026-06-07 06:00:05 [Information] Request starting "HTTP/2" "POST" "https"://"localhost:7243""""/api/mobile/Auth/Register""" - "application/json" 194
+2026-06-07 06:00:05 [Information] Executing endpoint '"Slamty.Api.Controllers.Mobile.AuthController.Register (Slamty.Api)"'
+2026-06-07 06:00:05 [Information] Route matched with "{action = \"Register\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(Slamty.Application.Features.Auth.Commands.Registration.RegistrationCommand)" on controller "Slamty.Api.Controllers.Mobile.AuthController" ("Slamty.Api").
+2026-06-07 06:00:05 [Information] Executing "BadRequestObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ValidationProblemDetails"'.
+2026-06-07 06:00:05 [Information] Executed action "Slamty.Api.Controllers.Mobile.AuthController.Register (Slamty.Api)" in 453.5599ms
+2026-06-07 06:00:05 [Information] Executed endpoint '"Slamty.Api.Controllers.Mobile.AuthController.Register (Slamty.Api)"'
+2026-06-07 06:00:05 [Information] Request finished "HTTP/2" "POST" "https"://"localhost:7243""""/api/mobile/Auth/Register""" - 400 null "application/problem+json; charset=utf-8" 552.1274ms
+2026-06-07 06:05:17 [Information] User profile is available. Using '"C:\Users\Hazem Khalifa\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-06-07 06:05:18 [Information] Now listening on: "https://localhost:7243"
+2026-06-07 06:05:18 [Information] Now listening on: "http://localhost:5025"
+2026-06-07 06:05:18 [Information] Application started. Press Ctrl+C to shut down.
+2026-06-07 06:05:18 [Information] Hosting environment: "Development"
+2026-06-07 06:05:18 [Information] Content root path: "D:\C# Projects\Slamty\Slamty.Api"
+2026-06-07 06:05:19 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/swagger/index.html""" - null null
+2026-06-07 06:05:20 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 1346.7615ms
+2026-06-07 06:05:20 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2026-06-07 06:05:20 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/_vs/browserLink""" - null null
+2026-06-07 06:05:21 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/_framework/aspnetcore-browser-refresh.js""" - 200 14924 "application/javascript; charset=utf-8" 35.4929ms
+2026-06-07 06:05:21 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 398.3729ms
+2026-06-07 06:05:31 [Information] Request starting "HTTP/2" "POST" "https"://"localhost:7243""""/api/mobile/Auth/Register""" - "application/json" 194
+2026-06-07 06:05:31 [Information] Executing endpoint '"Slamty.Api.Controllers.Mobile.AuthController.Register (Slamty.Api)"'
+2026-06-07 06:05:31 [Information] Route matched with "{action = \"Register\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(Slamty.Application.Features.Auth.Commands.Registration.RegistrationCommand)" on controller "Slamty.Api.Controllers.Mobile.AuthController" ("Slamty.Api").
+2026-06-07 06:05:32 [Information] Executing "BadRequestObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ValidationProblemDetails"'.
+2026-06-07 06:05:32 [Information] Executed action "Slamty.Api.Controllers.Mobile.AuthController.Register (Slamty.Api)" in 924.9066ms
+2026-06-07 06:05:32 [Information] Executed endpoint '"Slamty.Api.Controllers.Mobile.AuthController.Register (Slamty.Api)"'
+2026-06-07 06:05:32 [Information] Request finished "HTTP/2" "POST" "https"://"localhost:7243""""/api/mobile/Auth/Register""" - 400 null "application/problem+json; charset=utf-8" 1270.0051ms
+2026-06-07 06:06:05 [Information] Request starting "HTTP/2" "POST" "https"://"localhost:7243""""/api/mobile/Auth/Register""" - "application/json" 196
+2026-06-07 06:06:05 [Information] Executing endpoint '"Slamty.Api.Controllers.Mobile.AuthController.Register (Slamty.Api)"'
+2026-06-07 06:06:05 [Information] Route matched with "{action = \"Register\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(Slamty.Application.Features.Auth.Commands.Registration.RegistrationCommand)" on controller "Slamty.Api.Controllers.Mobile.AuthController" ("Slamty.Api").
+2026-06-07 06:06:05 [Warning] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2026-06-07 06:06:12 [Error] User creation failed for "12345678910". Errors: "Username '' is invalid, can only contain letters or digits."
+2026-06-07 06:06:12 [Information] Executing "BadRequestObjectResult", writing value of type '"Slamty.Application.ResponseTypes.ApiResponse`1[[Slamty.Application.Features.Auth.Dtos.AuthResponseDto, Slamty.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2026-06-07 06:06:12 [Information] Executed action "Slamty.Api.Controllers.Mobile.AuthController.Register (Slamty.Api)" in 7267.1662ms
+2026-06-07 06:06:12 [Information] Executed endpoint '"Slamty.Api.Controllers.Mobile.AuthController.Register (Slamty.Api)"'
+2026-06-07 06:06:12 [Information] Request finished "HTTP/2" "POST" "https"://"localhost:7243""""/api/mobile/Auth/Register""" - 400 null "application/json; charset=utf-8" 7445.4674ms
+2026-06-07 06:07:45 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/swagger/index.html""" - null null
+2026-06-07 06:07:45 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 70.0226ms
+2026-06-07 06:07:45 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2026-06-07 06:07:45 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/_vs/browserLink""" - null null
+2026-06-07 06:07:45 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/_framework/aspnetcore-browser-refresh.js""" - 200 14924 "application/javascript; charset=utf-8" 29.4561ms
+2026-06-07 06:07:45 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 155.8969ms
+2026-06-07 06:07:46 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/swagger/v1/swagger.json""" - null null
+2026-06-07 06:07:46 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 121.5167ms
+2026-06-07 06:08:18 [Information] Request starting "HTTP/2" "POST" "https"://"localhost:7243""""/api/mobile/Auth/Register""" - "application/json" 182
+2026-06-07 06:08:18 [Information] Executing endpoint '"Slamty.Api.Controllers.Mobile.AuthController.Register (Slamty.Api)"'
+2026-06-07 06:08:19 [Information] Route matched with "{action = \"Register\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(Slamty.Application.Features.Auth.Commands.Registration.RegistrationCommand)" on controller "Slamty.Api.Controllers.Mobile.AuthController" ("Slamty.Api").
+2026-06-07 06:08:19 [Information] Executing "BadRequestObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ValidationProblemDetails"'.
+2026-06-07 06:08:19 [Information] Executed action "Slamty.Api.Controllers.Mobile.AuthController.Register (Slamty.Api)" in 574.6141ms
+2026-06-07 06:08:19 [Information] Executed endpoint '"Slamty.Api.Controllers.Mobile.AuthController.Register (Slamty.Api)"'
+2026-06-07 06:08:19 [Information] Request finished "HTTP/2" "POST" "https"://"localhost:7243""""/api/mobile/Auth/Register""" - 400 null "application/problem+json; charset=utf-8" 652.0143ms
+2026-06-07 06:08:31 [Information] Request starting "HTTP/2" "POST" "https"://"localhost:7243""""/api/mobile/Auth/Register""" - "application/json" 184
+2026-06-07 06:08:31 [Information] Executing endpoint '"Slamty.Api.Controllers.Mobile.AuthController.Register (Slamty.Api)"'
+2026-06-07 06:08:31 [Information] Route matched with "{action = \"Register\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(Slamty.Application.Features.Auth.Commands.Registration.RegistrationCommand)" on controller "Slamty.Api.Controllers.Mobile.AuthController" ("Slamty.Api").
+2026-06-07 06:08:32 [Information] Executed action "Slamty.Api.Controllers.Mobile.AuthController.Register (Slamty.Api)" in 925.14ms
+2026-06-07 06:08:32 [Information] Executed endpoint '"Slamty.Api.Controllers.Mobile.AuthController.Register (Slamty.Api)"'
+2026-06-07 06:08:33 [Error] An unhandled exception has occurred while executing the request.
+FluentValidation.ValidationException: Validation failed: 
+ -- Password: Password must contain at least one number. Severity: Error
+ -- Password: Password must contain at least one number. Severity: Error
+   at Slamty.Application.PipelineBehaviour.RequestPipline`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Wrappers.RequestHandlerWrapperImpl`2.<>c__DisplayClass1_1.<Handle>b__2(CancellationToken t)
+   at MediatR.Wrappers.RequestHandlerWrapperImpl`2.Handle(IRequest`1 request, IServiceProvider serviceProvider, CancellationToken cancellationToken)
+   at MediatR.Mediator.Send[TResponse](IRequest`1 request, CancellationToken cancellationToken)
+   at Slamty.Api.Controllers.Mobile.AuthController.Register(RegistrationCommand request) in D:\C# Projects\Slamty\Slamty.Api\Controllers\Mobile\AuthController.cs:line 53
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2026-06-07 06:08:40 [Information] Request finished "HTTP/2" "POST" "https"://"localhost:7243""""/api/mobile/Auth/Register""" - 400 null "application/json" 8998.2131ms
+2026-06-07 06:08:54 [Information] Request starting "HTTP/2" "POST" "https"://"localhost:7243""""/api/mobile/Auth/Register""" - "application/json" 184
+2026-06-07 06:08:54 [Information] Executing endpoint '"Slamty.Api.Controllers.Mobile.AuthController.Register (Slamty.Api)"'
+2026-06-07 06:08:54 [Information] Route matched with "{action = \"Register\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(Slamty.Application.Features.Auth.Commands.Registration.RegistrationCommand)" on controller "Slamty.Api.Controllers.Mobile.AuthController" ("Slamty.Api").
+2026-06-07 06:08:57 [Warning] Entity '"AppUser"' has a global query filter defined and is the required end of a relationship with the entity '"MobileUser"'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2026-06-07 06:08:57 [Warning] Entity '"AppUser"' has a global query filter defined and is the required end of a relationship with the entity '"Notification"'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2026-06-07 06:09:04 [Error] Failed executing DbCommand ("937"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [t].[Id], [t].[AccessFailedCount], [t].[ConcurrencyStamp], [t].[DeletedDate], [t].[Email], [t].[EmailConfirmed], [t].[FullName], [t].[IsDeleted], [t].[LockoutEnabled], [t].[LockoutEnd], [t].[NormalizedEmail], [t].[NormalizedUserName], [t].[PasswordHash], [t].[PhoneNumber], [t].[PhoneNumberConfirmed], [t].[SecurityStamp], [t].[TwoFactorEnabled], [t].[UserName], [r].[AppUserId], [r].[Id], [r].[CreatedOn], [r].[ExpiresOn], [r].[RevokedOn], [r].[Token]
+FROM (
+    SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[DeletedDate], [a].[Email], [a].[EmailConfirmed], [a].[FullName], [a].[IsDeleted], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+    FROM [AspNetUsers] AS [a]
+    WHERE [a].[IsDeleted] = CAST(0 AS bit) AND [a].[NormalizedUserName] = @__normalizedUserName_0
+) AS [t]
+LEFT JOIN [RefreshToken] AS [r] ON [t].[Id] = [r].[AppUserId]
+ORDER BY [t].[Id], [r].[AppUserId]"
+2026-06-07 06:09:05 [Error] An exception occurred while iterating over the results of a query for context type '"Slamty.Infrastructure.Data.Identity.AppIdentityDbContext"'."
+""Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'AspNetUsers'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:bbffc94a-7957-4200-a3bd-39336995fb9f
+Error Number:208,State:1,Class:16"
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'AspNetUsers'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:bbffc94a-7957-4200-a3bd-39336995fb9f
+Error Number:208,State:1,Class:16
+2026-06-07 06:09:09 [Information] Executed action "Slamty.Api.Controllers.Mobile.AuthController.Register (Slamty.Api)" in 14228.7079ms
+2026-06-07 06:09:09 [Information] Executed endpoint '"Slamty.Api.Controllers.Mobile.AuthController.Register (Slamty.Api)"'
+2026-06-07 06:09:11 [Error] An unhandled exception has occurred while executing the request.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'AspNetUsers'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Identity.UserManager`1.FindByNameAsync(String userName)
+   at Microsoft.AspNetCore.Identity.UserValidator`1.ValidateUserName(UserManager`1 manager, TUser user)
+   at Microsoft.AspNetCore.Identity.UserValidator`1.ValidateAsync(UserManager`1 manager, TUser user)
+   at Microsoft.AspNetCore.Identity.UserManager`1.ValidateUserAsync(TUser user)
+   at Microsoft.AspNetCore.Identity.UserManager`1.CreateAsync(TUser user)
+   at Microsoft.AspNetCore.Identity.UserManager`1.CreateAsync(TUser user, String password)
+   at Slamty.Application.Features.Auth.Commands.Registration.RegistrationCommandHandler.Handle(RegistrationCommand request, CancellationToken cancellationToken)
+   at Slamty.Api.Controllers.Mobile.AuthController.Register(RegistrationCommand request) in D:\C# Projects\Slamty\Slamty.Api\Controllers\Mobile\AuthController.cs:line 53
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+ClientConnectionId:bbffc94a-7957-4200-a3bd-39336995fb9f
+Error Number:208,State:1,Class:16
+2026-06-07 06:09:21 [Error] An exception was thrown attempting to execute the error handler.
+System.InvalidOperationException: StatusCode cannot be set because the response has already started.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ThrowResponseAlreadyStartedException(String value)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.set_StatusCode(Int32 value)
+   at Slamty.API.Extensions.GlobalExceptionHandler.<>c.<<HandelExceptions>b__0_1>d.MoveNext() in D:\C# Projects\Slamty\Slamty.Api\Extensions\GlobalExceptionHandler.cs:line 47
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.HandleException(HttpContext context, ExceptionDispatchInfo edi)
+2026-06-07 06:09:22 [Error] An unhandled exception has occurred while executing the request.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'AspNetUsers'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Identity.UserManager`1.FindByNameAsync(String userName)
+   at Microsoft.AspNetCore.Identity.UserValidator`1.ValidateUserName(UserManager`1 manager, TUser user)
+   at Microsoft.AspNetCore.Identity.UserValidator`1.ValidateAsync(UserManager`1 manager, TUser user)
+   at Microsoft.AspNetCore.Identity.UserManager`1.ValidateUserAsync(TUser user)
+   at Microsoft.AspNetCore.Identity.UserManager`1.CreateAsync(TUser user)
+   at Microsoft.AspNetCore.Identity.UserManager`1.CreateAsync(TUser user, String password)
+   at Slamty.Application.Features.Auth.Commands.Registration.RegistrationCommandHandler.Handle(RegistrationCommand request, CancellationToken cancellationToken)
+   at Slamty.Api.Controllers.Mobile.AuthController.Register(RegistrationCommand request) in D:\C# Projects\Slamty\Slamty.Api\Controllers\Mobile\AuthController.cs:line 53
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.HandleException(HttpContext context, ExceptionDispatchInfo edi)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+ClientConnectionId:bbffc94a-7957-4200-a3bd-39336995fb9f
+Error Number:208,State:1,Class:16
+2026-06-07 06:09:22 [Warning] The response has already started, the error page middleware will not be executed.
+2026-06-07 06:09:22 [Error] Connection id ""0HNM486DHARJS"", Request id ""0HNM486DHARJS:00000017"": An unhandled exception was thrown by the application.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'AspNetUsers'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Identity.UserManager`1.FindByNameAsync(String userName)
+   at Microsoft.AspNetCore.Identity.UserValidator`1.ValidateUserName(UserManager`1 manager, TUser user)
+   at Microsoft.AspNetCore.Identity.UserValidator`1.ValidateAsync(UserManager`1 manager, TUser user)
+   at Microsoft.AspNetCore.Identity.UserManager`1.ValidateUserAsync(TUser user)
+   at Microsoft.AspNetCore.Identity.UserManager`1.CreateAsync(TUser user)
+   at Microsoft.AspNetCore.Identity.UserManager`1.CreateAsync(TUser user, String password)
+   at Slamty.Application.Features.Auth.Commands.Registration.RegistrationCommandHandler.Handle(RegistrationCommand request, CancellationToken cancellationToken)
+   at Slamty.Api.Controllers.Mobile.AuthController.Register(RegistrationCommand request) in D:\C# Projects\Slamty\Slamty.Api\Controllers\Mobile\AuthController.cs:line 53
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.HandleException(HttpContext context, ExceptionDispatchInfo edi)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware.InvokeAsync(HttpContext context) in /_3/BrowserRefreshMiddleware.cs:line 84
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+ClientConnectionId:bbffc94a-7957-4200-a3bd-39336995fb9f
+Error Number:208,State:1,Class:16
+2026-06-07 06:09:23 [Information] Request finished "HTTP/2" "POST" "https"://"localhost:7243""""/api/mobile/Auth/Register""" - 500 null "application/json" 28258.513ms
+2026-06-07 06:10:33 [Information] User profile is available. Using '"C:\Users\Hazem Khalifa\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-06-07 06:10:34 [Information] Now listening on: "https://localhost:7243"
+2026-06-07 06:10:34 [Information] Now listening on: "http://localhost:5025"
+2026-06-07 06:10:35 [Information] Application started. Press Ctrl+C to shut down.
+2026-06-07 06:10:35 [Information] Hosting environment: "Development"
+2026-06-07 06:10:35 [Information] Content root path: "D:\C# Projects\Slamty\Slamty.Api"
+2026-06-07 06:10:35 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/swagger/index.html""" - null null
+2026-06-07 06:10:36 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 1318.952ms
+2026-06-07 06:10:36 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2026-06-07 06:10:36 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/_vs/browserLink""" - null null
+2026-06-07 06:10:36 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/_framework/aspnetcore-browser-refresh.js""" - 200 14924 "application/javascript; charset=utf-8" 52.4764ms
+2026-06-07 06:10:37 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 226.8467ms
+2026-06-07 06:10:37 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/swagger/v1/swagger.json""" - null null
+2026-06-07 06:10:37 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 167.2367ms
+2026-06-07 06:10:57 [Information] Request starting "HTTP/2" "POST" "https"://"localhost:7243""""/api/mobile/Auth/Register""" - "application/json" 184
+2026-06-07 06:10:57 [Information] Executing endpoint '"Slamty.Api.Controllers.Mobile.AuthController.Register (Slamty.Api)"'
+2026-06-07 06:10:57 [Information] Route matched with "{action = \"Register\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(Slamty.Application.Features.Auth.Commands.Registration.RegistrationCommand)" on controller "Slamty.Api.Controllers.Mobile.AuthController" ("Slamty.Api").
+2026-06-07 06:10:57 [Warning] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2026-06-07 06:11:00 [Warning] Entity '"AppUser"' has a global query filter defined and is the required end of a relationship with the entity '"MobileUser"'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2026-06-07 06:11:00 [Warning] Entity '"AppUser"' has a global query filter defined and is the required end of a relationship with the entity '"Notification"'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2026-06-07 06:11:04 [Error] Failed executing DbCommand ("777"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [t].[Id], [t].[AccessFailedCount], [t].[ConcurrencyStamp], [t].[DeletedDate], [t].[Email], [t].[EmailConfirmed], [t].[FullName], [t].[IsDeleted], [t].[LockoutEnabled], [t].[LockoutEnd], [t].[NormalizedEmail], [t].[NormalizedUserName], [t].[PasswordHash], [t].[PhoneNumber], [t].[PhoneNumberConfirmed], [t].[SecurityStamp], [t].[TwoFactorEnabled], [t].[UserName], [r].[AppUserId], [r].[Id], [r].[CreatedOn], [r].[ExpiresOn], [r].[RevokedOn], [r].[Token]
+FROM (
+    SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[DeletedDate], [a].[Email], [a].[EmailConfirmed], [a].[FullName], [a].[IsDeleted], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+    FROM [AspNetUsers] AS [a]
+    WHERE [a].[IsDeleted] = CAST(0 AS bit) AND [a].[NormalizedUserName] = @__normalizedUserName_0
+) AS [t]
+LEFT JOIN [RefreshToken] AS [r] ON [t].[Id] = [r].[AppUserId]
+ORDER BY [t].[Id], [r].[AppUserId]"
+2026-06-07 06:11:05 [Error] An exception occurred while iterating over the results of a query for context type '"Slamty.Infrastructure.Data.Identity.AppIdentityDbContext"'."
+""Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'AspNetUsers'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:18c8d72a-4c10-4f5c-9310-2faf5c45b14f
+Error Number:208,State:1,Class:16"
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'AspNetUsers'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:18c8d72a-4c10-4f5c-9310-2faf5c45b14f
+Error Number:208,State:1,Class:16
+2026-06-07 06:11:09 [Information] Executed action "Slamty.Api.Controllers.Mobile.AuthController.Register (Slamty.Api)" in 11666.9521ms
+2026-06-07 06:11:09 [Information] Executed endpoint '"Slamty.Api.Controllers.Mobile.AuthController.Register (Slamty.Api)"'
+2026-06-07 06:11:11 [Error] An unhandled exception has occurred while executing the request.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'AspNetUsers'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Identity.UserManager`1.FindByNameAsync(String userName)
+   at Microsoft.AspNetCore.Identity.UserValidator`1.ValidateUserName(UserManager`1 manager, TUser user)
+   at Microsoft.AspNetCore.Identity.UserValidator`1.ValidateAsync(UserManager`1 manager, TUser user)
+   at Microsoft.AspNetCore.Identity.UserManager`1.ValidateUserAsync(TUser user)
+   at Microsoft.AspNetCore.Identity.UserManager`1.CreateAsync(TUser user)
+   at Microsoft.AspNetCore.Identity.UserManager`1.CreateAsync(TUser user, String password)
+   at Slamty.Application.Features.Auth.Commands.Registration.RegistrationCommandHandler.Handle(RegistrationCommand request, CancellationToken cancellationToken) in D:\C# Projects\Slamty\Slamty.Application\Features\Auth\Commands\Registration\RegistrationCommandHandler.cs:line 41
+   at Slamty.Api.Controllers.Mobile.AuthController.Register(RegistrationCommand request) in D:\C# Projects\Slamty\Slamty.Api\Controllers\Mobile\AuthController.cs:line 53
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+ClientConnectionId:18c8d72a-4c10-4f5c-9310-2faf5c45b14f
+Error Number:208,State:1,Class:16
+2026-06-07 06:11:11 [Error] An exception was thrown attempting to execute the error handler.
+System.InvalidOperationException: StatusCode cannot be set because the response has already started.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ThrowResponseAlreadyStartedException(String value)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.set_StatusCode(Int32 value)
+   at Slamty.API.Extensions.GlobalExceptionHandler.<>c.<<HandelExceptions>b__0_1>d.MoveNext() in D:\C# Projects\Slamty\Slamty.Api\Extensions\GlobalExceptionHandler.cs:line 47
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.HandleException(HttpContext context, ExceptionDispatchInfo edi)
+2026-06-07 06:11:12 [Error] An unhandled exception has occurred while executing the request.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'AspNetUsers'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Identity.UserManager`1.FindByNameAsync(String userName)
+   at Microsoft.AspNetCore.Identity.UserValidator`1.ValidateUserName(UserManager`1 manager, TUser user)
+   at Microsoft.AspNetCore.Identity.UserValidator`1.ValidateAsync(UserManager`1 manager, TUser user)
+   at Microsoft.AspNetCore.Identity.UserManager`1.ValidateUserAsync(TUser user)
+   at Microsoft.AspNetCore.Identity.UserManager`1.CreateAsync(TUser user)
+   at Microsoft.AspNetCore.Identity.UserManager`1.CreateAsync(TUser user, String password)
+   at Slamty.Application.Features.Auth.Commands.Registration.RegistrationCommandHandler.Handle(RegistrationCommand request, CancellationToken cancellationToken) in D:\C# Projects\Slamty\Slamty.Application\Features\Auth\Commands\Registration\RegistrationCommandHandler.cs:line 41
+   at Slamty.Api.Controllers.Mobile.AuthController.Register(RegistrationCommand request) in D:\C# Projects\Slamty\Slamty.Api\Controllers\Mobile\AuthController.cs:line 53
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.HandleException(HttpContext context, ExceptionDispatchInfo edi)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+ClientConnectionId:18c8d72a-4c10-4f5c-9310-2faf5c45b14f
+Error Number:208,State:1,Class:16
+2026-06-07 06:11:12 [Warning] The response has already started, the error page middleware will not be executed.
+2026-06-07 06:11:12 [Error] Connection id ""0HNM489BKEUNU"", Request id ""0HNM489BKEUNU:00000009"": An unhandled exception was thrown by the application.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'AspNetUsers'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Identity.UserManager`1.FindByNameAsync(String userName)
+   at Microsoft.AspNetCore.Identity.UserValidator`1.ValidateUserName(UserManager`1 manager, TUser user)
+   at Microsoft.AspNetCore.Identity.UserValidator`1.ValidateAsync(UserManager`1 manager, TUser user)
+   at Microsoft.AspNetCore.Identity.UserManager`1.ValidateUserAsync(TUser user)
+   at Microsoft.AspNetCore.Identity.UserManager`1.CreateAsync(TUser user)
+   at Microsoft.AspNetCore.Identity.UserManager`1.CreateAsync(TUser user, String password)
+   at Slamty.Application.Features.Auth.Commands.Registration.RegistrationCommandHandler.Handle(RegistrationCommand request, CancellationToken cancellationToken) in D:\C# Projects\Slamty\Slamty.Application\Features\Auth\Commands\Registration\RegistrationCommandHandler.cs:line 41
+   at Slamty.Api.Controllers.Mobile.AuthController.Register(RegistrationCommand request) in D:\C# Projects\Slamty\Slamty.Api\Controllers\Mobile\AuthController.cs:line 53
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.HandleException(HttpContext context, ExceptionDispatchInfo edi)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware.InvokeAsync(HttpContext context) in /_3/BrowserRefreshMiddleware.cs:line 84
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+ClientConnectionId:18c8d72a-4c10-4f5c-9310-2faf5c45b14f
+Error Number:208,State:1,Class:16
+2026-06-07 06:11:12 [Information] Request finished "HTTP/2" "POST" "https"://"localhost:7243""""/api/mobile/Auth/Register""" - 500 null "application/json" 15389.2666ms
+2026-06-07 06:12:16 [Information] Request starting "HTTP/2" "POST" "https"://"localhost:7243""""/api/mobile/Auth/Register""" - "application/json" 184
+2026-06-07 06:12:16 [Information] Executing endpoint '"Slamty.Api.Controllers.Mobile.AuthController.Register (Slamty.Api)"'
+2026-06-07 06:12:16 [Information] Route matched with "{action = \"Register\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(Slamty.Application.Features.Auth.Commands.Registration.RegistrationCommand)" on controller "Slamty.Api.Controllers.Mobile.AuthController" ("Slamty.Api").
+2026-06-07 06:12:42 [Error] Failed executing DbCommand ("436"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [t].[Id], [t].[AccessFailedCount], [t].[ConcurrencyStamp], [t].[DeletedDate], [t].[Email], [t].[EmailConfirmed], [t].[FullName], [t].[IsDeleted], [t].[LockoutEnabled], [t].[LockoutEnd], [t].[NormalizedEmail], [t].[NormalizedUserName], [t].[PasswordHash], [t].[PhoneNumber], [t].[PhoneNumberConfirmed], [t].[SecurityStamp], [t].[TwoFactorEnabled], [t].[UserName], [r].[AppUserId], [r].[Id], [r].[CreatedOn], [r].[ExpiresOn], [r].[RevokedOn], [r].[Token]
+FROM (
+    SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[DeletedDate], [a].[Email], [a].[EmailConfirmed], [a].[FullName], [a].[IsDeleted], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+    FROM [AspNetUsers] AS [a]
+    WHERE [a].[IsDeleted] = CAST(0 AS bit) AND [a].[NormalizedUserName] = @__normalizedUserName_0
+) AS [t]
+LEFT JOIN [RefreshToken] AS [r] ON [t].[Id] = [r].[AppUserId]
+ORDER BY [t].[Id], [r].[AppUserId]"
+2026-06-07 06:12:42 [Error] An exception occurred while iterating over the results of a query for context type '"Slamty.Infrastructure.Data.Identity.AppIdentityDbContext"'."
+""Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'AspNetUsers'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:18c8d72a-4c10-4f5c-9310-2faf5c45b14f
+Error Number:208,State:1,Class:16"
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'AspNetUsers'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:18c8d72a-4c10-4f5c-9310-2faf5c45b14f
+Error Number:208,State:1,Class:16
+2026-06-07 06:12:45 [Information] Executed action "Slamty.Api.Controllers.Mobile.AuthController.Register (Slamty.Api)" in 29056.1984ms
+2026-06-07 06:12:46 [Information] Executed endpoint '"Slamty.Api.Controllers.Mobile.AuthController.Register (Slamty.Api)"'
+2026-06-07 06:12:47 [Error] An unhandled exception has occurred while executing the request.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'AspNetUsers'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Identity.UserManager`1.FindByNameAsync(String userName)
+   at Microsoft.AspNetCore.Identity.UserValidator`1.ValidateUserName(UserManager`1 manager, TUser user)
+   at Microsoft.AspNetCore.Identity.UserValidator`1.ValidateAsync(UserManager`1 manager, TUser user)
+   at Microsoft.AspNetCore.Identity.UserManager`1.ValidateUserAsync(TUser user)
+   at Microsoft.AspNetCore.Identity.UserManager`1.CreateAsync(TUser user)
+   at Microsoft.AspNetCore.Identity.UserManager`1.CreateAsync(TUser user, String password)
+   at Slamty.Application.Features.Auth.Commands.Registration.RegistrationCommandHandler.Handle(RegistrationCommand request, CancellationToken cancellationToken) in D:\C# Projects\Slamty\Slamty.Application\Features\Auth\Commands\Registration\RegistrationCommandHandler.cs:line 41
+   at Slamty.Api.Controllers.Mobile.AuthController.Register(RegistrationCommand request) in D:\C# Projects\Slamty\Slamty.Api\Controllers\Mobile\AuthController.cs:line 53
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+ClientConnectionId:18c8d72a-4c10-4f5c-9310-2faf5c45b14f
+Error Number:208,State:1,Class:16
+2026-06-07 06:17:08 [Warning] Entity '"AppUser"' has a global query filter defined and is the required end of a relationship with the entity '"MobileUser"'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2026-06-07 06:17:08 [Warning] Entity '"AppUser"' has a global query filter defined and is the required end of a relationship with the entity '"Notification"'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2026-06-07 06:17:09 [Warning] Entity '"AppUser"' has a global query filter defined and is the required end of a relationship with the entity '"MobileUser"'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2026-06-07 06:17:09 [Warning] Entity '"AppUser"' has a global query filter defined and is the required end of a relationship with the entity '"Notification"'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2026-06-07 06:20:48 [Warning] Entity '"AppUser"' has a global query filter defined and is the required end of a relationship with the entity '"MobileUser"'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2026-06-07 06:20:48 [Warning] Entity '"AppUser"' has a global query filter defined and is the required end of a relationship with the entity '"Notification"'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2026-06-07 06:21:10 [Warning] Entity '"AppUser"' has a global query filter defined and is the required end of a relationship with the entity '"MobileUser"'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2026-06-07 06:21:10 [Warning] Entity '"AppUser"' has a global query filter defined and is the required end of a relationship with the entity '"Notification"'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2026-06-07 06:21:11 [Warning] Entity '"AppUser"' has a global query filter defined and is the required end of a relationship with the entity '"MobileUser"'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2026-06-07 06:21:11 [Warning] Entity '"AppUser"' has a global query filter defined and is the required end of a relationship with the entity '"Notification"'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2026-06-07 06:22:20 [Warning] Entity '"AppUser"' has a global query filter defined and is the required end of a relationship with the entity '"MobileUser"'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2026-06-07 06:22:20 [Warning] Entity '"AppUser"' has a global query filter defined and is the required end of a relationship with the entity '"Notification"'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2026-06-07 06:22:23 [Information] Applying migration '"20260607032112_Initial"'.
+2026-06-07 06:23:06 [Information] User profile is available. Using '"C:\Users\Hazem Khalifa\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-06-07 06:23:07 [Information] Now listening on: "https://localhost:7243"
+2026-06-07 06:23:07 [Information] Now listening on: "http://localhost:5025"
+2026-06-07 06:23:08 [Information] Application started. Press Ctrl+C to shut down.
+2026-06-07 06:23:08 [Information] Hosting environment: "Development"
+2026-06-07 06:23:08 [Information] Content root path: "D:\C# Projects\Slamty\Slamty.Api"
+2026-06-07 06:23:08 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/swagger/index.html""" - null null
+2026-06-07 06:23:10 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 1435.7134ms
+2026-06-07 06:23:10 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2026-06-07 06:23:10 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/_vs/browserLink""" - null null
+2026-06-07 06:23:10 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/_framework/aspnetcore-browser-refresh.js""" - 200 14924 "application/javascript; charset=utf-8" 62.1435ms
+2026-06-07 06:23:10 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 247.729ms
+2026-06-07 06:23:12 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/swagger/v1/swagger.json""" - null null
+2026-06-07 06:23:13 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 238.944ms
+2026-06-07 06:23:14 [Information] Request starting "HTTP/2" "POST" "https"://"localhost:7243""""/api/mobile/Auth/Register""" - "application/json" 184
+2026-06-07 06:23:14 [Information] Executing endpoint '"Slamty.Api.Controllers.Mobile.AuthController.Register (Slamty.Api)"'
+2026-06-07 06:23:14 [Information] Route matched with "{action = \"Register\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(Slamty.Application.Features.Auth.Commands.Registration.RegistrationCommand)" on controller "Slamty.Api.Controllers.Mobile.AuthController" ("Slamty.Api").
+2026-06-07 06:23:14 [Warning] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2026-06-07 06:23:25 [Warning] Entity '"AppUser"' has a global query filter defined and is the required end of a relationship with the entity '"MobileUser"'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2026-06-07 06:23:25 [Warning] Entity '"AppUser"' has a global query filter defined and is the required end of a relationship with the entity '"Notification"'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2026-06-07 06:23:31 [Information] User created successfully with ID "550fba04-b2ae-4e5a-8e1f-a7474e587fd2" for phone number "12345678910"
+2026-06-07 06:23:33 [Information] Executed action "Slamty.Api.Controllers.Mobile.AuthController.Register (Slamty.Api)" in 19332.3979ms
+2026-06-07 06:23:34 [Information] Executed endpoint '"Slamty.Api.Controllers.Mobile.AuthController.Register (Slamty.Api)"'
+2026-06-07 06:23:35 [Error] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Role USER does not exist.
+   at Microsoft.AspNetCore.Identity.EntityFrameworkCore.UserStore`9.AddToRoleAsync(TUser user, String normalizedRoleName, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Identity.UserManager`1.AddToRoleAsync(TUser user, String role)
+   at Slamty.Application.Features.Auth.Commands.Registration.RegistrationCommandHandler.Handle(RegistrationCommand request, CancellationToken cancellationToken) in D:\C# Projects\Slamty\Slamty.Application\Features\Auth\Commands\Registration\RegistrationCommandHandler.cs:line 52
+   at Slamty.Api.Controllers.Mobile.AuthController.Register(RegistrationCommand request) in D:\C# Projects\Slamty\Slamty.Api\Controllers\Mobile\AuthController.cs:line 53
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2026-06-07 06:23:36 [Error] An exception was thrown attempting to execute the error handler.
+System.InvalidOperationException: StatusCode cannot be set because the response has already started.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ThrowResponseAlreadyStartedException(String value)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.set_StatusCode(Int32 value)
+   at Slamty.API.Extensions.GlobalExceptionHandler.<>c.<<HandelExceptions>b__0_1>d.MoveNext() in D:\C# Projects\Slamty\Slamty.Api\Extensions\GlobalExceptionHandler.cs:line 47
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.HandleException(HttpContext context, ExceptionDispatchInfo edi)
+2026-06-07 06:23:37 [Error] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Role USER does not exist.
+   at Microsoft.AspNetCore.Identity.EntityFrameworkCore.UserStore`9.AddToRoleAsync(TUser user, String normalizedRoleName, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Identity.UserManager`1.AddToRoleAsync(TUser user, String role)
+   at Slamty.Application.Features.Auth.Commands.Registration.RegistrationCommandHandler.Handle(RegistrationCommand request, CancellationToken cancellationToken) in D:\C# Projects\Slamty\Slamty.Application\Features\Auth\Commands\Registration\RegistrationCommandHandler.cs:line 52
+   at Slamty.Api.Controllers.Mobile.AuthController.Register(RegistrationCommand request) in D:\C# Projects\Slamty\Slamty.Api\Controllers\Mobile\AuthController.cs:line 53
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.HandleException(HttpContext context, ExceptionDispatchInfo edi)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-06-07 06:23:37 [Warning] The response has already started, the error page middleware will not be executed.
+2026-06-07 06:23:39 [Error] Connection id ""0HNM48GC45NJ4"", Request id ""0HNM48GC45NJ4:00000009"": An unhandled exception was thrown by the application.
+System.InvalidOperationException: Role USER does not exist.
+   at Microsoft.AspNetCore.Identity.EntityFrameworkCore.UserStore`9.AddToRoleAsync(TUser user, String normalizedRoleName, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Identity.UserManager`1.AddToRoleAsync(TUser user, String role)
+   at Slamty.Application.Features.Auth.Commands.Registration.RegistrationCommandHandler.Handle(RegistrationCommand request, CancellationToken cancellationToken) in D:\C# Projects\Slamty\Slamty.Application\Features\Auth\Commands\Registration\RegistrationCommandHandler.cs:line 52
+   at Slamty.Api.Controllers.Mobile.AuthController.Register(RegistrationCommand request) in D:\C# Projects\Slamty\Slamty.Api\Controllers\Mobile\AuthController.cs:line 53
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.HandleException(HttpContext context, ExceptionDispatchInfo edi)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware.InvokeAsync(HttpContext context) in /_3/BrowserRefreshMiddleware.cs:line 84
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2026-06-07 06:23:39 [Information] Request finished "HTTP/2" "POST" "https"://"localhost:7243""""/api/mobile/Auth/Register""" - 500 null "application/json" 24705.4598ms
+2026-06-07 06:24:36 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/swagger/index.html""" - null null
+2026-06-07 06:24:36 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 182.8672ms
+2026-06-07 06:24:36 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2026-06-07 06:24:36 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/_vs/browserLink""" - null null
+2026-06-07 06:24:36 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/_framework/aspnetcore-browser-refresh.js""" - 200 14924 "application/javascript; charset=utf-8" 10.3916ms
+2026-06-07 06:24:36 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 94.9041ms
+2026-06-07 06:24:37 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/swagger/v1/swagger.json""" - null null
+2026-06-07 06:24:37 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 205.2812ms
+2026-06-07 06:25:00 [Information] Request starting "HTTP/2" "POST" "https"://"localhost:7243""""/api/mobile/Auth/Register""" - "application/json" 184
+2026-06-07 06:25:00 [Information] Executing endpoint '"Slamty.Api.Controllers.Mobile.AuthController.Register (Slamty.Api)"'
+2026-06-07 06:25:00 [Information] Route matched with "{action = \"Register\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(Slamty.Application.Features.Auth.Commands.Registration.RegistrationCommand)" on controller "Slamty.Api.Controllers.Mobile.AuthController" ("Slamty.Api").
+2026-06-07 06:25:01 [Error] User creation failed for "12345678910". Errors: "Username 'Admin' is already taken."
+2026-06-07 06:25:01 [Information] Executing "BadRequestObjectResult", writing value of type '"Slamty.Application.ResponseTypes.ApiResponse`1[[Slamty.Application.Features.Auth.Dtos.AuthResponseDto, Slamty.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2026-06-07 06:25:01 [Information] Executed action "Slamty.Api.Controllers.Mobile.AuthController.Register (Slamty.Api)" in 1075.5826ms
+2026-06-07 06:25:01 [Information] Executed endpoint '"Slamty.Api.Controllers.Mobile.AuthController.Register (Slamty.Api)"'
+2026-06-07 06:25:01 [Information] Request finished "HTTP/2" "POST" "https"://"localhost:7243""""/api/mobile/Auth/Register""" - 400 null "application/json; charset=utf-8" 1156.676ms
+2026-06-07 06:26:42 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/swagger/index.html""" - null null
+2026-06-07 06:26:42 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 39.3595ms
+2026-06-07 06:26:42 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2026-06-07 06:26:42 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/_vs/browserLink""" - null null
+2026-06-07 06:26:42 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/_framework/aspnetcore-browser-refresh.js""" - 200 14924 "application/javascript; charset=utf-8" 25.6108ms
+2026-06-07 06:26:42 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 153.4946ms
+2026-06-07 06:26:42 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/swagger/v1/swagger.json""" - null null
+2026-06-07 06:26:42 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 69.1358ms
+2026-06-07 06:35:04 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/swagger/index.html""" - null null
+2026-06-07 06:35:04 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 85.6424ms
+2026-06-07 06:35:05 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2026-06-07 06:35:05 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/_vs/browserLink""" - null null
+2026-06-07 06:35:04 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/swagger/index.html""" - null null
+2026-06-07 06:35:05 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/_framework/aspnetcore-browser-refresh.js""" - 200 14924 "application/javascript; charset=utf-8" 59.0675ms
+2026-06-07 06:35:05 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 185.1082ms
+2026-06-07 06:35:05 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 315.7477ms
+2026-06-07 06:35:05 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2026-06-07 06:35:05 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/_vs/browserLink""" - null null
+2026-06-07 06:35:05 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/swagger/index.html""" - null null
+2026-06-07 06:35:05 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/_framework/aspnetcore-browser-refresh.js""" - 200 14924 "application/javascript; charset=utf-8" 29.4756ms
+2026-06-07 06:35:05 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 85.1924ms
+2026-06-07 06:35:05 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/_vs/browserLink""" - null null
+2026-06-07 06:35:05 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2026-06-07 06:35:05 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 278.5757ms
+2026-06-07 06:35:05 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/_framework/aspnetcore-browser-refresh.js""" - 200 14924 "application/javascript; charset=utf-8" 172.484ms
+2026-06-07 06:35:05 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 188.872ms
+2026-06-07 06:35:07 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/swagger/v1/swagger.json""" - null null
+2026-06-07 06:35:07 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 100.8679ms
+2026-06-07 06:35:07 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/swagger/v1/swagger.json""" - null null
+2026-06-07 06:35:07 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 109.5324ms
+2026-06-07 06:35:07 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/swagger/v1/swagger.json""" - null null
+2026-06-07 06:35:07 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 91.7964ms
+2026-06-07 06:35:26 [Information] Request starting "HTTP/1.1" "GET" "https"://"localhost:7243""""/api/mobile/Auth/Login""?nationalId=1234&password=P@ssw0rd" - null null
+2026-06-07 06:35:26 [Information] Executing endpoint '"Slamty.Api.Controllers.Mobile.AuthController.Login (Slamty.Api)"'
+2026-06-07 06:35:26 [Information] Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(Slamty.Application.Features.Auth.Commands.Login.LoginCommand)" on controller "Slamty.Api.Controllers.Mobile.AuthController" ("Slamty.Api").
+2026-06-07 06:35:26 [Information] Executing "ObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ProblemDetails"'.
+2026-06-07 06:35:26 [Information] Executed action "Slamty.Api.Controllers.Mobile.AuthController.Login (Slamty.Api)" in 76.3347ms
+2026-06-07 06:35:26 [Information] Executed endpoint '"Slamty.Api.Controllers.Mobile.AuthController.Login (Slamty.Api)"'
+2026-06-07 06:35:26 [Information] Request finished "HTTP/1.1" "GET" "https"://"localhost:7243""""/api/mobile/Auth/Login""?nationalId=1234&password=P@ssw0rd" - 415 null "application/problem+json; charset=utf-8" 143.3903ms
+2026-06-07 06:36:50 [Information] User profile is available. Using '"C:\Users\Hazem Khalifa\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-06-07 06:36:52 [Information] Now listening on: "https://localhost:7243"
+2026-06-07 06:36:52 [Information] Now listening on: "http://localhost:5025"
+2026-06-07 06:37:00 [Information] Application started. Press Ctrl+C to shut down.
+2026-06-07 06:37:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/swagger/index.html""" - null null
+2026-06-07 06:37:04 [Information] Hosting environment: "Development"
+2026-06-07 06:37:04 [Information] Request starting "HTTP/1.1" "GET" "https"://"localhost:7243""""/api/mobile/Auth/Login""?nationalId=1234&password=P@ssw0rd" - null null
+2026-06-07 06:37:04 [Information] Content root path: "D:\C# Projects\Slamty\Slamty.Api"
+2026-06-07 06:37:08 [Information] Executing endpoint '"Slamty.Api.Controllers.Mobile.AuthController.Login (Slamty.Api)"'
+2026-06-07 06:37:11 [Information] Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(Slamty.Application.Features.Auth.Commands.Login.LoginCommand)" on controller "Slamty.Api.Controllers.Mobile.AuthController" ("Slamty.Api").
+2026-06-07 06:37:12 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 12561.8908ms
+2026-06-07 06:37:13 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/_vs/browserLink""" - null null
+2026-06-07 06:37:13 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2026-06-07 06:37:15 [Information] Executing "ObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ProblemDetails"'.
+2026-06-07 06:37:15 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/_framework/aspnetcore-browser-refresh.js""" - 200 14924 "application/javascript; charset=utf-8" 2036.6532ms
+2026-06-07 06:37:15 [Information] Executed action "Slamty.Api.Controllers.Mobile.AuthController.Login (Slamty.Api)" in 477.9285ms
+2026-06-07 06:37:17 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 3837.6309ms
+2026-06-07 06:37:17 [Information] Executed endpoint '"Slamty.Api.Controllers.Mobile.AuthController.Login (Slamty.Api)"'
+2026-06-07 06:37:17 [Information] Request finished "HTTP/1.1" "GET" "https"://"localhost:7243""""/api/mobile/Auth/Login""?nationalId=1234&password=P@ssw0rd" - 415 null "application/problem+json; charset=utf-8" 13445.766ms
+2026-06-07 06:37:45 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/swagger/v1/swagger.json""" - null null
+2026-06-07 06:37:45 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 146.4384ms
+2026-06-07 06:38:20 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/api/mobile/Auth/Login""?nationalId=1234&password=P@ssw0rd" - null null
+2026-06-07 06:38:20 [Information] Executing endpoint '"Slamty.Api.Controllers.Mobile.AuthController.Login (Slamty.Api)"'
+2026-06-07 06:38:20 [Information] Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(Slamty.Application.Features.Auth.Commands.Login.LoginCommand)" on controller "Slamty.Api.Controllers.Mobile.AuthController" ("Slamty.Api").
+2026-06-07 06:38:20 [Information] Executing "ObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ProblemDetails"'.
+2026-06-07 06:38:20 [Information] Executed action "Slamty.Api.Controllers.Mobile.AuthController.Login (Slamty.Api)" in 11.0619ms
+2026-06-07 06:38:20 [Information] Executed endpoint '"Slamty.Api.Controllers.Mobile.AuthController.Login (Slamty.Api)"'
+2026-06-07 06:38:20 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/api/mobile/Auth/Login""?nationalId=1234&password=P@ssw0rd" - 415 null "application/problem+json; charset=utf-8" 100.6442ms
+2026-06-07 06:38:21 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/favicon.ico""" - null null
+2026-06-07 06:38:21 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/favicon.ico""" - 404 0 null 11.6735ms
+2026-06-07 06:38:21 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "https"://"localhost:7243""""/favicon.ico", Response status code: 404
