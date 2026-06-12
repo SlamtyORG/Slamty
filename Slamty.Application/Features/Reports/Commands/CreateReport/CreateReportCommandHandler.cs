@@ -5,11 +5,7 @@ using Slamty.Domain.Entities;
 
 namespace Slamty.Application.Features.Reports.Commands.CreateReport
 {
-<<<<<<< HEAD
     public class CreateReportCommandHandler : IRequestHandler<CreateReportCommand, ApiResponse<string>>
-=======
-    public class CreateReportCommandHandler : IRequestHandler<CreateReportCommand, ApiResponse>
->>>>>>> FixesBugesAtOTP
     {
         private readonly IUnitOfWork _unitOfWork;
         public CreateReportCommandHandler(IUnitOfWork unitOfWork)
@@ -17,11 +13,7 @@ namespace Slamty.Application.Features.Reports.Commands.CreateReport
             _unitOfWork = unitOfWork;
         }
 
-<<<<<<< HEAD
         public async Task<ApiResponse<string>> Handle(CreateReportCommand request, CancellationToken cancellationToken)
-=======
-        public async Task<ApiResponse> Handle(CreateReportCommand request, CancellationToken cancellationToken)
->>>>>>> FixesBugesAtOTP
         {
             var report = new Report
             {
@@ -37,11 +29,7 @@ namespace Slamty.Application.Features.Reports.Commands.CreateReport
                 .AddAsync(report);
             await _unitOfWork.Complete();
 
-<<<<<<< HEAD
             return new ApiResponse<string>(System.Net.HttpStatusCode.Created, "Report created successfully", report.Id);
-=======
-            return new ApiResponse(System.Net.HttpStatusCode.Created, "Report created successfully", report.Id);
->>>>>>> FixesBugesAtOTP
         }
     }
 }

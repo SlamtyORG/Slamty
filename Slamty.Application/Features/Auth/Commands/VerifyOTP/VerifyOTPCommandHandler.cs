@@ -1,50 +1,26 @@
 ﻿using MediatR;
 using Microsoft.AspNetCore.Identity;
-using Microsoft.Extensions.Caching.Memory;
 using Slamty.Application.ResponseTypes;
 using Slamty.Domain.Entities;
-using System.Net;
 
 namespace Slamty.Application.Features.Auth.Commands.VerifyOTP
 {
     public class VerifyOTPCommandHandler : IRequestHandler<VerifyOTPCommand, ApiResponse<bool>>
     {
         private readonly UserManager<AppUser> _userManager;
-        private readonly IMemoryCache _cache;
-        public VerifyOTPCommandHandler(UserManager<AppUser> userManager, IMemoryCache cache)
+        public VerifyOTPCommandHandler(UserManager<AppUser> userManager)
         {
             _userManager = userManager;
-            _cache = cache;
         }
 
         public async Task<ApiResponse<bool>> Handle(VerifyOTPCommand request, CancellationToken cancellationToken)
         {
             var user = await _userManager.FindByEmailAsync(request.EmailAddress);
-<<<<<<< HEAD
-=======
-
->>>>>>> FixesBugesAtOTP
 
             if (user == null)
                 return new ApiResponse<bool>(System.Net.HttpStatusCode.NotFound, false, "User not found.");
 
-<<<<<<< HEAD
             bool otpChecker = await _userManager.VerifyUserTokenAsync(user, "numeric-provider", "email-confirmation", request.OTP);
-=======
-            if (user.EmailConfirmed)
-                return new ApiResponse<bool>(System.Net.HttpStatusCode.BadRequest, false, "User already confirmed.");
-
-            if (!_cache.TryGetValue(
-                $"email-otp:{user.Id}",
-                out string? storedOtp))
-            {
-                return new ApiResponse<bool>(
-                    HttpStatusCode.Unauthorized,
-                    false,
-                    "OTP expired.");
-            }
-            bool otpChecker = storedOtp == request.OTP;
->>>>>>> FixesBugesAtOTP
 
             if (!otpChecker)
                 return new ApiResponse<bool>(System.Net.HttpStatusCode.Unauthorized, false, "OTP is wrong.");

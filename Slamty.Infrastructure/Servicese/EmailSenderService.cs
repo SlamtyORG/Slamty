@@ -32,7 +32,7 @@ namespace Slamty.Infrastructure.Servicese
 
             message.Body = new TextPart(plainType)
             {
-                Text = contactDto.Body
+                Text = contactDto.Subject
             };
 
             using (var client = new SmtpClient())
