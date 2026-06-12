@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.RateLimiting;
 using Scalar.AspNetCore;
 using Serilog;
 using Serilog.Events;
@@ -26,7 +27,22 @@ builder.Services.AddControllers();
 builder.Services.AddInfrastractureRegister(builder.Configuration);
 builder.Services.AddApplicationRegister();
 builder.Services.AddJWTConfigration(builder.Configuration);
+<<<<<<< HEAD
 
+=======
+builder.Services.AddMemoryCache();
+builder.Services.AddRateLimiter(
+        opt =>
+        {
+            opt.AddFixedWindowLimiter("requestLimit", options =>
+            {
+                options.PermitLimit = 10;
+                options.Window = TimeSpan.FromMinutes(1);
+                options.QueueLimit = 0;
+            });
+        }
+    );
+>>>>>>> FixesBugesAtOTP
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
@@ -46,6 +62,7 @@ await RolesSeeding.SeedRolesAsync(app.Services);
 app.UseHttpsRedirection();
 app.UseAuthentication();
 app.UseAuthorization();
+app.UseRateLimiter();
 
 app.MapControllers();
 

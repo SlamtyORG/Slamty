@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.RateLimiting;
 using Slamty.Application.Features.Auth.Commands.ForgetPassword;
 using Slamty.Application.Features.Auth.Commands.Login;
 using Slamty.Application.Features.Auth.Commands.Logout;
@@ -57,6 +58,7 @@ namespace Slamty.Api.Controllers.Mobile
 
         [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(ApiResponse<bool>))]
         [HttpPost("SendOTP")]
+        [EnableRateLimiting("requestLimit")]
         public async Task<IActionResult> SendOTP(SendOTPCommand request)
         {
             var response = await Mediator.Send(request);
@@ -65,6 +67,7 @@ namespace Slamty.Api.Controllers.Mobile
 
         [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(ApiResponse<AuthResponseDto>))]
         [HttpPost("VerifyOTP")]
+        [EnableRateLimiting("requestLimit")]
         public async Task<IActionResult> VerifyOTP(VerifyOTPCommand request)
         {
             var response = await Mediator.Send(request);
@@ -78,5 +81,7 @@ namespace Slamty.Api.Controllers.Mobile
             var response = await Mediator.Send(request);
             return HandleResult(response);
         }
+
+
     }
 }

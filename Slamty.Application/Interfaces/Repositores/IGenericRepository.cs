@@ -8,6 +8,10 @@ namespace Slamty.Application.Interfaces.Repositores
     {
         public Task AddAsync(T entity);
         public void Update(T entity);
+<<<<<<< HEAD
+=======
+        public Task DeleteAsync(Guid id);
+>>>>>>> FixesBugesAtOTP
         public void Delete(T entity);
         public Task<T> GetByIdAsync(Guid id);
         public Task<List<T>> GetAllAsync();

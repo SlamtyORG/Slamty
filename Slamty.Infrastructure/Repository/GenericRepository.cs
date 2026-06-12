@@ -20,6 +20,11 @@ namespace Slamty.Infrastructure.Repository
         public async Task AddAsync(T entity)
         => await _context.Set<T>().AddAsync(entity);
 
+<<<<<<< HEAD
+=======
+        public async Task DeleteAsync(Guid id)
+        => _context.Set<T>().Remove(await GetByIdAsync(id));
+>>>>>>> FixesBugesAtOTP
         public void Delete(T entity)
         => _context.Set<T>().Remove(entity);
 
