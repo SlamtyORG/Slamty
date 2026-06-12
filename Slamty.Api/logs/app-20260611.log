@@ -1,0 +1,128 @@
+2026-06-11 14:57:06 [Information] User profile is available. Using '"C:\Users\AHMED\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-06-11 14:57:09 [Information] Now listening on: "https://localhost:7243"
+2026-06-11 14:57:09 [Information] Now listening on: "http://localhost:5025"
+2026-06-11 14:57:10 [Information] Application started. Press Ctrl+C to shut down.
+2026-06-11 14:57:10 [Information] Hosting environment: "Development"
+2026-06-11 14:57:10 [Information] Content root path: "D:\.NetDeveloper\API Projects\Slamty System API\Slamty.Api"
+2026-06-11 14:57:13 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/swagger""" - null null
+2026-06-11 14:57:19 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/swagger/index.html""" - null null
+2026-06-11 14:57:19 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/swagger""" - 301 0 null 5544.8347ms
+2026-06-11 14:57:19 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 262.4534ms
+2026-06-11 14:57:19 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/swagger/swagger-ui.css""" - null null
+2026-06-11 14:57:19 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/swagger/swagger-ui-bundle.js""" - null null
+2026-06-11 14:57:19 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/swagger/swagger-ui-standalone-preset.js""" - null null
+2026-06-11 14:57:19 [Information] Sending file. Request path: '"/swagger-ui-standalone-preset.js"'. Physical path: '"N/A"'
+2026-06-11 14:57:19 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/swagger/swagger-ui-standalone-preset.js""" - 200 230280 "text/javascript" 296.9204ms
+2026-06-11 14:57:19 [Information] Sending file. Request path: '"/swagger-ui.css"'. Physical path: '"N/A"'
+2026-06-11 14:57:19 [Information] Sending file. Request path: '"/swagger-ui-bundle.js"'. Physical path: '"N/A"'
+2026-06-11 14:57:19 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/swagger/swagger-ui.css""" - 200 152034 "text/css" 357.9504ms
+2026-06-11 14:57:19 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/swagger/swagger-ui-bundle.js""" - 200 1456926 "text/javascript" 363.3246ms
+2026-06-11 14:57:20 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/_vs/browserLink""" - null null
+2026-06-11 14:57:20 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 123.2735ms
+2026-06-11 14:57:20 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2026-06-11 14:57:20 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/_framework/aspnetcore-browser-refresh.js""" - 200 16505 "application/javascript; charset=utf-8" 12.4411ms
+2026-06-11 14:57:21 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/swagger/v1/swagger.json""" - null null
+2026-06-11 14:57:21 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/swagger/favicon-32x32.png""" - null null
+2026-06-11 14:57:21 [Information] Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+2026-06-11 14:57:21 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/swagger/favicon-32x32.png""" - 200 628 "image/png" 27.2679ms
+2026-06-11 14:57:21 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 93.7896ms
+2026-06-11 14:57:43 [Information] Request starting "HTTP/2" "POST" "https"://"localhost:7243""""/api/mobile/Auth/SendOTP""" - "application/json" 50
+2026-06-11 14:57:43 [Information] Executing endpoint '"Slamty.Api.Controllers.Mobile.AuthController.SendOTP (Slamty.Api)"'
+2026-06-11 14:57:43 [Information] Route matched with "{action = \"SendOTP\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SendOTP(Slamty.Application.Features.Auth.Commands.SendOTP.SendOTPCommand)" on controller "Slamty.Api.Controllers.Mobile.AuthController" ("Slamty.Api").
+2026-06-11 14:57:44 [Warning] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2026-06-11 14:57:47 [Warning] Entity '"AppUser"' has a global query filter defined and is the required end of a relationship with the entity '"MobileUser"'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2026-06-11 14:57:47 [Warning] Entity '"AppUser"' has a global query filter defined and is the required end of a relationship with the entity '"Notification"'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2026-06-11 14:57:49 [Error] An error occurred using the connection to database '""' on server '""'.
+2026-06-11 14:57:49 [Error] An exception occurred while iterating over the results of a query for context type '"Slamty.Infrastructure.Data.Identity.AppIdentityDbContext"'."
+""System.InvalidOperationException: The ConnectionString property has not been initialized.
+   at Microsoft.Data.SqlClient.SqlConnection.PermissionDemand()
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.PermissionDemand(DbConnection outerConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.InternalOpenAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()"
+System.InvalidOperationException: The ConnectionString property has not been initialized.
+   at Microsoft.Data.SqlClient.SqlConnection.PermissionDemand()
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.PermissionDemand(DbConnection outerConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.InternalOpenAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2026-06-11 14:57:50 [Information] Executed action "Slamty.Api.Controllers.Mobile.AuthController.SendOTP (Slamty.Api)" in 6147.5908ms
+2026-06-11 14:57:50 [Information] Executed endpoint '"Slamty.Api.Controllers.Mobile.AuthController.SendOTP (Slamty.Api)"'
+2026-06-11 14:57:50 [Error] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The ConnectionString property has not been initialized.
+   at Microsoft.Data.SqlClient.SqlConnection.PermissionDemand()
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.PermissionDemand(DbConnection outerConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.InternalOpenAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Identity.UserManager`1.FindByEmailAsync(String email)
+   at Slamty.Application.Features.Auth.Commands.SendOTP.SendOTPCommandHandler.Handle(SendOTPCommand request, CancellationToken cancellationToken) in D:\.NetDeveloper\API Projects\Slamty System API\Slamty.Application\Features\Auth\Commands\SendOTP\SendOTPCommandHandler.cs:line 26
+   at Slamty.Api.Controllers.Mobile.AuthController.SendOTP(SendOTPCommand request) in D:\.NetDeveloper\API Projects\Slamty System API\Slamty.Api\Controllers\Mobile\AuthController.cs:line 53
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-06-11 14:57:50 [Information] Request finished "HTTP/2" "POST" "https"://"localhost:7243""""/api/mobile/Auth/SendOTP""" - 500 null "text/plain; charset=utf-8" 6721.6675ms
+2026-06-11 15:02:55 [Information] User profile is available. Using '"C:\Users\AHMED\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-06-11 15:02:55 [Information] Now listening on: "https://localhost:7243"
+2026-06-11 15:02:55 [Information] Now listening on: "http://localhost:5025"
+2026-06-11 15:02:55 [Information] Application started. Press Ctrl+C to shut down.
+2026-06-11 15:02:55 [Information] Hosting environment: "Development"
+2026-06-11 15:02:55 [Information] Content root path: "D:\.NetDeveloper\API Projects\Slamty System API\Slamty.Api"
+2026-06-11 15:02:56 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/swagger/index.html""" - null null
+2026-06-11 15:02:56 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 236.4496ms
+2026-06-11 15:02:56 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2026-06-11 15:02:56 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/_vs/browserLink""" - null null
+2026-06-11 15:02:56 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/_framework/aspnetcore-browser-refresh.js""" - 200 16505 "application/javascript; charset=utf-8" 14.9974ms
+2026-06-11 15:02:56 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 59.6365ms
+2026-06-11 15:02:57 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/swagger/v1/swagger.json""" - null null
+2026-06-11 15:02:57 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 86.6039ms
+2026-06-11 15:03:11 [Information] Request starting "HTTP/2" "POST" "https"://"localhost:7243""""/api/mobile/Auth/SendOTP""" - "application/json" 50
+2026-06-11 15:03:11 [Information] Executing endpoint '"Slamty.Api.Controllers.Mobile.AuthController.SendOTP (Slamty.Api)"'
+2026-06-11 15:03:12 [Information] Route matched with "{action = \"SendOTP\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SendOTP(Slamty.Application.Features.Auth.Commands.SendOTP.SendOTPCommand)" on controller "Slamty.Api.Controllers.Mobile.AuthController" ("Slamty.Api").
+2026-06-11 15:03:12 [Warning] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2026-06-11 15:03:16 [Information] Executing "OkObjectResult", writing value of type '"Slamty.Application.ResponseTypes.ApiResponse`1[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+2026-06-11 15:03:16 [Information] Executed action "Slamty.Api.Controllers.Mobile.AuthController.SendOTP (Slamty.Api)" in 4549.8589ms
+2026-06-11 15:03:16 [Information] Executed endpoint '"Slamty.Api.Controllers.Mobile.AuthController.SendOTP (Slamty.Api)"'
+2026-06-11 15:03:16 [Information] Request finished "HTTP/2" "POST" "https"://"localhost:7243""""/api/mobile/Auth/SendOTP""" - 200 null "application/json; charset=utf-8" 4691.901ms

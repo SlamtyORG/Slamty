@@ -7,7 +7,12 @@ namespace Slamty.Infrastracture.Data.Identity.Providers
         public override Task<string> GenerateAsync(string purpose, UserManager<TUser> manager, TUser user)
         {
             var otpCode = new Random().Next(100000, 999999).ToString();
+
             return Task.FromResult(otpCode);
+        }
+        public override Task<bool> ValidateAsync(string purpose, string token, UserManager<TUser> manager, TUser user)
+        {
+            return base.ValidateAsync(purpose, token, manager, user);
         }
     }
 }
