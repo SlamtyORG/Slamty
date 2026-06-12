@@ -1,8 +1,4 @@
-<<<<<<< HEAD:Slamty.Application/Features/Common/Dtos/ReportDto.cs
 namespace Slamty.Application.Features.Common.Dtos
-=======
-namespace Slamty.Application.Features.Home.Dtos
->>>>>>> FixesBugesAtOTP:Slamty.Application/Features/Home/Dtos/ReportDto.cs
 {
     public sealed record ReportDto
     {
