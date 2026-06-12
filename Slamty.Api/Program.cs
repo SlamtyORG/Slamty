@@ -27,9 +27,7 @@ builder.Services.AddControllers();
 builder.Services.AddInfrastractureRegister(builder.Configuration);
 builder.Services.AddApplicationRegister();
 builder.Services.AddJWTConfigration(builder.Configuration);
-<<<<<<< HEAD
 
-=======
 builder.Services.AddMemoryCache();
 builder.Services.AddRateLimiter(
         opt =>
@@ -42,8 +40,7 @@ builder.Services.AddRateLimiter(
             });
         }
     );
->>>>>>> FixesBugesAtOTP
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 

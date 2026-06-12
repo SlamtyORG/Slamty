@@ -20,17 +20,10 @@ namespace Slamty.Application.Features.Auth.Commands.VerifyOTP
         public async Task<ApiResponse<bool>> Handle(VerifyOTPCommand request, CancellationToken cancellationToken)
         {
             var user = await _userManager.FindByEmailAsync(request.EmailAddress);
-<<<<<<< HEAD
-=======
-
->>>>>>> FixesBugesAtOTP
 
             if (user == null)
                 return new ApiResponse<bool>(System.Net.HttpStatusCode.NotFound, false, "User not found.");
 
-<<<<<<< HEAD
-            bool otpChecker = await _userManager.VerifyUserTokenAsync(user, "numeric-provider", "email-confirmation", request.OTP);
-=======
             if (user.EmailConfirmed)
                 return new ApiResponse<bool>(System.Net.HttpStatusCode.BadRequest, false, "User already confirmed.");
 
@@ -44,7 +37,6 @@ namespace Slamty.Application.Features.Auth.Commands.VerifyOTP
                     "OTP expired.");
             }
             bool otpChecker = storedOtp == request.OTP;
->>>>>>> FixesBugesAtOTP
 
             if (!otpChecker)
                 return new ApiResponse<bool>(System.Net.HttpStatusCode.Unauthorized, false, "OTP is wrong.");
