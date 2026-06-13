@@ -1,4 +1,4 @@
-﻿using MediatR;
+﻿﻿using MediatR;
 using Slamty.Application.Interfaces.Repositores;
 using Slamty.Application.ResponseTypes;
 using Slamty.Domain.Entities;
@@ -6,7 +6,6 @@ using Slamty.Domain.Entities;
 namespace Slamty.Application.Features.Reports.Commands.CreateReport
 {
     public class CreateReportCommandHandler : IRequestHandler<CreateReportCommand, ApiResponse<string>>
-
     {
         private readonly IUnitOfWork _unitOfWork;
         public CreateReportCommandHandler(IUnitOfWork unitOfWork)
@@ -31,7 +30,6 @@ namespace Slamty.Application.Features.Reports.Commands.CreateReport
             await _unitOfWork.Complete();
 
             return new ApiResponse<string>(System.Net.HttpStatusCode.Created, "Report created successfully", report.Id);
-
         }
     }
 }
