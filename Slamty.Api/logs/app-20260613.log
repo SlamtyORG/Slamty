@@ -1,0 +1,87 @@
+2026-06-13 17:44:09 [Warning] Entity '"AppUser"' has a global query filter defined and is the required end of a relationship with the entity '"MobileUser"'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2026-06-13 17:44:09 [Warning] Entity '"AppUser"' has a global query filter defined and is the required end of a relationship with the entity '"Notification"'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2026-06-13 17:44:16 [Information] User profile is available. Using '"C:\Users\AHMED\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-06-13 17:44:17 [Information] Now listening on: "https://localhost:7243"
+2026-06-13 17:44:17 [Information] Now listening on: "http://localhost:5025"
+2026-06-13 17:44:18 [Information] Application started. Press Ctrl+C to shut down.
+2026-06-13 17:44:18 [Information] Hosting environment: "Development"
+2026-06-13 17:44:18 [Information] Content root path: "D:\.NetDeveloper\API Projects\Slamty System API\Slamty.Api"
+2026-06-13 17:44:20 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/swagger/index.html""" - null null
+2026-06-13 17:44:20 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 826.5694ms
+2026-06-13 17:44:20 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2026-06-13 17:44:21 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/_framework/aspnetcore-browser-refresh.js""" - 200 16505 "application/javascript; charset=utf-8" 32.2009ms
+2026-06-13 17:44:21 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/_vs/browserLink""" - null null
+2026-06-13 17:44:21 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 109.624ms
+2026-06-13 17:44:22 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/swagger/v1/swagger.json""" - null null
+2026-06-13 17:44:22 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 82.1618ms
+2026-06-13 18:01:01 [Warning] Entity '"AppUser"' has a global query filter defined and is the required end of a relationship with the entity '"MobileUser"'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2026-06-13 18:01:01 [Warning] Entity '"AppUser"' has a global query filter defined and is the required end of a relationship with the entity '"Notification"'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2026-06-13 18:01:02 [Information] User profile is available. Using '"C:\Users\AHMED\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-06-13 18:01:03 [Information] Now listening on: "https://localhost:7243"
+2026-06-13 18:01:03 [Information] Now listening on: "http://localhost:5025"
+2026-06-13 18:01:03 [Information] Application started. Press Ctrl+C to shut down.
+2026-06-13 18:01:03 [Information] Hosting environment: "Development"
+2026-06-13 18:01:03 [Information] Content root path: "D:\.NetDeveloper\API Projects\Slamty System API\Slamty.Api"
+2026-06-13 18:01:03 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/swagger/index.html""" - null null
+2026-06-13 18:01:04 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 262.1062ms
+2026-06-13 18:01:04 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2026-06-13 18:01:04 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/_framework/aspnetcore-browser-refresh.js""" - 200 16505 "application/javascript; charset=utf-8" 31.5843ms
+2026-06-13 18:01:04 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/_vs/browserLink""" - null null
+2026-06-13 18:01:04 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 78.0226ms
+2026-06-13 18:01:06 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/swagger/v1/swagger.json""" - null null
+2026-06-13 18:01:06 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 64.2378ms
+2026-06-13 18:01:51 [Information] Request starting "HTTP/2" "POST" "https"://"localhost:7243""""/api/mobile/Auth/SendOTP""" - "application/json" 50
+2026-06-13 18:01:53 [Information] Executing endpoint '"Slamty.Api.Controllers.Mobile.AuthController.SendOTP (Slamty.Api)"'
+2026-06-13 18:01:53 [Information] Route matched with "{action = \"SendOTP\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SendOTP(Slamty.Application.Features.Auth.Commands.SendOTP.SendOTPCommand)" on controller "Slamty.Api.Controllers.Mobile.AuthController" ("Slamty.Api").
+2026-06-13 18:01:54 [Warning] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2026-06-13 18:01:57 [Information] Executing "OkObjectResult", writing value of type '"Slamty.Application.ResponseTypes.ApiResponse`1[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+2026-06-13 18:01:57 [Information] Executed action "Slamty.Api.Controllers.Mobile.AuthController.SendOTP (Slamty.Api)" in 3381.5857ms
+2026-06-13 18:01:57 [Information] Executed endpoint '"Slamty.Api.Controllers.Mobile.AuthController.SendOTP (Slamty.Api)"'
+2026-06-13 18:01:57 [Information] Request finished "HTTP/2" "POST" "https"://"localhost:7243""""/api/mobile/Auth/SendOTP""" - 200 null "application/json; charset=utf-8" 6178.1768ms
+2026-06-13 18:03:19 [Warning] Entity '"AppUser"' has a global query filter defined and is the required end of a relationship with the entity '"MobileUser"'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2026-06-13 18:03:19 [Warning] Entity '"AppUser"' has a global query filter defined and is the required end of a relationship with the entity '"Notification"'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2026-06-13 18:03:20 [Information] User profile is available. Using '"C:\Users\AHMED\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-06-13 18:03:20 [Information] Now listening on: "https://localhost:7243"
+2026-06-13 18:03:20 [Information] Now listening on: "http://localhost:5025"
+2026-06-13 18:03:20 [Information] Application started. Press Ctrl+C to shut down.
+2026-06-13 18:03:20 [Information] Hosting environment: "Development"
+2026-06-13 18:03:20 [Information] Content root path: "D:\.NetDeveloper\API Projects\Slamty System API\Slamty.Api"
+2026-06-13 18:03:21 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/swagger/index.html""" - null null
+2026-06-13 18:03:21 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 228.362ms
+2026-06-13 18:03:21 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/_vs/browserLink""" - null null
+2026-06-13 18:03:21 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2026-06-13 18:03:21 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/_framework/aspnetcore-browser-refresh.js""" - 200 16505 "application/javascript; charset=utf-8" 36.3641ms
+2026-06-13 18:03:21 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 109.2771ms
+2026-06-13 18:03:21 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/swagger/v1/swagger.json""" - null null
+2026-06-13 18:03:21 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 88.1268ms
+2026-06-13 18:06:26 [Warning] Entity '"AppUser"' has a global query filter defined and is the required end of a relationship with the entity '"MobileUser"'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2026-06-13 18:06:26 [Warning] Entity '"AppUser"' has a global query filter defined and is the required end of a relationship with the entity '"Notification"'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2026-06-13 18:06:28 [Information] User profile is available. Using '"C:\Users\AHMED\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-06-13 18:06:28 [Information] Now listening on: "https://localhost:7243"
+2026-06-13 18:06:28 [Information] Now listening on: "http://localhost:5025"
+2026-06-13 18:06:28 [Information] Application started. Press Ctrl+C to shut down.
+2026-06-13 18:06:28 [Information] Hosting environment: "Development"
+2026-06-13 18:06:28 [Information] Content root path: "D:\.NetDeveloper\API Projects\Slamty System API\Slamty.Api"
+2026-06-13 18:06:28 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/swagger/index.html""" - null null
+2026-06-13 18:06:29 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 226.4268ms
+2026-06-13 18:06:29 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2026-06-13 18:06:29 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/_framework/aspnetcore-browser-refresh.js""" - 200 16505 "application/javascript; charset=utf-8" 22.8812ms
+2026-06-13 18:06:29 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/_vs/browserLink""" - null null
+2026-06-13 18:06:29 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 75.8478ms
+2026-06-13 18:06:30 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/swagger/v1/swagger.json""" - null null
+2026-06-13 18:06:30 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 67.4822ms
+2026-06-13 18:07:13 [Information] Request starting "HTTP/2" "POST" "https"://"localhost:7243""""/api/mobile/Auth/SendOTP""" - "application/json" 50
+2026-06-13 18:07:13 [Information] Executing endpoint '"Slamty.Api.Controllers.Mobile.AuthController.SendOTP (Slamty.Api)"'
+2026-06-13 18:07:13 [Information] Route matched with "{action = \"SendOTP\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SendOTP(Slamty.Application.Features.Auth.Commands.SendOTP.SendOTPCommand)" on controller "Slamty.Api.Controllers.Mobile.AuthController" ("Slamty.Api").
+2026-06-13 18:07:13 [Warning] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2026-06-13 18:07:14 [Information] Executing "OkObjectResult", writing value of type '"Slamty.Application.ResponseTypes.ApiResponse`1[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+2026-06-13 18:07:14 [Information] Executed action "Slamty.Api.Controllers.Mobile.AuthController.SendOTP (Slamty.Api)" in 1705.0602ms
+2026-06-13 18:07:14 [Information] Executed endpoint '"Slamty.Api.Controllers.Mobile.AuthController.SendOTP (Slamty.Api)"'
+2026-06-13 18:07:14 [Information] Request finished "HTTP/2" "POST" "https"://"localhost:7243""""/api/mobile/Auth/SendOTP""" - 200 null "application/json; charset=utf-8" 1827.2887ms
+2026-06-13 18:07:52 [Information] Request starting "HTTP/2" "POST" "https"://"localhost:7243""""/api/mobile/Auth/VerifyOTP""" - "application/json" 69
+2026-06-13 18:07:52 [Information] Executing endpoint '"Slamty.Api.Controllers.Mobile.AuthController.VerifyOTP (Slamty.Api)"'
+2026-06-13 18:07:52 [Information] Route matched with "{action = \"VerifyOTP\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] VerifyOTP(Slamty.Application.Features.Auth.Commands.VerifyOTP.VerifyOTPCommand)" on controller "Slamty.Api.Controllers.Mobile.AuthController" ("Slamty.Api").
+2026-06-13 18:07:53 [Information] Executing "OkObjectResult", writing value of type '"Slamty.Application.ResponseTypes.ApiResponse`1[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+2026-06-13 18:07:53 [Information] Executed action "Slamty.Api.Controllers.Mobile.AuthController.VerifyOTP (Slamty.Api)" in 604.2822ms
+2026-06-13 18:07:53 [Information] Executed endpoint '"Slamty.Api.Controllers.Mobile.AuthController.VerifyOTP (Slamty.Api)"'
+2026-06-13 18:07:53 [Information] Request finished "HTTP/2" "POST" "https"://"localhost:7243""""/api/mobile/Auth/VerifyOTP""" - 200 null "application/json; charset=utf-8" 757.342ms
