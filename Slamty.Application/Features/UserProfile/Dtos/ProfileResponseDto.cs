@@ -2,7 +2,7 @@ namespace Slamty.Application.Features.UserProfile.Dtos
 {
     public sealed record ProfileResponseDto
     {
-        public string ProfileId { get; set; }
+        public Guid ProfileId { get; set; }
         public string FullName { get; set; }
         public string PhoneNumber { get; set; }
         public string Email { get; set; }

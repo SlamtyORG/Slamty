@@ -6,9 +6,9 @@ namespace Slamty.Application.Features.Reports.Queries.GetReportById
 {
     public class GetReportByIdQuery : IRequest<ApiResponse<ReportDto>>
     {
-        public string ReportId { get; set; }
+        public Guid ReportId { get; set; }
 
-        public GetReportByIdQuery(string reportId)
+        public GetReportByIdQuery(Guid reportId)
         {
             ReportId = reportId;
         }

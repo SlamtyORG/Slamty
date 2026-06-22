@@ -3,7 +3,7 @@ using Slamty.Domain.Contracts;
 
 namespace Slamty.Domain.Entities
 {
-    public class AppUser : IdentityUser, ISoftDeletable
+    public class AppUser : IdentityUser<Guid>, ISoftDeletable
     {
         public string FullName { get; set; }
         public List<RefreshToken>? RefreshTokens { get; set; } = new List<RefreshToken>();

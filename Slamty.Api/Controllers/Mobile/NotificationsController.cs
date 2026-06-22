@@ -11,7 +11,7 @@ namespace Slamty.Api.Controllers.Mobile
     {
         [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(ApiResponse<List<NotificationDto>>))]
         [HttpGet("{userId}")]
-        public async Task<IActionResult> GetNotifications(string userId)
+        public async Task<IActionResult> GetNotifications(Guid userId)
         {
             var response = await Mediator.Send(new GetNotificationsQuery(userId));
             return HandleResult(response);

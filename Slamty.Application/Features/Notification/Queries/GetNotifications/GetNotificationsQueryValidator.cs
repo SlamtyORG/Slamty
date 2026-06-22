@@ -7,8 +7,8 @@ namespace Slamty.Application.Features.Notification.Queries.GetNotifications
         public GetNotificationsQueryValidator()
         {
             RuleFor(x => x.UserId)
-                .NotEmpty().WithMessage("UserId is required.")
-                .Must(userId => Guid.TryParse(userId, out _)).WithMessage("UserId must be a valid GUID.");
+                .NotEmpty().WithMessage("UserId is required.");
+
         }
     }
 }

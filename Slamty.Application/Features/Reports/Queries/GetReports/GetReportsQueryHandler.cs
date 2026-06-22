@@ -24,7 +24,7 @@ namespace Slamty.Application.Features.Reports.Queries.GetReports
 
         public async Task<ApiResponse<List<ReportDto>>> Handle(GetReportsQuery request, CancellationToken cancellationToken)
         {
-            var user = await _userManager.FindByIdAsync(request.UserId);
+            var user = await _userManager.FindByIdAsync(request.UserId.ToString());
             if (user == null)
             {
                 _logger.LogWarning("GetReports failed. User with ID {UserId} not found.", request.UserId);
@@ -48,7 +48,7 @@ namespace Slamty.Application.Features.Reports.Queries.GetReports
                 );
             }
 
-            var reportIds = mobileUser.Reports?.Select(r => r.Id).ToList() ?? new List<string>();
+            var reportIds = mobileUser.Reports?.Select(r => r.Id).ToList() ?? new List<Guid>();
 
             List<Report> reports;
             if (reportIds.Any())

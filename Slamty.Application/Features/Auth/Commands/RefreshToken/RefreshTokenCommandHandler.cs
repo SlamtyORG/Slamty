@@ -61,7 +61,7 @@ namespace Slamty.Application.Features.Auth.Commands.RefreshToken
             authResponse.RefreshTokenExpiration = NewRefreshToken.ExpiresOn;
             authResponse.UserId = user.Id;
             authResponse.FullName = user.FullName;
-            authResponse.ProfileId = userProfile.Id.ToString();
+            authResponse.ProfileId = userProfile.Id;
 
             return new ApiResponse<AuthResponseDto>
             (HttpStatusCode.OK, authResponse, "Token refreshed successfully.");

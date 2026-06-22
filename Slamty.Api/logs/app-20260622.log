@@ -1,0 +1,340 @@
+2026-06-22 08:58:42 [Warning] Entity '"AppUser"' has a global query filter defined and is the required end of a relationship with the entity '"MobileUser"'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2026-06-22 08:58:42 [Warning] Entity '"AppUser"' has a global query filter defined and is the required end of a relationship with the entity '"Notification"'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2026-06-22 08:58:47 [Information] User profile is available. Using '"C:\Users\AHMED\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-06-22 08:58:48 [Information] Now listening on: "https://localhost:7243"
+2026-06-22 08:58:48 [Information] Now listening on: "http://localhost:5025"
+2026-06-22 08:58:48 [Information] Application started. Press Ctrl+C to shut down.
+2026-06-22 08:58:48 [Information] Hosting environment: "Development"
+2026-06-22 08:58:48 [Information] Content root path: "D:\.NetDeveloper\API Projects\Slamty System API\Slamty.Api"
+2026-06-22 08:58:52 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/swagger""" - null null
+2026-06-22 08:58:53 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/swagger""" - 301 0 null 580.7726ms
+2026-06-22 08:58:53 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/swagger/index.html""" - null null
+2026-06-22 08:58:53 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 276.8835ms
+2026-06-22 08:58:53 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2026-06-22 08:58:53 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/_framework/aspnetcore-browser-refresh.js""" - 200 16505 "application/javascript; charset=utf-8" 37.5345ms
+2026-06-22 08:58:54 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/_vs/browserLink""" - null null
+2026-06-22 08:58:54 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 188.4079ms
+2026-06-22 08:58:57 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/swagger/v1/swagger.json""" - null null
+2026-06-22 08:58:57 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 264.7847ms
+2026-06-22 09:00:05 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/api/mobile/Home/c60938f3-046c-4a2b-94bf-19a380c85810""" - null null
+2026-06-22 09:00:08 [Information] Executing endpoint '"Slamty.Api.Controllers.Mobile.HomeController.GetHome (Slamty.Api)"'
+2026-06-22 09:00:08 [Information] Route matched with "{action = \"GetHome\", controller = \"Home\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetHome(System.String)" on controller "Slamty.Api.Controllers.Mobile.HomeController" ("Slamty.Api").
+2026-06-22 09:00:09 [Warning] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2026-06-22 09:00:10 [Information] Home data retrieved successfully for User ID "c60938f3-046c-4a2b-94bf-19a380c85810". Returned 0 reports.
+2026-06-22 09:00:10 [Information] Executing "OkObjectResult", writing value of type '"Slamty.Application.ResponseTypes.ApiResponse`1[[Slamty.Application.Features.Home.Dtos.HomeResponseDto, Slamty.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2026-06-22 09:00:10 [Information] Executed action "Slamty.Api.Controllers.Mobile.HomeController.GetHome (Slamty.Api)" in 1491.2085ms
+2026-06-22 09:00:10 [Information] Executed endpoint '"Slamty.Api.Controllers.Mobile.HomeController.GetHome (Slamty.Api)"'
+2026-06-22 09:00:10 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/api/mobile/Home/c60938f3-046c-4a2b-94bf-19a380c85810""" - 200 null "application/json; charset=utf-8" 5454.1659ms
+2026-06-22 09:00:40 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/api/mobile/Notifications/c60938f3-046c-4a2b-94bf-19a380c85810""" - null null
+2026-06-22 09:00:40 [Information] Executing endpoint '"Slamty.Api.Controllers.Mobile.NotificationsController.GetNotifications (Slamty.Api)"'
+2026-06-22 09:00:40 [Information] Route matched with "{action = \"GetNotifications\", controller = \"Notifications\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetNotifications(System.String)" on controller "Slamty.Api.Controllers.Mobile.NotificationsController" ("Slamty.Api").
+2026-06-22 09:00:40 [Information] Executing "OkObjectResult", writing value of type '"Slamty.Application.ResponseTypes.ApiResponse`1[[System.Collections.Generic.List`1[[Slamty.Application.Features.Notification.Dtos.NotificationDto, Slamty.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+2026-06-22 09:00:40 [Information] Executed action "Slamty.Api.Controllers.Mobile.NotificationsController.GetNotifications (Slamty.Api)" in 176.7461ms
+2026-06-22 09:00:40 [Information] Executed endpoint '"Slamty.Api.Controllers.Mobile.NotificationsController.GetNotifications (Slamty.Api)"'
+2026-06-22 09:00:40 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/api/mobile/Notifications/c60938f3-046c-4a2b-94bf-19a380c85810""" - 200 null "application/json; charset=utf-8" 251.8241ms
+2026-06-22 09:01:08 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/api/mobile/Profile/c60938f3-046c-4a2b-94bf-19a380c85810""" - null null
+2026-06-22 09:01:08 [Information] Executing endpoint '"Slamty.Api.Controllers.Mobile.ProfileController.GetProfile (Slamty.Api)"'
+2026-06-22 09:01:08 [Information] Route matched with "{action = \"GetProfile\", controller = \"Profile\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProfile(System.String)" on controller "Slamty.Api.Controllers.Mobile.ProfileController" ("Slamty.Api").
+2026-06-22 09:01:09 [Warning] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2026-06-22 09:01:09 [Information] Profile retrieved successfully for User ID "c60938f3-046c-4a2b-94bf-19a380c85810".
+2026-06-22 09:01:09 [Information] Executing "OkObjectResult", writing value of type '"Slamty.Application.ResponseTypes.ApiResponse`1[[Slamty.Application.Features.UserProfile.Dtos.ProfileResponseDto, Slamty.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2026-06-22 09:01:09 [Information] Executed action "Slamty.Api.Controllers.Mobile.ProfileController.GetProfile (Slamty.Api)" in 511.2569ms
+2026-06-22 09:01:09 [Information] Executed endpoint '"Slamty.Api.Controllers.Mobile.ProfileController.GetProfile (Slamty.Api)"'
+2026-06-22 09:01:09 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/api/mobile/Profile/c60938f3-046c-4a2b-94bf-19a380c85810""" - 200 null "application/json; charset=utf-8" 567.1122ms
+2026-06-22 09:02:28 [Information] Request starting "HTTP/2" "PUT" "https"://"localhost:7243""""/api/mobile/Profile/UpdateProfile""" - "application/json" 192
+2026-06-22 09:02:28 [Information] Executing endpoint '"Slamty.Api.Controllers.Mobile.ProfileController.UpdateProfile (Slamty.Api)"'
+2026-06-22 09:02:28 [Information] Route matched with "{action = \"UpdateProfile\", controller = \"Profile\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdateProfile(Slamty.Application.Features.UserProfile.Commands.UpdateProfile.UpdateProfileCommand)" on controller "Slamty.Api.Controllers.Mobile.ProfileController" ("Slamty.Api").
+2026-06-22 09:02:28 [Information] Executed action "Slamty.Api.Controllers.Mobile.ProfileController.UpdateProfile (Slamty.Api)" in 148.9888ms
+2026-06-22 09:02:28 [Information] Executed endpoint '"Slamty.Api.Controllers.Mobile.ProfileController.UpdateProfile (Slamty.Api)"'
+2026-06-22 09:02:28 [Error] An unhandled exception has occurred while executing the request.
+System.ArgumentException: The key value at position 0 of the call to 'DbSet<MobileUser>.Find' was of type 'Guid', which does not match the property type of 'string'.
+   at Microsoft.EntityFrameworkCore.Internal.EntityFinder`1.FindTracked(Object[] keyValues)
+   at Microsoft.EntityFrameworkCore.Internal.EntityFinder`1.FindAsync(Object[] keyValues, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.FindAsync(Object[] keyValues)
+   at Slamty.Infrastructure.Repository.GenericRepository`1.GetByIdAsync(Guid id) in D:\.NetDeveloper\API Projects\Slamty System API\Slamty.Infrastructure\Repository\GenericRepository.cs:line 34
+   at Slamty.Application.Features.UserProfile.Commands.UpdateProfile.UpdateProfileCommandHandler.Handle(UpdateProfileCommand request, CancellationToken cancellationToken) in D:\.NetDeveloper\API Projects\Slamty System API\Slamty.Application\Features\UserProfile\Commands\UpdateProfile\UpdateProfileCommandHandler.cs:line 30
+   at Slamty.Api.Controllers.Mobile.ProfileController.UpdateProfile(UpdateProfileCommand command) in D:\.NetDeveloper\API Projects\Slamty System API\Slamty.Api\Controllers\Mobile\ProfileController.cs:line 30
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2026-06-22 09:02:28 [Information] Request finished "HTTP/2" "PUT" "https"://"localhost:7243""""/api/mobile/Profile/UpdateProfile""" - 500 null "application/json" 604.8111ms
+2026-06-22 09:02:48 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/api/mobile/Profile/c60938f3-046c-4a2b-94bf-19a380c85810""" - null null
+2026-06-22 09:02:48 [Information] Executing endpoint '"Slamty.Api.Controllers.Mobile.ProfileController.GetProfile (Slamty.Api)"'
+2026-06-22 09:02:48 [Information] Route matched with "{action = \"GetProfile\", controller = \"Profile\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProfile(System.String)" on controller "Slamty.Api.Controllers.Mobile.ProfileController" ("Slamty.Api").
+2026-06-22 09:02:48 [Information] Profile retrieved successfully for User ID "c60938f3-046c-4a2b-94bf-19a380c85810".
+2026-06-22 09:02:48 [Information] Executing "OkObjectResult", writing value of type '"Slamty.Application.ResponseTypes.ApiResponse`1[[Slamty.Application.Features.UserProfile.Dtos.ProfileResponseDto, Slamty.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2026-06-22 09:02:48 [Information] Executed action "Slamty.Api.Controllers.Mobile.ProfileController.GetProfile (Slamty.Api)" in 629.6932ms
+2026-06-22 09:02:48 [Information] Executed endpoint '"Slamty.Api.Controllers.Mobile.ProfileController.GetProfile (Slamty.Api)"'
+2026-06-22 09:02:48 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/api/mobile/Profile/c60938f3-046c-4a2b-94bf-19a380c85810""" - 200 null "application/json; charset=utf-8" 658.5359ms
+2026-06-22 09:05:12 [Information] Request starting "HTTP/2" "PUT" "https"://"localhost:7243""""/api/mobile/Profile/UpdateProfileImage""?ProfileId=94cf96c5-ebd2-4992-be6e-79351a94e248" - "multipart/form-data; boundary=----WebKitFormBoundaryDJoUEHedTvowYwO7" 66720
+2026-06-22 09:05:12 [Information] Executing endpoint '"Slamty.Api.Controllers.Mobile.ProfileController.UpdateProfileImage (Slamty.Api)"'
+2026-06-22 09:05:12 [Information] Route matched with "{action = \"UpdateProfileImage\", controller = \"Profile\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdateProfileImage(Slamty.Application.Features.UserProfile.Commands.UpdateProfileImage.UpdateProfileImageCommand)" on controller "Slamty.Api.Controllers.Mobile.ProfileController" ("Slamty.Api").
+2026-06-22 09:05:12 [Information] Executed action "Slamty.Api.Controllers.Mobile.ProfileController.UpdateProfileImage (Slamty.Api)" in 96.3044ms
+2026-06-22 09:05:12 [Information] Executed endpoint '"Slamty.Api.Controllers.Mobile.ProfileController.UpdateProfileImage (Slamty.Api)"'
+2026-06-22 09:05:12 [Error] An unhandled exception has occurred while executing the request.
+System.ArgumentException: The key value at position 0 of the call to 'DbSet<MobileUser>.Find' was of type 'Guid', which does not match the property type of 'string'.
+   at Microsoft.EntityFrameworkCore.Internal.EntityFinder`1.FindTracked(Object[] keyValues)
+   at Microsoft.EntityFrameworkCore.Internal.EntityFinder`1.FindAsync(Object[] keyValues, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.FindAsync(Object[] keyValues)
+   at Slamty.Infrastructure.Repository.GenericRepository`1.GetByIdAsync(Guid id) in D:\.NetDeveloper\API Projects\Slamty System API\Slamty.Infrastructure\Repository\GenericRepository.cs:line 34
+   at Slamty.Application.Features.UserProfile.Commands.UpdateProfileImage.UpdateProfileImageCommandHandler.Handle(UpdateProfileImageCommand request, CancellationToken cancellationToken) in D:\.NetDeveloper\API Projects\Slamty System API\Slamty.Application\Features\UserProfile\Commands\UpdateProfileImage\UpdateProfileImageCommandHandler.cs:line 23
+   at Slamty.Api.Controllers.Mobile.ProfileController.UpdateProfileImage(UpdateProfileImageCommand command) in D:\.NetDeveloper\API Projects\Slamty System API\Slamty.Api\Controllers\Mobile\ProfileController.cs:line 38
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2026-06-22 09:05:12 [Information] Request finished "HTTP/2" "PUT" "https"://"localhost:7243""""/api/mobile/Profile/UpdateProfileImage""?ProfileId=94cf96c5-ebd2-4992-be6e-79351a94e248" - 500 null "application/json" 241.0028ms
+2026-06-22 09:16:43 [Information] Request starting "HTTP/2" "POST" "https"://"localhost:7243""""/api/mobile/Profile/AddNotify""" - "application/json" 73
+2026-06-22 09:18:23 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/swagger/index.html""" - null null
+2026-06-22 09:18:36 [Information] Executing endpoint '"Slamty.Api.Controllers.Mobile.ProfileController.AddNotify (Slamty.Api)"'
+2026-06-22 09:18:36 [Information] Route matched with "{action = \"AddNotify\", controller = \"Profile\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddNotify(Slamty.Application.Features.UserProfile.Commands.AddNotify.AddNotifyCommand)" on controller "Slamty.Api.Controllers.Mobile.ProfileController" ("Slamty.Api").
+2026-06-22 09:18:36 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 12667.6955ms
+2026-06-22 09:18:36 [Information] Executed action "Slamty.Api.Controllers.Mobile.ProfileController.AddNotify (Slamty.Api)" in 97.6071ms
+2026-06-22 09:18:36 [Information] Executed endpoint '"Slamty.Api.Controllers.Mobile.ProfileController.AddNotify (Slamty.Api)"'
+2026-06-22 09:18:36 [Error] An unhandled exception has occurred while executing the request.
+FluentValidation.ValidationException: Validation failed: 
+ -- NotifyType: NotifyType is required Severity: Error
+ -- NotifyType: NotifyType is required Severity: Error
+   at Slamty.Application.PipelineBehaviour.RequestPipline`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\.NetDeveloper\API Projects\Slamty System API\Slamty.Application\PipelineBehaviour\RequestPipline.cs:line 24
+   at MediatR.Wrappers.RequestHandlerWrapperImpl`2.<>c__DisplayClass1_1.<Handle>b__2(CancellationToken t)
+   at MediatR.Wrappers.RequestHandlerWrapperImpl`2.Handle(IRequest`1 request, IServiceProvider serviceProvider, CancellationToken cancellationToken)
+   at MediatR.Mediator.Send[TResponse](IRequest`1 request, CancellationToken cancellationToken)
+   at Slamty.Api.Controllers.Mobile.ProfileController.AddNotify(AddNotifyCommand command) in D:\.NetDeveloper\API Projects\Slamty System API\Slamty.Api\Controllers\Mobile\ProfileController.cs:line 62
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2026-06-22 09:18:36 [Information] Request finished "HTTP/2" "POST" "https"://"localhost:7243""""/api/mobile/Profile/AddNotify""" - 400 null "application/json" 113262.7675ms
+2026-06-22 09:18:36 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2026-06-22 09:18:36 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/_framework/aspnetcore-browser-refresh.js""" - 200 16505 "application/javascript; charset=utf-8" 66.2754ms
+2026-06-22 09:18:37 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/_vs/browserLink""" - null null
+2026-06-22 09:18:37 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 31.2612ms
+2026-06-22 09:18:38 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/swagger/v1/swagger.json""" - null null
+2026-06-22 09:18:38 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 101.6167ms
+2026-06-22 09:18:54 [Information] Request starting "HTTP/2" "POST" "https"://"localhost:7243""""/api/mobile/Profile/AddNotify""" - "application/json" 73
+2026-06-22 09:18:54 [Information] Executing endpoint '"Slamty.Api.Controllers.Mobile.ProfileController.AddNotify (Slamty.Api)"'
+2026-06-22 09:18:54 [Information] Route matched with "{action = \"AddNotify\", controller = \"Profile\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddNotify(Slamty.Application.Features.UserProfile.Commands.AddNotify.AddNotifyCommand)" on controller "Slamty.Api.Controllers.Mobile.ProfileController" ("Slamty.Api").
+2026-06-22 09:18:54 [Information] Executed action "Slamty.Api.Controllers.Mobile.ProfileController.AddNotify (Slamty.Api)" in 2.4291ms
+2026-06-22 09:18:54 [Information] Executed endpoint '"Slamty.Api.Controllers.Mobile.ProfileController.AddNotify (Slamty.Api)"'
+2026-06-22 09:18:54 [Error] An unhandled exception has occurred while executing the request.
+FluentValidation.ValidationException: Validation failed: 
+ -- NotifyType: NotifyType is required Severity: Error
+ -- NotifyType: NotifyType is required Severity: Error
+   at Slamty.Application.PipelineBehaviour.RequestPipline`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\.NetDeveloper\API Projects\Slamty System API\Slamty.Application\PipelineBehaviour\RequestPipline.cs:line 24
+   at MediatR.Wrappers.RequestHandlerWrapperImpl`2.<>c__DisplayClass1_1.<Handle>b__2(CancellationToken t)
+   at MediatR.Wrappers.RequestHandlerWrapperImpl`2.Handle(IRequest`1 request, IServiceProvider serviceProvider, CancellationToken cancellationToken)
+   at MediatR.Mediator.Send[TResponse](IRequest`1 request, CancellationToken cancellationToken)
+   at Slamty.Api.Controllers.Mobile.ProfileController.AddNotify(AddNotifyCommand command) in D:\.NetDeveloper\API Projects\Slamty System API\Slamty.Api\Controllers\Mobile\ProfileController.cs:line 62
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2026-06-22 09:18:54 [Information] Request finished "HTTP/2" "POST" "https"://"localhost:7243""""/api/mobile/Profile/AddNotify""" - 400 null "application/json" 50.0658ms
+2026-06-22 09:19:22 [Information] Request starting "HTTP/2" "POST" "https"://"localhost:7243""""/api/mobile/Profile/AddNotify""" - "application/json" 72
+2026-06-22 09:19:22 [Information] Executing endpoint '"Slamty.Api.Controllers.Mobile.ProfileController.AddNotify (Slamty.Api)"'
+2026-06-22 09:19:22 [Information] Route matched with "{action = \"AddNotify\", controller = \"Profile\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddNotify(Slamty.Application.Features.UserProfile.Commands.AddNotify.AddNotifyCommand)" on controller "Slamty.Api.Controllers.Mobile.ProfileController" ("Slamty.Api").
+2026-06-22 09:19:22 [Information] Executing "BadRequestObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ValidationProblemDetails"'.
+2026-06-22 09:19:22 [Information] Executed action "Slamty.Api.Controllers.Mobile.ProfileController.AddNotify (Slamty.Api)" in 193.4467ms
+2026-06-22 09:19:22 [Information] Executed endpoint '"Slamty.Api.Controllers.Mobile.ProfileController.AddNotify (Slamty.Api)"'
+2026-06-22 09:19:22 [Information] Request finished "HTTP/2" "POST" "https"://"localhost:7243""""/api/mobile/Profile/AddNotify""" - 400 null "application/problem+json; charset=utf-8" 217.4574ms
+2026-06-22 09:20:58 [Information] Request starting "HTTP/2" "POST" "https"://"localhost:7243""""/api/mobile/Profile/AddNotify""" - "application/json" 83
+2026-06-22 09:20:58 [Information] Executing endpoint '"Slamty.Api.Controllers.Mobile.ProfileController.AddNotify (Slamty.Api)"'
+2026-06-22 09:20:58 [Information] Route matched with "{action = \"AddNotify\", controller = \"Profile\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddNotify(Slamty.Application.Features.UserProfile.Commands.AddNotify.AddNotifyCommand)" on controller "Slamty.Api.Controllers.Mobile.ProfileController" ("Slamty.Api").
+2026-06-22 09:20:58 [Information] Executing "BadRequestObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ValidationProblemDetails"'.
+2026-06-22 09:20:58 [Information] Executed action "Slamty.Api.Controllers.Mobile.ProfileController.AddNotify (Slamty.Api)" in 19.8359ms
+2026-06-22 09:20:58 [Information] Executed endpoint '"Slamty.Api.Controllers.Mobile.ProfileController.AddNotify (Slamty.Api)"'
+2026-06-22 09:20:58 [Information] Request finished "HTTP/2" "POST" "https"://"localhost:7243""""/api/mobile/Profile/AddNotify""" - 400 null "application/problem+json; charset=utf-8" 77.7491ms
+2026-06-22 09:21:09 [Information] Request starting "HTTP/2" "POST" "https"://"localhost:7243""""/api/mobile/Profile/AddNotify""" - "application/json" 85
+2026-06-22 09:21:09 [Information] Executing endpoint '"Slamty.Api.Controllers.Mobile.ProfileController.AddNotify (Slamty.Api)"'
+2026-06-22 09:21:09 [Information] Route matched with "{action = \"AddNotify\", controller = \"Profile\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddNotify(Slamty.Application.Features.UserProfile.Commands.AddNotify.AddNotifyCommand)" on controller "Slamty.Api.Controllers.Mobile.ProfileController" ("Slamty.Api").
+2026-06-22 09:21:09 [Information] Executing "BadRequestObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ValidationProblemDetails"'.
+2026-06-22 09:21:09 [Information] Executed action "Slamty.Api.Controllers.Mobile.ProfileController.AddNotify (Slamty.Api)" in 14.8384ms
+2026-06-22 09:21:09 [Information] Executed endpoint '"Slamty.Api.Controllers.Mobile.ProfileController.AddNotify (Slamty.Api)"'
+2026-06-22 09:21:09 [Information] Request finished "HTTP/2" "POST" "https"://"localhost:7243""""/api/mobile/Profile/AddNotify""" - 400 null "application/problem+json; charset=utf-8" 72.8965ms
+2026-06-22 09:21:23 [Information] Request starting "HTTP/2" "POST" "https"://"localhost:7243""""/api/mobile/Profile/AddNotify""" - "application/json" 72
+2026-06-22 09:21:23 [Information] Executing endpoint '"Slamty.Api.Controllers.Mobile.ProfileController.AddNotify (Slamty.Api)"'
+2026-06-22 09:21:23 [Information] Route matched with "{action = \"AddNotify\", controller = \"Profile\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddNotify(Slamty.Application.Features.UserProfile.Commands.AddNotify.AddNotifyCommand)" on controller "Slamty.Api.Controllers.Mobile.ProfileController" ("Slamty.Api").
+2026-06-22 09:21:23 [Information] Executing "BadRequestObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ValidationProblemDetails"'.
+2026-06-22 09:21:23 [Information] Executed action "Slamty.Api.Controllers.Mobile.ProfileController.AddNotify (Slamty.Api)" in 10.228ms
+2026-06-22 09:21:23 [Information] Executed endpoint '"Slamty.Api.Controllers.Mobile.ProfileController.AddNotify (Slamty.Api)"'
+2026-06-22 09:21:23 [Information] Request finished "HTTP/2" "POST" "https"://"localhost:7243""""/api/mobile/Profile/AddNotify""" - 400 null "application/problem+json; charset=utf-8" 50.9771ms
+2026-06-22 09:22:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/api/mobile/Reports/c60938f3-046c-4a2b-94bf-19a380c85810c60938f3-046c-4a2b-94bf-19a380c85810""" - null null
+2026-06-22 09:22:00 [Information] Executing endpoint '"Slamty.Api.Controllers.Mobile.ReportsController.GetReports (Slamty.Api)"'
+2026-06-22 09:22:00 [Information] Route matched with "{action = \"GetReports\", controller = \"Reports\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetReports(System.String)" on controller "Slamty.Api.Controllers.Mobile.ReportsController" ("Slamty.Api").
+2026-06-22 09:22:01 [Warning] GetReports failed. User with ID "c60938f3-046c-4a2b-94bf-19a380c85810c60938f3-046c-4a2b-94bf-19a380c85810" not found.
+2026-06-22 09:22:01 [Information] Executing "NotFoundObjectResult", writing value of type '"Slamty.Application.ResponseTypes.ApiResponse`1[[System.Collections.Generic.List`1[[Slamty.Application.Features.Common.Dtos.ReportDto, Slamty.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+2026-06-22 09:22:01 [Information] Executed action "Slamty.Api.Controllers.Mobile.ReportsController.GetReports (Slamty.Api)" in 1456.2161ms
+2026-06-22 09:22:01 [Information] Executed endpoint '"Slamty.Api.Controllers.Mobile.ReportsController.GetReports (Slamty.Api)"'
+2026-06-22 09:22:01 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/api/mobile/Reports/c60938f3-046c-4a2b-94bf-19a380c85810c60938f3-046c-4a2b-94bf-19a380c85810""" - 404 null "application/json; charset=utf-8" 1525.7009ms
+2026-06-22 09:22:31 [Information] Request starting "HTTP/2" "POST" "https"://"localhost:7243""""/api/mobile/Reports/CreateReport""" - "application/json" 141
+2026-06-22 09:22:31 [Information] Executing endpoint '"Slamty.Api.Controllers.Mobile.ReportsController.CreateReport (Slamty.Api)"'
+2026-06-22 09:22:31 [Information] Route matched with "{action = \"CreateReport\", controller = \"Reports\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateReport(Slamty.Application.Features.Reports.Commands.CreateReport.CreateReportCommand)" on controller "Slamty.Api.Controllers.Mobile.ReportsController" ("Slamty.Api").
+2026-06-22 09:22:32 [Information] Executed action "Slamty.Api.Controllers.Mobile.ReportsController.CreateReport (Slamty.Api)" in 188.2961ms
+2026-06-22 09:22:32 [Information] Executed endpoint '"Slamty.Api.Controllers.Mobile.ReportsController.CreateReport (Slamty.Api)"'
+2026-06-22 09:22:32 [Error] An unhandled exception has occurred while executing the request.
+FluentValidation.ValidationException: Validation failed: 
+ -- Description: Description must be at least 20 characters long. Severity: Error
+ -- Description: Description must be at least 20 characters long. Severity: Error
+   at Slamty.Application.PipelineBehaviour.RequestPipline`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\.NetDeveloper\API Projects\Slamty System API\Slamty.Application\PipelineBehaviour\RequestPipline.cs:line 24
+   at MediatR.Wrappers.RequestHandlerWrapperImpl`2.<>c__DisplayClass1_1.<Handle>b__2(CancellationToken t)
+   at MediatR.Wrappers.RequestHandlerWrapperImpl`2.Handle(IRequest`1 request, IServiceProvider serviceProvider, CancellationToken cancellationToken)
+   at MediatR.Mediator.Send[TResponse](IRequest`1 request, CancellationToken cancellationToken)
+   at Slamty.Api.Controllers.Mobile.ReportsController.CreateReport(CreateReportCommand command) in D:\.NetDeveloper\API Projects\Slamty System API\Slamty.Api\Controllers\Mobile\ReportsController.cs:line 34
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2026-06-22 09:22:32 [Information] Request finished "HTTP/2" "POST" "https"://"localhost:7243""""/api/mobile/Reports/CreateReport""" - 400 null "application/json" 251.6711ms
+2026-06-22 09:22:50 [Information] Request starting "HTTP/2" "POST" "https"://"localhost:7243""""/api/mobile/Reports/CreateReport""" - "application/json" 166
+2026-06-22 09:22:50 [Information] Executing endpoint '"Slamty.Api.Controllers.Mobile.ReportsController.CreateReport (Slamty.Api)"'
+2026-06-22 09:22:50 [Information] Route matched with "{action = \"CreateReport\", controller = \"Reports\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateReport(Slamty.Application.Features.Reports.Commands.CreateReport.CreateReportCommand)" on controller "Slamty.Api.Controllers.Mobile.ReportsController" ("Slamty.Api").
+2026-06-22 09:22:51 [Information] Executing "ObjectResult", writing value of type '"Slamty.Application.ResponseTypes.ApiResponse`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+2026-06-22 09:22:51 [Information] Executed action "Slamty.Api.Controllers.Mobile.ReportsController.CreateReport (Slamty.Api)" in 668.5009ms
+2026-06-22 09:22:51 [Information] Executed endpoint '"Slamty.Api.Controllers.Mobile.ReportsController.CreateReport (Slamty.Api)"'
+2026-06-22 09:22:51 [Information] Request finished "HTTP/2" "POST" "https"://"localhost:7243""""/api/mobile/Reports/CreateReport""" - 201 null "application/json; charset=utf-8" 702.2621ms
+2026-06-22 09:23:01 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/api/mobile/Reports/details/c60938f3-046c-4a2b-94bf-19a380c85810""" - null null
+2026-06-22 09:23:01 [Information] Executing endpoint '"Slamty.Api.Controllers.Mobile.ReportsController.GetReportById (Slamty.Api)"'
+2026-06-22 09:23:01 [Information] Route matched with "{action = \"GetReportById\", controller = \"Reports\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetReportById(System.String)" on controller "Slamty.Api.Controllers.Mobile.ReportsController" ("Slamty.Api").
+2026-06-22 09:23:02 [Warning] GetReportById failed. Report with ID "c60938f3-046c-4a2b-94bf-19a380c85810" not found.
+2026-06-22 09:23:02 [Information] Executing "NotFoundObjectResult", writing value of type '"Slamty.Application.ResponseTypes.ApiResponse`1[[Slamty.Application.Features.Common.Dtos.ReportDto, Slamty.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2026-06-22 09:23:02 [Information] Executed action "Slamty.Api.Controllers.Mobile.ReportsController.GetReportById (Slamty.Api)" in 325.2028ms
+2026-06-22 09:23:02 [Information] Executed endpoint '"Slamty.Api.Controllers.Mobile.ReportsController.GetReportById (Slamty.Api)"'
+2026-06-22 09:23:02 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/api/mobile/Reports/details/c60938f3-046c-4a2b-94bf-19a380c85810""" - 404 null "application/json; charset=utf-8" 383.7726ms
+2026-06-22 09:23:41 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7243""""/api/mobile/Reports/details/409e4cf2-ef16-4bd1-acb2-42077890b6ba""" - null null
+2026-06-22 09:23:41 [Information] Executing endpoint '"Slamty.Api.Controllers.Mobile.ReportsController.GetReportById (Slamty.Api)"'
+2026-06-22 09:23:41 [Information] Route matched with "{action = \"GetReportById\", controller = \"Reports\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetReportById(System.String)" on controller "Slamty.Api.Controllers.Mobile.ReportsController" ("Slamty.Api").
+2026-06-22 09:23:41 [Information] Report with ID "409e4cf2-ef16-4bd1-acb2-42077890b6ba" retrieved successfully.
+2026-06-22 09:23:41 [Information] Executing "OkObjectResult", writing value of type '"Slamty.Application.ResponseTypes.ApiResponse`1[[Slamty.Application.Features.Common.Dtos.ReportDto, Slamty.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2026-06-22 09:23:41 [Information] Executed action "Slamty.Api.Controllers.Mobile.ReportsController.GetReportById (Slamty.Api)" in 315.2491ms
+2026-06-22 09:23:41 [Information] Executed endpoint '"Slamty.Api.Controllers.Mobile.ReportsController.GetReportById (Slamty.Api)"'
+2026-06-22 09:23:41 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7243""""/api/mobile/Reports/details/409e4cf2-ef16-4bd1-acb2-42077890b6ba""" - 200 null "application/json; charset=utf-8" 363.0663ms
+2026-06-22 09:24:05 [Information] Request starting "HTTP/2" "DELETE" "https"://"localhost:7243""""/api/mobile/Reports/DeleteReport""" - "application/json" 56
+2026-06-22 09:24:05 [Information] Executing endpoint '"Slamty.Api.Controllers.Mobile.ReportsController.DeleteReport (Slamty.Api)"'
+2026-06-22 09:24:05 [Information] Route matched with "{action = \"DeleteReport\", controller = \"Reports\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteReport(Slamty.Application.Features.Reports.Commands.DeleteReport.DeleteReportCommand)" on controller "Slamty.Api.Controllers.Mobile.ReportsController" ("Slamty.Api").
+2026-06-22 09:24:05 [Information] Executed action "Slamty.Api.Controllers.Mobile.ReportsController.DeleteReport (Slamty.Api)" in 38.5573ms
+2026-06-22 09:24:05 [Information] Executed endpoint '"Slamty.Api.Controllers.Mobile.ReportsController.DeleteReport (Slamty.Api)"'
+2026-06-22 09:24:05 [Error] An unhandled exception has occurred while executing the request.
+System.ArgumentException: The key value at position 0 of the call to 'DbSet<Report>.Find' was of type 'Guid', which does not match the property type of 'string'.
+   at Microsoft.EntityFrameworkCore.Internal.EntityFinder`1.FindTracked(Object[] keyValues)
+   at Microsoft.EntityFrameworkCore.Internal.EntityFinder`1.FindAsync(Object[] keyValues, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.FindAsync(Object[] keyValues)
+   at Slamty.Infrastructure.Repository.GenericRepository`1.GetByIdAsync(Guid id) in D:\.NetDeveloper\API Projects\Slamty System API\Slamty.Infrastructure\Repository\GenericRepository.cs:line 34
+   at Slamty.Application.Features.Reports.Commands.DeleteReport.DeleteReportCommandHandler.Handle(DeleteReportCommand request, CancellationToken cancellationToken) in D:\.NetDeveloper\API Projects\Slamty System API\Slamty.Application\Features\Reports\Commands\DeleteReport\DeleteReportCommandHandler.cs:line 18
+   at Slamty.Api.Controllers.Mobile.ReportsController.DeleteReport(DeleteReportCommand command) in D:\.NetDeveloper\API Projects\Slamty System API\Slamty.Api\Controllers\Mobile\ReportsController.cs:line 42
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2026-06-22 09:24:06 [Information] Request finished "HTTP/2" "DELETE" "https"://"localhost:7243""""/api/mobile/Reports/DeleteReport""" - 500 null "application/json" 151.5845ms
+2026-06-22 10:17:56 [Warning] Entity '"AppUser"' has a global query filter defined and is the required end of a relationship with the entity '"DashboardUser"'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2026-06-22 10:17:56 [Warning] Entity '"AppUser"' has a global query filter defined and is the required end of a relationship with the entity '"MobileUser"'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2026-06-22 10:17:56 [Warning] Entity '"AppUser"' has a global query filter defined and is the required end of a relationship with the entity '"Notification"'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2026-06-22 10:17:59 [Error] An exception occurred while iterating over the results of a query for context type '"Slamty.Infrastructure.Data.Identity.AppIdentityDbContext"'."
+""System.InvalidCastException: Unable to cast object of type 'System.String' to type 'System.Guid'.
+   at Microsoft.Data.SqlClient.SqlBuffer.get_Guid()
+   at Microsoft.Data.SqlClient.SqlDataReader.GetGuid(Int32 i)
+   at lambda_method11(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()"
+System.InvalidCastException: Unable to cast object of type 'System.String' to type 'System.Guid'.
+   at Microsoft.Data.SqlClient.SqlBuffer.get_Guid()
+   at Microsoft.Data.SqlClient.SqlDataReader.GetGuid(Int32 i)
+   at lambda_method11(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2026-06-22 10:25:45 [Warning] Entity '"AppUser"' has a global query filter defined and is the required end of a relationship with the entity '"DashboardUser"'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2026-06-22 10:25:45 [Warning] Entity '"AppUser"' has a global query filter defined and is the required end of a relationship with the entity '"MobileUser"'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2026-06-22 10:25:45 [Warning] Entity '"AppUser"' has a global query filter defined and is the required end of a relationship with the entity '"Notification"'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2026-06-22 10:25:45 [Warning] Entity '"AppUser"' has a global query filter defined and is the required end of a relationship with the entity '"DashboardUser"'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2026-06-22 10:25:45 [Warning] Entity '"AppUser"' has a global query filter defined and is the required end of a relationship with the entity '"MobileUser"'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2026-06-22 10:25:45 [Warning] Entity '"AppUser"' has a global query filter defined and is the required end of a relationship with the entity '"Notification"'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2026-06-22 10:27:05 [Warning] Entity '"AppUser"' has a global query filter defined and is the required end of a relationship with the entity '"DashboardUser"'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2026-06-22 10:27:05 [Warning] Entity '"AppUser"' has a global query filter defined and is the required end of a relationship with the entity '"MobileUser"'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2026-06-22 10:27:05 [Warning] Entity '"AppUser"' has a global query filter defined and is the required end of a relationship with the entity '"Notification"'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2026-06-22 10:27:07 [Error] An exception occurred while iterating over the results of a query for context type '"Slamty.Infrastructure.Data.Identity.AppIdentityDbContext"'."
+""System.InvalidCastException: Unable to cast object of type 'System.String' to type 'System.Guid'.
+   at Microsoft.Data.SqlClient.SqlBuffer.get_Guid()
+   at Microsoft.Data.SqlClient.SqlDataReader.GetGuid(Int32 i)
+   at lambda_method11(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()"
+System.InvalidCastException: Unable to cast object of type 'System.String' to type 'System.Guid'.
+   at Microsoft.Data.SqlClient.SqlBuffer.get_Guid()
+   at Microsoft.Data.SqlClient.SqlDataReader.GetGuid(Int32 i)
+   at lambda_method11(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2026-06-22 10:30:54 [Warning] Entity '"AppUser"' has a global query filter defined and is the required end of a relationship with the entity '"DashboardUser"'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2026-06-22 10:30:54 [Warning] Entity '"AppUser"' has a global query filter defined and is the required end of a relationship with the entity '"MobileUser"'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2026-06-22 10:30:54 [Warning] Entity '"AppUser"' has a global query filter defined and is the required end of a relationship with the entity '"Notification"'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2026-06-22 10:30:57 [Information] Applying migration '"20260610135100_Initial"'.
+2026-06-22 10:30:57 [Error] Failed executing DbCommand ("150"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE [AspNetRoles] (
+    [Id] nvarchar(450) NOT NULL,
+    [Name] nvarchar(256) NULL,
+    [NormalizedName] nvarchar(256) NULL,
+    [ConcurrencyStamp] nvarchar(max) NULL,
+    CONSTRAINT [PK_AspNetRoles] PRIMARY KEY ([Id])
+);"
+2026-06-22 10:32:41 [Warning] Entity '"AppUser"' has a global query filter defined and is the required end of a relationship with the entity '"DashboardUser"'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2026-06-22 10:32:41 [Warning] Entity '"AppUser"' has a global query filter defined and is the required end of a relationship with the entity '"MobileUser"'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2026-06-22 10:32:41 [Warning] Entity '"AppUser"' has a global query filter defined and is the required end of a relationship with the entity '"Notification"'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2026-06-22 10:40:49 [Warning] Entity '"AppUser"' has a global query filter defined and is the required end of a relationship with the entity '"DashboardUser"'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2026-06-22 10:40:49 [Warning] Entity '"AppUser"' has a global query filter defined and is the required end of a relationship with the entity '"MobileUser"'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2026-06-22 10:40:49 [Warning] Entity '"AppUser"' has a global query filter defined and is the required end of a relationship with the entity '"Notification"'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.

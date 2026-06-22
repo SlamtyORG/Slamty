@@ -1,13 +1,15 @@
-﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Slamty.Domain.Entities;
 using Slamty.Infrastructure.Data.Configurations.User;
 
 namespace Slamty.Infrastructure.Data.Identity
 {
-    public class AppIdentityDbContext : IdentityDbContext<AppUser>
+    public class AppIdentityDbContext : IdentityDbContext<AppUser, IdentityRole<Guid>, Guid>
     {
-        public AppIdentityDbContext(DbContextOptions options) : base(options)
+        public AppIdentityDbContext(DbContextOptions<AppIdentityDbContext> options) :
+            base(options)
         {
         }
         public DbSet<DashboardUser> DashboardUsers { get; set; }

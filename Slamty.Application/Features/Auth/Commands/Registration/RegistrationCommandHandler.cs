@@ -29,7 +29,7 @@ namespace Slamty.Application.Features.Auth.Commands.Registration
         {
             var user = new AppUser
             {
-                Id = Guid.NewGuid().ToString(),
+                Id = Guid.NewGuid(),
                 FullName = request.FullName,
                 UserName = request.FullName,
                 PhoneNumber = request.PhoneNumber,
@@ -87,7 +87,7 @@ namespace Slamty.Application.Features.Auth.Commands.Registration
                     RefreshToken = refreshToken.Token,
                     RefreshTokenExpiration = refreshToken.ExpiresOn,
                     UserId = user.Id,
-                    ProfileId = userProfile.Id.ToString(),
+                    ProfileId = userProfile.Id,
                     FullName = user.FullName
                 },
                 message: "User registered successfully."

@@ -6,9 +6,9 @@ namespace Slamty.Application.Features.UserProfile.Queries.GetProfile
 {
     public class GetProfileQuery : IRequest<ApiResponse<ProfileResponseDto>>
     {
-        public string UserId { get; set; }
+        public Guid UserId { get; set; }
 
-        public GetProfileQuery(string userId)
+        public GetProfileQuery(Guid userId)
         {
             UserId = userId;
         }

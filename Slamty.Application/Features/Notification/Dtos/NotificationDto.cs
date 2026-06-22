@@ -4,7 +4,7 @@ namespace Slamty.Application.Features.Notification.Dtos
 {
     public class NotificationDto
     {
-        public string Id { get; set; }
+        public Guid Id { get; set; }
         public string Message { get; set; }
         public NotificationStatus Status { get; set; }
         public DateTime Date { get; set; }
