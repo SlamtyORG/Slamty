@@ -12,7 +12,7 @@ using Slamty.Infrastructure.Data.Identity;
 namespace Slamty.Infrastructure.Data.Migrations
 {
     [DbContext(typeof(AppIdentityDbContext))]
-    [Migration("20260610135100_Initial")]
+    [Migration("20260624133729_Initial")]
     partial class Initial
     {
         /// <inheritdoc />
@@ -25,10 +25,11 @@ namespace Slamty.Infrastructure.Data.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole<System.Guid>", b =>
                 {
-                    b.Property<string>("Id")
-                        .HasColumnType("nvarchar(450)");
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
 
                     b.Property<string>("ConcurrencyStamp")
                         .IsConcurrencyToken()
@@ -52,7 +53,7 @@ namespace Slamty.Infrastructure.Data.Migrations
                     b.ToTable("AspNetRoles", (string)null);
                 });
 
-            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<System.Guid>", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -66,9 +67,8 @@ namespace Slamty.Infrastructure.Data.Migrations
                     b.Property<string>("ClaimValue")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("RoleId")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(450)");
+                    b.Property<Guid>("RoleId")
+                        .HasColumnType("uniqueidentifier");
 
                     b.HasKey("Id");
 
@@ -77,7 +77,7 @@ namespace Slamty.Infrastructure.Data.Migrations
                     b.ToTable("AspNetRoleClaims", (string)null);
                 });
 
-            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserClaim<string>", b =>
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserClaim<System.Guid>", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -91,9 +91,8 @@ namespace Slamty.Infrastructure.Data.Migrations
                     b.Property<string>("ClaimValue")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("UserId")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(450)");
+                    b.Property<Guid>("UserId")
+                        .HasColumnType("uniqueidentifier");
 
                     b.HasKey("Id");
 
@@ -102,7 +101,7 @@ namespace Slamty.Infrastructure.Data.Migrations
                     b.ToTable("AspNetUserClaims", (string)null);
                 });
 
-            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserLogin<string>", b =>
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserLogin<System.Guid>", b =>
                 {
                     b.Property<string>("LoginProvider")
                         .HasColumnType("nvarchar(450)");
@@ -113,9 +112,8 @@ namespace Slamty.Infrastructure.Data.Migrations
                     b.Property<string>("ProviderDisplayName")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("UserId")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(450)");
+                    b.Property<Guid>("UserId")
+                        .HasColumnType("uniqueidentifier");
 
                     b.HasKey("LoginProvider", "ProviderKey");
 
@@ -124,13 +122,13 @@ namespace Slamty.Infrastructure.Data.Migrations
                     b.ToTable("AspNetUserLogins", (string)null);
                 });
 
-            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserRole<string>", b =>
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserRole<System.Guid>", b =>
                 {
-                    b.Property<string>("UserId")
-                        .HasColumnType("nvarchar(450)");
+                    b.Property<Guid>("UserId")
+                        .HasColumnType("uniqueidentifier");
 
-                    b.Property<string>("RoleId")
-                        .HasColumnType("nvarchar(450)");
+                    b.Property<Guid>("RoleId")
+                        .HasColumnType("uniqueidentifier");
 
                     b.HasKey("UserId", "RoleId");
 
@@ -139,10 +137,10 @@ namespace Slamty.Infrastructure.Data.Migrations
                     b.ToTable("AspNetUserRoles", (string)null);
                 });
 
-            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserToken<string>", b =>
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserToken<System.Guid>", b =>
                 {
-                    b.Property<string>("UserId")
-                        .HasColumnType("nvarchar(450)");
+                    b.Property<Guid>("UserId")
+                        .HasColumnType("uniqueidentifier");
 
                     b.Property<string>("LoginProvider")
                         .HasColumnType("nvarchar(450)");
@@ -160,8 +158,9 @@ namespace Slamty.Infrastructure.Data.Migrations
 
             modelBuilder.Entity("Slamty.Domain.Entities.AppUser", b =>
                 {
-                    b.Property<string>("Id")
-                        .HasColumnType("nvarchar(450)");
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
 
                     b.Property<int>("AccessFailedCount")
                         .HasColumnType("int");
@@ -235,11 +234,12 @@ namespace Slamty.Infrastructure.Data.Migrations
 
             modelBuilder.Entity("Slamty.Domain.Entities.DashboardUser", b =>
                 {
-                    b.Property<string>("Id")
-                        .HasColumnType("nvarchar(450)");
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
 
-                    b.Property<string>("UserId")
-                        .HasColumnType("nvarchar(450)");
+                    b.Property<Guid>("UserId")
+                        .HasColumnType("uniqueidentifier");
 
                     b.HasKey("Id");
 
@@ -250,8 +250,9 @@ namespace Slamty.Infrastructure.Data.Migrations
 
             modelBuilder.Entity("Slamty.Domain.Entities.MobileUser", b =>
                 {
-                    b.Property<string>("Id")
-                        .HasColumnType("nvarchar(450)");
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
 
                     b.Property<int>("BloodType")
                         .HasColumnType("int");
@@ -266,12 +267,11 @@ namespace Slamty.Infrastructure.Data.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("RatingId")
-                        .HasColumnType("nvarchar(450)");
+                    b.Property<Guid>("RatingId")
+                        .HasColumnType("uniqueidentifier");
 
-                    b.Property<string>("UserId")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(450)");
+                    b.Property<Guid>("UserId")
+                        .HasColumnType("uniqueidentifier");
 
                     b.HasKey("Id");
 
@@ -284,8 +284,9 @@ namespace Slamty.Infrastructure.Data.Migrations
 
             modelBuilder.Entity("Slamty.Domain.Entities.Notification", b =>
                 {
-                    b.Property<string>("Id")
-                        .HasColumnType("nvarchar(450)");
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
 
                     b.Property<DateTime>("Date")
                         .HasColumnType("datetime2");
@@ -297,9 +298,8 @@ namespace Slamty.Infrastructure.Data.Migrations
                     b.Property<int>("NotificationStatus")
                         .HasColumnType("int");
 
-                    b.Property<string>("UserId")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(450)");
+                    b.Property<Guid>("UserId")
+                        .HasColumnType("uniqueidentifier");
 
                     b.HasKey("Id");
 
@@ -310,8 +310,9 @@ namespace Slamty.Infrastructure.Data.Migrations
 
             modelBuilder.Entity("Slamty.Domain.Entities.Rating", b =>
                 {
-                    b.Property<string>("Id")
-                        .HasColumnType("nvarchar(450)");
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
 
                     b.Property<string>("Comment")
                         .HasColumnType("nvarchar(max)");
@@ -326,8 +327,9 @@ namespace Slamty.Infrastructure.Data.Migrations
 
             modelBuilder.Entity("Slamty.Domain.Entities.Report", b =>
                 {
-                    b.Property<string>("Id")
-                        .HasColumnType("nvarchar(450)");
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
 
                     b.Property<string>("Attachments")
                         .IsRequired()
@@ -346,8 +348,8 @@ namespace Slamty.Infrastructure.Data.Migrations
                     b.Property<double>("Lng")
                         .HasColumnType("float");
 
-                    b.Property<string>("MobileUserId")
-                        .HasColumnType("nvarchar(450)");
+                    b.Property<Guid?>("MobileUserId")
+                        .HasColumnType("uniqueidentifier");
 
                     b.Property<int>("Status")
                         .HasColumnType("int");
@@ -362,16 +364,16 @@ namespace Slamty.Infrastructure.Data.Migrations
                     b.ToTable("Report");
                 });
 
-            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<System.Guid>", b =>
                 {
-                    b.HasOne("Microsoft.AspNetCore.Identity.IdentityRole", null)
+                    b.HasOne("Microsoft.AspNetCore.Identity.IdentityRole<System.Guid>", null)
                         .WithMany()
                         .HasForeignKey("RoleId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserClaim<string>", b =>
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserClaim<System.Guid>", b =>
                 {
                     b.HasOne("Slamty.Domain.Entities.AppUser", null)
                         .WithMany()
@@ -380,7 +382,7 @@ namespace Slamty.Infrastructure.Data.Migrations
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserLogin<string>", b =>
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserLogin<System.Guid>", b =>
                 {
                     b.HasOne("Slamty.Domain.Entities.AppUser", null)
                         .WithMany()
@@ -389,9 +391,9 @@ namespace Slamty.Infrastructure.Data.Migrations
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserRole<string>", b =>
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserRole<System.Guid>", b =>
                 {
-                    b.HasOne("Microsoft.AspNetCore.Identity.IdentityRole", null)
+                    b.HasOne("Microsoft.AspNetCore.Identity.IdentityRole<System.Guid>", null)
                         .WithMany()
                         .HasForeignKey("RoleId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -404,7 +406,7 @@ namespace Slamty.Infrastructure.Data.Migrations
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserToken<string>", b =>
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserToken<System.Guid>", b =>
                 {
                     b.HasOne("Slamty.Domain.Entities.AppUser", null)
                         .WithMany()
@@ -417,8 +419,8 @@ namespace Slamty.Infrastructure.Data.Migrations
                 {
                     b.OwnsMany("Slamty.Domain.Entities.RefreshToken", "RefreshTokens", b1 =>
                         {
-                            b1.Property<string>("AppUserId")
-                                .HasColumnType("nvarchar(450)");
+                            b1.Property<Guid>("AppUserId")
+                                .HasColumnType("uniqueidentifier");
 
                             b1.Property<int>("Id")
                                 .ValueGeneratedOnAdd()
@@ -454,7 +456,9 @@ namespace Slamty.Infrastructure.Data.Migrations
                 {
                     b.HasOne("Slamty.Domain.Entities.AppUser", "User")
                         .WithMany()
-                        .HasForeignKey("UserId");
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.Navigation("User");
                 });
@@ -463,7 +467,9 @@ namespace Slamty.Infrastructure.Data.Migrations
                 {
                     b.HasOne("Slamty.Domain.Entities.Rating", "Rating")
                         .WithMany()
-                        .HasForeignKey("RatingId");
+                        .HasForeignKey("RatingId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.HasOne("Slamty.Domain.Entities.AppUser", "User")
                         .WithMany()
@@ -473,8 +479,8 @@ namespace Slamty.Infrastructure.Data.Migrations
 
                     b.OwnsMany("Slamty.Domain.Entities.Device", "Devices", b1 =>
                         {
-                            b1.Property<string>("MobileUserId")
-                                .HasColumnType("nvarchar(450)");
+                            b1.Property<Guid>("MobileUserId")
+                                .HasColumnType("uniqueidentifier");
 
                             b1.Property<int>("Id")
                                 .ValueGeneratedOnAdd()
@@ -503,8 +509,8 @@ namespace Slamty.Infrastructure.Data.Migrations
 
                     b.OwnsMany("Slamty.Domain.Entities.Location", "Locations", b1 =>
                         {
-                            b1.Property<string>("MobileUserId")
-                                .HasColumnType("nvarchar(450)");
+                            b1.Property<Guid>("MobileUserId")
+                                .HasColumnType("uniqueidentifier");
 
                             b1.Property<int>("Id")
                                 .ValueGeneratedOnAdd()
