@@ -54,11 +54,11 @@ namespace Slamty.Infrastructure.Servicese
 
                     await client.DisconnectAsync(true);
                 }
-                catch
+                catch (Exception ex)
                 {
                     return new ApiResponse<bool>(data: false,
                         statusCode: System.Net.HttpStatusCode.InternalServerError,
-                        message: "Error happend when sending message");
+                        message: $"Error happend when sending message {ex} ");
                 }
             }
             return new ApiResponse<bool>(data: true,

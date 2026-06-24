@@ -18,7 +18,7 @@ namespace Slamty.Infrastructure.Servicese
             _logger = logger;
         }
 
-        public async Task Interested(NotifyType notifyType, string userId)
+        public async Task Interested(NotifyType notifyType, Guid userId)
         {
             _logger.LogInformation("Add User with Id {userId} to Notify {notifyType}", [userId, notifyType]);
             await _unitOfWork.Repository<Notify>().AddAsync(new Notify
@@ -50,7 +50,7 @@ namespace Slamty.Infrastructure.Servicese
             await _unitOfWork.Complete();
         }
 
-        public async Task NotifyUser(NotifyType notifyType, string userId, string message)
+        public async Task NotifyUser(NotifyType notifyType, Guid userId, string message)
         {
             _logger.LogInformation("Notify user {userId} with {message}", [userId, message]);
 
@@ -70,7 +70,7 @@ namespace Slamty.Infrastructure.Servicese
             await _unitOfWork.Complete();
         }
 
-        public async Task NotInterested(NotifyType notifyType, string userId)
+        public async Task NotInterested(NotifyType notifyType, Guid userId)
         {
             _logger.LogInformation("Remove User with Id {userId} from Notify {notifyType}", [userId, notifyType]);
             var notify = await _unitOfWork.Repository<Notify>().FindByCriatria(n => (n.NotifyType == notifyType) && (n.UserId == userId));
@@ -78,10 +78,10 @@ namespace Slamty.Infrastructure.Servicese
             await _unitOfWork.Complete();
         }
 
-        public async Task removeNotify(string notifyId)
+        public async Task removeNotify(Guid notifyId)
         {
             _logger.LogInformation("Remove Notification WithId {Id}", notifyId);
-            var notification = await _unitOfWork.Repository<Notification>().GetByIdAsync(Guid.Parse(notifyId));
+            var notification = await _unitOfWork.Repository<Notification>().GetByIdAsync(notifyId);
             _unitOfWork.Repository<Notification>().Delete(notification);
             await _unitOfWork.Complete();
 

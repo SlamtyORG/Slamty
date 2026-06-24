@@ -6,11 +6,11 @@ namespace Slamty.Application.Features.Notification.Queries.GetNotifications
 {
     public class GetNotificationsQuery : IRequest<ApiResponse<List<NotificationDto>>>
     {
-        public GetNotificationsQuery(string userId)
+        public GetNotificationsQuery(Guid userId)
         {
             UserId = userId;
         }
 
-        public string UserId { get; }
+        public Guid UserId { get; }
     }
 }

@@ -41,9 +41,9 @@ namespace Slamty.Application.Features.Auth.Commands.Login
                 );
             }
 
-            authResponse.ProfileId = userProfile.Id.ToString();
+            authResponse.ProfileId = userProfile.Id;
 
-            var user = await _userManager.FindByIdAsync(userProfile.UserId);
+            var user = await _userManager.FindByIdAsync(userProfile.UserId.ToString());
 
             if (user == null || !await _userManager.CheckPasswordAsync(user, request.Password))
             {

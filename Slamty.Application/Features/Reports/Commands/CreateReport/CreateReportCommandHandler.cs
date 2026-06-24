@@ -29,7 +29,7 @@ namespace Slamty.Application.Features.Reports.Commands.CreateReport
                 .AddAsync(report);
             await _unitOfWork.Complete();
 
-            return new ApiResponse<string>(System.Net.HttpStatusCode.Created, "Report created successfully", report.Id);
+            return new ApiResponse<string>(System.Net.HttpStatusCode.Created, "Report created successfully", report.Id.ToString());
         }
     }
 }

@@ -4,7 +4,7 @@ namespace Slamty.Domain.Specifications
 {
     public class GetNotificationByUserIdSpec : BaseSpecification<Notification>
     {
-        public GetNotificationByUserIdSpec(string userId) : base(n => n.UserId == userId)
+        public GetNotificationByUserIdSpec(Guid userId) : base(n => n.UserId == userId)
         {
             OrderBy = n => n.Date;
         }

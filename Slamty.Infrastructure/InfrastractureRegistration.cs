@@ -23,11 +23,12 @@ namespace Slamty.Infrastracture
                 .UseSqlServer(configuration.GetConnectionString("DefaultConnection"))
                 .AddInterceptors(new SoftDeleteInterceptor())
                 );
-            services.AddIdentity<AppUser, IdentityRole>(options =>
+            services.AddIdentity<AppUser, IdentityRole<Guid>>(options =>
             {
                 options.Tokens.EmailConfirmationTokenProvider = "numeric-provider";
             })
             .AddEntityFrameworkStores<AppIdentityDbContext>()
+            .AddDefaultTokenProviders()
             .AddTokenProvider<NumericEmailTokenProvider<AppUser>>("numeric-provider");
 
             services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));

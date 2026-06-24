@@ -30,14 +30,12 @@ namespace Slamty.Application.Features.Auth.Commands.ForgetPassword
 
             return await _emailSender.SendEmailService(
                 _configuration["SmtpSettings:AdminEmail"]!,
-                user!.Email!,
+                request.Email,
                 new EmailSenderDto
                 {
                     Subject = "Reset Password Code",
                     Body = $"Your confirmation code is: {generatedToken}"
-                },
-                "Plain"
-                );
+                });
 
 
         }

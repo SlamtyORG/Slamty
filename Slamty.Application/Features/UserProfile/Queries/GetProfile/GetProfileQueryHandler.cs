@@ -23,7 +23,7 @@ namespace Slamty.Application.Features.UserProfile.Queries.GetProfile
 
         public async Task<ApiResponse<ProfileResponseDto>> Handle(GetProfileQuery request, CancellationToken cancellationToken)
         {
-            var user = await _userManager.FindByIdAsync(request.UserId);
+            var user = await _userManager.FindByIdAsync(request.UserId.ToString());
             if (user == null)
             {
                 _logger.LogWarning("GetProfile failed. User with ID {UserId} not found.", request.UserId);

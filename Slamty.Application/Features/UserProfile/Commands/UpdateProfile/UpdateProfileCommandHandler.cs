@@ -35,7 +35,7 @@ namespace Slamty.Application.Features.UserProfile.Commands.UpdateProfile
                 return new ApiResponse<ProfileResponseDto>(HttpStatusCode.NotFound, null, "Profile not found");
             }
 
-            var user = await _userManager.FindByIdAsync(oldProfile.UserId);
+            var user = await _userManager.FindByIdAsync(oldProfile.UserId.ToString());
 
             if (user is null)
             {

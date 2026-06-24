@@ -17,7 +17,7 @@ namespace Slamty.Api.Controllers.Mobile
 
         [HttpGet("{userId}")]
         [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(ApiResponse<ProfileResponseDto>))]
-        public async Task<IActionResult> GetProfile(string userId)
+        public async Task<IActionResult> GetProfile(Guid userId)
         {
             var response = await Mediator.Send(new GetProfileQuery(userId));
             return HandleResult(response);

@@ -8,7 +8,7 @@ namespace Slamty.Domain.Entities
         public string NationalId { get; set; }
         public BloodTypes BloodType { get; set; }
         public bool IsDeaf { get; set; }
-        public string UserId { get; set; }
+        public Guid UserId { get; set; }
         public AppUser User { get; set; }
         public List<Report> Reports { get; set; } = new List<Report>();
         public List<Device> Devices { get; set; } = new List<Device>();

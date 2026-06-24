@@ -13,7 +13,7 @@ namespace Slamty.Api.Controllers.Mobile
 
         [HttpGet("{userId}")]
         [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(ApiResponse<List<ReportDto>>))]
-        public async Task<IActionResult> GetReports(string userId)
+        public async Task<IActionResult> GetReports(Guid userId)
         {
             var response = await Mediator.Send(new GetReportsQuery(userId));
             return HandleResult(response);
@@ -21,7 +21,7 @@ namespace Slamty.Api.Controllers.Mobile
 
         [HttpGet("details/{reportId}")]
         [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(ApiResponse<ReportDto>))]
-        public async Task<IActionResult> GetReportById(string reportId)
+        public async Task<IActionResult> GetReportById(Guid reportId)
         {
             var response = await Mediator.Send(new GetReportByIdQuery(reportId));
             return HandleResult(response);
