@@ -1,4 +1,4 @@
-﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -36,6 +36,7 @@ namespace Slamty.Infrastracture
             services.AddScoped(typeof(ITokenService), typeof(TokenService));
             services.AddScoped(typeof(IEmailSenderService), typeof(EmailSenderService));
             services.AddScoped(typeof(INotifyService), typeof(NotifyService));
+            services.AddScoped(typeof(IFileStorage), typeof(LocalFileStorage));
         }
     }
 }

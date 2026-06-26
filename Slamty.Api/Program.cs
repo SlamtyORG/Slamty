@@ -7,6 +7,7 @@ using Slamty.API.Extensions;
 using Slamty.Application;
 using Slamty.Infrastracture;
 using Slamty.Infrastructure.Data.Seeding;
+using Microsoft.AspNetCore.Http.Features;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -24,6 +25,10 @@ Log.Logger = new LoggerConfiguration()
 
 builder.Services.AddSerilog();
 builder.Services.AddControllers();
+builder.Services.Configure<FormOptions>(options =>
+{
+    options.MultipartBodyLengthLimit = 5 * 1024 * 1024;
+});
 builder.Services.AddInfrastractureRegister(builder.Configuration);
 builder.Services.AddApplicationRegister();
 builder.Services.AddJWTConfigration(builder.Configuration);
@@ -55,6 +60,7 @@ app.HandelExceptions();
 
 await RolesSeeding.SeedRolesAsync(app.Services);
 
+app.UseStaticFiles();
 app.UseHttpsRedirection();
 app.UseAuthentication();
 app.UseAuthorization();
